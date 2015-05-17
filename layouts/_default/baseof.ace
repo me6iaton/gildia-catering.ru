@@ -1,0 +1,9 @@
+= doctype html
+html
+  head
+    = include partials/head.html .
+  body.layout-reverse
+    = include partials/menu.html .
+    .content.container
+      = yield main
+      = include partials/footer.html .

@@ -1,0 +1,3 @@
+= content main
+  .main.posts 
+    | content
