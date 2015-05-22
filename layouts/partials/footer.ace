@@ -1,0 +1,9 @@
+footer
+  p
+    | &copy; 2014 Company, Inc. &middot;
+    a href=# Privacy
+    |  &middot;
+    a href='#' Term
+
+script src=js/all.js
+script src=js/site.js

@@ -1,0 +1,12 @@
+@import "../../vendor/bourbon/app/assets/stylesheets/bourbon"
+
+.row-flexbox
+  @include display(flex)
+  @include align-items(stretch)
+  @include flex-direction(row)
+  @include justify-content(flex-start)
+  &:before, &:after
+    display: none
+  >.flex
+    @include flex(1)
+

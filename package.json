@@ -1,0 +1,20 @@
+{
+  "name": "gildia-catering.ru",
+  "version": "0.0.1",
+  "description": "web site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/me6iaton/gildia-catering.ru.git"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4"
+  }
+}

@@ -1,0 +1,35 @@
+@import "bootstrap/variables"
+
+.navbar .navbar-nav >.dropdown-full
+  position: static
+  >.dropdown-menu
+    left: 0px
+    right: 0px
+    position: absolute
+    box-shadow: none
+    padding-bottom: 20px
+    .row.nav
+      li
+        text-align: center
+        a
+          color: $text-color
+    .page-header
+      margin: 20px 0 10px 0
+  &.open>.dropdown-menu
+      display: block
+      @media (max-width: $grid-float-breakpoint)
+        display: inline-block
+        visibility: visible
+        position: relative
+
+//.navbar .navbar-nav>li>.dropdown-menu
+//  border-top-style: solid
+//  border-top-width: 1px !important
+//  margin-top: 0px !important
+//  margin-bottom: 0px !important
+//  position: relative
+//  left: 0 !important
+//  right: 0 !important
+//  top: 0px !important
+//  bottom: auto !important
+

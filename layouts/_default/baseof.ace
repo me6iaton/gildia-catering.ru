@@ -2,8 +2,8 @@
 html
   head
     = include partials/head.html .
-  body.layout-reverse
-    = include partials/menu.html .
+  body
+    = include partials/header.html .
     .content.container
       = yield main
-      = include partials/footer.html .
+    = include partials/footer.html .

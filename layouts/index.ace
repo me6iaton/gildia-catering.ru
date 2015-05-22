@@ -1,3 +1,14 @@
 = content main
-  .main.posts 
-    | content
+  .container
+    .tab-content
+      {{range $index, $element := .Site.Params.menuCountExtra}}
+        .tab-pane.fade id=tabService{{$element}} role="tabpanel"
+          ||
+            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+      {{ end }}
+    ul#tabService.tabs-service.row-flexbox
+      {{range $index, $element := .Site.Params.menuCountExtra}}
+        li.flex
+          a.tab data-toggle="tab" href="#tabService{{$element}}" role="tab"
+            img.img-responsive src="images/GILDIAcatering.svg"
+      {{ end }}

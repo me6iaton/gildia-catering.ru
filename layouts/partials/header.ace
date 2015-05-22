@@ -1,0 +1,70 @@
+header
+  nav.navbar.navbar-promo.navbar-fixed-top
+    .container
+      span.navbar-brand.hidden-xs +7 (499) 411 19 62
+      button.navbar-toggle.collapsed data-target="#navbar-main-collapse" data-toggle="collapse" type="button"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      ul.nav.navbar-nav
+        li
+          a.callback href="#"
+            span.hidden-xs Обратный звонок
+            span.visible-xs Звонок
+        li
+          a href="#"  Контакты
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.btn-order.btn-order-header href=""
+            span.hidden-xs Оставить заявку
+            span.visible-xs Заявка
+            = include partials/triangle.html
+  .container
+    div.row
+      div.col-xs-9.col-sm-6.col-md-6.header-logo
+        img.logo.img-responsive src=images/GILDIAcatering.svg
+      div.col-xs-15.col-sm-18.col-md-18.text-right.header-text
+        h1 Гильдия кейтеринг
+        h3 первый в России единый кейтеринг-подрядчик
+  nav.navbar.navbar-main
+    .container
+      #navbar-main-collapse.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a href="#"  О нас
+          li.dropdown-full.no-shadow.no-border-radius
+            a.dropdown-toggle data-toggle="dropdown" href="javascript:void(0);" Услуги
+              span.caret
+            .dropdown-menu
+              .container
+                ul.row.nav
+                  {{ range .Site.Params.menuCount}}
+                    li.col-xs-8.col-sm-4.col-md-4.col-lg-4
+                      a href="javascript:void(0);"
+                        h4 Банкет
+                          img.img-responsive src="images/GILDIAcatering.svg"
+                  {{ end }}
+                h3.page-header Ивент-комплекс
+                ul.row.nav
+                  {{ range .Site.Params.menuCountExtra}}
+                    li.col-xs-6.col-sm-3.col-md-3.col-lg-3
+                      a href="javascript:void(0);"
+                        h4 Банкет
+                          img.img-responsive src="images/GILDIAcatering.svg"
+                  {{ end }}
+
+          li
+            a href="#" Портфолио
+          li
+            a href="#" Меню
+          li
+            a href="#" Клиенты
+          li
+            a href="#" Площадки
+          li
+            a href="#" Новости
+          li
+            a href="#" Контакты
+  .container
+    hr

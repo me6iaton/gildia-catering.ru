@@ -1,0 +1,98 @@
+@import "./bootstrap/_variables"
+@import "./bootstrap/responsive-mixins"
+
+.navbar-promo
+ @extend .navbar-default
+ .navbar-nav > li >
+  .btn-order
+    position: relative
+    margin-right: $padding-large-horizontal
+    text-align: center
+    background: #f63311
+    @include rem(font-size,$font-size-h3)
+    color: $body-bg
+    &:hover
+     background: #f63311
+     color: $body-bg
+    #btnTriangle
+     position: absolute
+     bottom: -13px
+     left: 0px
+     height: 13px
+     path
+      fill: #f63311
+      stroke-width: 0
+    @media (max-width: $grid-float-breakpoint)
+     font-size: $font-size-h4
+  //
+ .navbar-toggle
+   float: left
+   margin-left: $navbar-padding-horizontal
+ .navbar-nav
+   margin: 0
+   float: left !important
+   li
+     float: left
+ .navbar-right
+   float: right !important
+ @media (max-width: $grid-float-breakpoint)
+   height: 50px
+   .container
+     padding: 0px
+   .navbar-nav > li > a
+     padding: $navbar-padding-vertical 10px $navbar-padding-vertical 10px
+
+.navbar-main
+  @extend .navbar-default
+  border: none
+  background: $body-bg
+  @media (max-width: $grid-float-breakpoint)
+   z-index: 110
+  //
+  @include respond-to('md')
+  .navbar-nav > li > a
+    padding: 15px 10px
+  @include respond-to('min-md')
+    margin-top: -50px
+  @media (max-width: $grid-float-breakpoint)
+    position: fixed
+    top: 0px
+    left: 0px
+    width: 100%
+    padding-top: 50px
+
+
+
+h1, .h1
+  @include rem(font-size, $font-size-h1)
+h2, .h2
+  @include rem(font-size, $font-size-h2)
+h3, .h3
+  @include rem(font-size, $font-size-h3)
+h4, .h4
+  @include rem(font-size, $font-size-h4)
+h5, .h5
+  @include rem(font-size, $font-size-h5)
+h6, .h6
+  @include rem(font-size, $font-size-h6)
+
+@include respond-to('xs')
+  html
+    font-size: $font-size-xs
+  body
+    font-size: $font-size-body-xs
+@include respond-to('sm')
+  html
+    font-size: $font-size-sm
+  body
+    font-size: $font-size-body-sm
+@include respond-to('md')
+  html
+    font-size: $font-size-md
+  body
+    font-size: $font-size-body-md
+@include respond-to('lg')
+  html
+    font-size: $font-size-lg
+  body
+    font-size: $font-size-body-lg
