@@ -84,4 +84,45 @@ header
   list-style: none
   padding: 0
 
+.whyus
+  position: relative
+  width: calc(100% + 30px)
+  left: -15px
+  &-item
+    position: static !important
+    margin-bottom: 10px
+  &-intro, &-detail
+    cursor: pointer
+  &-intro
+    text-align: center
+    .title
+      position: relative
+      top: -2rem
+      margin: 0 auto
+      width: 90%
+      height: 4rem
+      word-wrap: break-word
+      padding: 0 20px
+      @include display(flex)
+      @include justify-content(center)
+      @include align-items(center)
+      box-shadow: 0 2px 5px 0 rgba(51, 51, 51, 0.70)
+      background: $body-bg
+  &-detail
+    position: absolute
+    top: 0
+    left: 15px
+    z-index: 100
+    width: calc(100% - 30px)
+    height: calc(100% - 30px)
+    background-color: $body-bg
+    cursor: pointer
+    overflow: hidden
+    .page-header
+      margin-top: 0
+      text-align: right
+    img
+      margin-bottom: 30px
+
+
 

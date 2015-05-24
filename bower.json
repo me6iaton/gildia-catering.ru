@@ -15,6 +15,9 @@
   ],
   "dependencies": {
     "bootstrap-sass": "~3.3.4",
-    "bourbon": "~4.2.3"
+    "bourbon": "~4.2.3",
+    "ramjet": "~0.4.5",
+    "hypher": "https://github.com/bramstein/hypher.git#~0.2.3",
+    "hyphenation-patterns": "https://github.com/bramstein/hyphenation-patterns.git#~0.2.1"
   }
 }

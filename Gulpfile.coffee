@@ -22,6 +22,9 @@ sources =
     'assets/vendor/bootstrap-sass/assets/javascripts/bootstrap.js'
     'assets/vendor/velocity/velocity.js'
     'assets/vendor/velocity/velocity.ui.js'
+    'assets/vendor/ramjet/dist/ramjet.js'
+    'assets/vendor/hypher/dist/jquery.hypher.js'
+    'assets/vendor/hyphenation-patterns/dist/browser/ru.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake
