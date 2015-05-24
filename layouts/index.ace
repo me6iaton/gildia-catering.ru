@@ -1,14 +1,37 @@
 = content main
+  .container-slider
+    #serviceSlider.tab-content
+      i.icon-left.icon-chevron-thin-left
+      i.icon-right.icon-chevron-thin-right
+      {{range $index, $element := where .Data.Pages "Section" "menu" }}
+        .tab-pane.fade id=tabService{{$index}} role="tabpanel"
+          .row-flexbox
+            .flex.slider-img
+              img.img-responsive src="{{.Params.slider.image}}=w960-h600-p-no"
+            .flex.slider-text
+              h2.slider-title
+                {{.Params.slider.title}}
+              h3.slider-desc
+                {{.Params.slider.description}}
+      {{ end }}
+        .tab-pane.fade id=tabService9 role="tabpanel"
+          .row-flexbox
+            .flex.slider-img
+              img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w960-h600-p-no"
+            .flex.slider-text
+              h2.slider-title
+                | ИВЕНТ-КОМПЛЕКС
+              h3.slider-desc
+                | Декор, оборудование, флористика, aртисты, персонал, спецуслуги
   .container
-    .tab-content
-      {{range $index, $element := .Site.Params.menuCountExtra}}
-        .tab-pane.fade id=tabService{{$element}} role="tabpanel"
-          ||
-            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
-      {{ end }}
-    ul#tabService.tabs-service.row-flexbox
-      {{range $index, $element := .Site.Params.menuCountExtra}}
+    ul#serviceTabs.tabs-service.row-flexbox
+      {{range $index, $element := where .Data.Pages "Section" "menu" }}
         li.flex
-          a.tab data-toggle="tab" href="#tabService{{$element}}" role="tab"
-            img.img-responsive src="images/GILDIAcatering.svg"
+          a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
+            img.img-responsive src="{{.Params.slider.image}}=w300-h200-p-no"
       {{ end }}
+        li.flex
+          a.tab data-toggle="tab" href="#tabService9" role="tab"
+            img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w300-h200-p-no"
+  .container
+

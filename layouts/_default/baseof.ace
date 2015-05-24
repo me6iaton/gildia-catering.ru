@@ -4,6 +4,6 @@ html
     = include partials/head.html .
   body
     = include partials/header.html .
-    .content.container
+    .content
       = yield main
     = include partials/footer.html .

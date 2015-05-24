@@ -1,4 +1,5 @@
 @import "bootstrap/variables"
+@import "bootstrap/responsive-mixins"
 
 .navbar .navbar-nav >.dropdown-full
   position: static
@@ -17,7 +18,7 @@
       margin: 20px 0 10px 0
   &.open>.dropdown-menu
       display: block
-      @media (max-width: $grid-float-breakpoint)
+      @include respond-to('xs')
         display: inline-block
         visibility: visible
         position: relative

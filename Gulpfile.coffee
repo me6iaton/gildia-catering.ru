@@ -7,6 +7,7 @@ sourcemaps = require 'gulp-sourcemaps'
 coffee = require 'gulp-coffee'
 uglify = require 'gulp-uglify'
 plumber = require('gulp-plumber')
+gulpFilter = require('gulp-filter')
 
 # CONFIG ---------------------------------------------------------
 
@@ -14,10 +15,13 @@ isProd = gutil.env.type is 'prod'
 
 sources =
   sass: ['assets/sass/**/*.sass', 'assets/sass/**/*.scss']
+  sassPublic: ['assets/sass/style.sass']
   coffee: 'assets/coffee/**/*.coffee'
   js: [
     'assets/vendor/jquery/dist/jquery.js'
     'assets/vendor/bootstrap-sass/assets/javascripts/bootstrap.js'
+    'assets/vendor/velocity/velocity.js'
+    'assets/vendor/velocity/velocity.ui.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake
@@ -50,9 +54,8 @@ gulp.task "scripts", ->
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(destinations.js))
 
-
 gulp.task 'style', ->
-  gulp.src(sources.sass)
+  gulp.src(sources.sassPublic)
   .pipe(plumber(errorHandler: swallowError))
   .pipe(sourcemaps.init())
   .pipe(sass({errLogToConsole: true}))
