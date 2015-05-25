@@ -26,12 +26,12 @@
   .container
     ul#serviceTabs.tabs-service.row-flexbox
       {{range $index, $element := where .Data.Pages "Section" "menu" }}
-        li.flex
-          a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
-            img.img-responsive src="{{.Params.slider.image}}=w300-h200-p-no"
+      li.flex
+        a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
+          img.img-responsive src="{{.Params.slider.image}}=w300-h200-p-no"
       {{ end }}
-        li.flex
-          a.tab data-toggle="tab" href="#tabService9" role="tab"
-            img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w300-h200-p-no"
+      li.flex
+        a.tab data-toggle="tab" href="#tabService9" role="tab"
+          img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w300-h200-p-no"
   .container
     = include partials/content/why-us.html .

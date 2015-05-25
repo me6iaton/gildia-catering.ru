@@ -44,7 +44,7 @@ header
   position: relative
   .tab-pane
     .slider-img, .slider-text
-      background-color: #bb3b32
+      background-color: $brand-primary
     .slider-img
       @include flex-grow(3)
     .slider-text
@@ -113,8 +113,8 @@ header
     top: 0
     left: 15px
     z-index: 100
-    width: calc(100% - 30px)
-    height: calc(100% - 30px)
+    width: calc(100% - #{$grid-gutter-width})
+    height: calc(100% - #{$grid-gutter-width})
     background-color: $body-bg
     cursor: pointer
     overflow: hidden

@@ -15,12 +15,44 @@ $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+//$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+//$brand-success:         #5cb85c !default;
+//$brand-info:            #5bc0de !default;
+//$brand-warning:         #f0ad4e !default;
+
+// Palette URL: http://paletton.com/#uid=7030u0knOsLelFujzvIs8oRuKjK *
+
+$color-primary-0: #E5473B;	/* Main Primary color */
+$color-primary-1: #FF958D;
+$color-primary-2: #FD6E62;
+$color-primary-3: #C62518;
+$color-primary-4: #9D1106;
+
+$color-secondary-1-0: #E58C3B;	/* Main Secondary color (1) */
+$color-secondary-1-1: #FFC48D;
+$color-secondary-1-2: #FDAC62;
+$color-secondary-1-3: #C66B18;
+$color-secondary-1-4: #9D4F06;
+
+$color-secondary-2-0: #26808C;	/* Main Secondary color (2) */
+$color-secondary-2-1: #6AB2BD;
+$color-secondary-2-2: #3E8F9B;
+$color-secondary-2-3: #116C79;
+$color-secondary-2-4: #055560;
+
+$color-complement-0: #2DAF44;	/* Main Complement color */
+$color-complement-1: #77D787;
+$color-complement-2: #4BC160;
+$color-complement-3: #12982A;
+$color-complement-4: #057819;
+
+// #bb3b32
+//$brand-primary:         #bb3b32 !default; // #337ab7
+$brand-primary:         $color-primary-3 !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
-
 
 //== Scaffolding
 //

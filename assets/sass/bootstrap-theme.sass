@@ -34,11 +34,11 @@
       position: relative
       margin-right: $padding-large-horizontal
       text-align: center
-      background: #f63311
+      background: $brand-primary
       @include rem(font-size, $font-size-h3)
       color: $body-bg
       &:hover
-        background: #f63311
+        background: $brand-primary
         color: $body-bg
       #btnTriangle
         position: absolute
@@ -46,7 +46,7 @@
         left: 0px
         height: 13px
         path
-          fill: #f63311
+          fill: $brand-primary
           stroke-width: 0
       @include respond-to('xs')
         font-size: $font-size-h4
