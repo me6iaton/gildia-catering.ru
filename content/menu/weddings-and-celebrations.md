@@ -5,7 +5,7 @@ description = ""
 image = "https://lh3.googleusercontent.com/3lU2_7YnHm05oTyJ-0RBgcQXq-uI9KyBSE5I0_ao"
 [slider]
   title = "СВАДЬБЫ И ПРАЗДНИКИ" 
-  description = "Свадебные торжества «под ключ» Частные и корпоративные праздники"
+  description = "Свадебные торжества «под ключ» <br> Частные и корпоративные праздники"
   image = "https://lh3.googleusercontent.com/3lU2_7YnHm05oTyJ-0RBgcQXq-uI9KyBSE5I0_ao"
 date = "2015-05-16"
 +++

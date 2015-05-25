@@ -12,7 +12,7 @@
               h2.slider-title
                 {{.Params.slider.title}}
               h3.slider-desc
-                {{.Params.slider.description}}
+                {{.Params.slider.description | safeHtml}}
       {{ end }}
         .tab-pane.fade id=tabService9 role="tabpanel"
           .row-flexbox
@@ -22,7 +22,7 @@
               h2.slider-title
                 | ИВЕНТ-КОМПЛЕКС
               h3.slider-desc
-                | Декор, оборудование, флористика, aртисты, персонал, спецуслуги
+                | Декор, оборудование, флористика <br> Артисты, персонал, спецуслуги
   .container
     ul#serviceTabs.tabs-service.row-flexbox
       {{range $index, $element := where .Data.Pages "Section" "menu" }}
