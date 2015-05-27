@@ -29,16 +29,26 @@
 
 .navbar-promo
   @extend .navbar-default
+  .navbar-brand
+    color: $navbar-promo-brand-color
+    @include rem(font-size, $font-size-h3)
+    font-weight: bold
+    &:hover
+      color: $navbar-promo-brand-hover-color
   .navbar-nav > li >
+    a
+      color: $navbar-promo-link-color
+      &:hover
+        color: $navbar-promo-link-hover-color
     .btn-order
       position: relative
       margin-right: $padding-large-horizontal
       text-align: center
-      background: $brand-primary
+      background: $brand-danger
       @include rem(font-size, $font-size-h3)
       color: $body-bg
       &:hover
-        background: $brand-primary
+        background: $brand-danger
         color: $body-bg
       #btnTriangle
         position: absolute
@@ -46,7 +56,7 @@
         left: 0px
         height: 13px
         path
-          fill: $brand-primary
+          fill: $brand-danger
           stroke-width: 0
       @include respond-to('xs')
         font-size: $font-size-h4

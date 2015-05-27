@@ -64,10 +64,26 @@ header
         top: -5px
       .slider-title
         border-bottom: 1px solid $body-bg
-        padding: 0 20px 10px 20px
+        padding: 10px 0px
         font-kerning: normal
+        @include display(flex)
+        @include align-items(center)
+        @include align-content(center)
+        .dot-right, .dot-left
+          display: inline-block
+          height: 1.5rem
+          padding: 0 1rem
+        @include respond-to(lg)
+          @include rem(font-size, floor($font-size-h2*1.1))
+          .dot-right, .dot-left
+            height: 1.8rem
       .slider-desc
         margin-top: 5px
+        @include respond-to(lg)
+          @include rem(font-size, floor($font-size-h3*1.1))
+        li
+          text-align: left
+          margin-bottom: 5px
   .icon-left, .icon-right
     position: absolute
     top: 50%

@@ -46,13 +46,12 @@ $color-complement-2: #4BC160;
 $color-complement-3: #12982A;
 $color-complement-4: #057819;
 
-// #bb3b32
-//$brand-primary:         #bb3b32 !default; // #337ab7
-$brand-primary:         $color-primary-3 !default; // #337ab7
+//#F53310
+$brand-primary:         #a10e07 !default; // #337ab7
 $brand-success:         #5cb85c !default;
 $brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-warning:         #f2b530 !default;
+$brand-danger:          #F53310 !default;
 
 //== Scaffolding
 //
@@ -410,7 +409,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
+$navbar-default-bg:                $brand-warning !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
@@ -422,10 +421,18 @@ $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !def
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
+$navbar-promo-link-color:                $body-bg !default;
+$navbar-promo-link-hover-color:          $brand-danger !default;
+$navbar-promo-link-hover-bg:             transparent !default;
+
+
 // Navbar brand label
 $navbar-default-brand-color:               $navbar-default-link-color !default;
 $navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
 $navbar-default-brand-hover-bg:            transparent !default;
+
+$navbar-promo-brand-color:               $navbar-promo-link-color !default;
+$navbar-promo-brand-hover-color:         $navbar-promo-link-color;
 
 // Navbar toggle
 $navbar-default-toggle-hover-bg:           #ddd !default;

@@ -10,7 +10,9 @@
               img.img-responsive src="{{.Params.slider.image}}=w960-h600-p-no"
             .flex.slider-text
               h2.slider-title
-                {{.Params.slider.title}}
+                span.dot-left *
+                span {{.Params.slider.title}}
+                span.dot-right *
               h3.slider-desc
                 {{.Params.slider.description | safeHtml}}
       {{ end }}
@@ -20,9 +22,11 @@
               img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w960-h600-p-no"
             .flex.slider-text
               h2.slider-title
-                | ИВЕНТ-КОМПЛЕКС
+                span.dot-left *
+                span ИВЕНТ-КОМПЛЕКС
+                span.dot-right *
               h3.slider-desc
-                | Декор, оборудование, флористика <br> Артисты, персонал, спецуслуги
+                | Декор. Оборудование. Флористика. <br> Артисты. Персонал. Спецуслуги.
   .container
     ul#serviceTabs.tabs-service.row-flexbox
       {{range $index, $element := where .Data.Pages "Section" "menu" }}

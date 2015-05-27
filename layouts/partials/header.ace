@@ -1,7 +1,7 @@
 header
   nav.navbar.navbar-promo.navbar-fixed-top
     .container
-      span.navbar-brand.hidden-xs +7 (499) 411 19 62
+      span.navbar-brand.hidden-xs  +7 (499) 411 19 62
       button.navbar-toggle.collapsed data-target="#navbar-main-collapse" data-toggle="collapse" type="button"
         span.sr-only Toggle navigation
         span.icon-bar
