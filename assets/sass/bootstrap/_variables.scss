@@ -61,6 +61,7 @@ $brand-danger:          #F53310 !default;
 $body-bg:               #fff !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
+$text-bg-color:         $body-bg !default;
 
 //** Global textual link color.
 $link-color:            $brand-primary !default;
