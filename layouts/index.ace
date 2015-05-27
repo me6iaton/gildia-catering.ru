@@ -1,6 +1,6 @@
 = content main
   .container-slider
-    #serviceSlider.tab-content
+    #serviceSlider.tab-content data-slider-timeout={{.Site.Params.slider.timeout}} data-slider-timeout-hover={{.Site.Params.slider.timeoutHover}}
       i.icon-left.icon-chevron-thin-left
       i.icon-right.icon-chevron-thin-right
       {{range $index, $element := where .Data.Pages "Section" "menu" }}

@@ -1,7 +1,0 @@
-baseurl: "http://gildia-catering.ru/"
-title: "gildia-catering.ru"
-author: "Anton Mamrashev"
-copyright: "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
-params:
-  menuCount: [1,2,3,4,5,6]
-  menuCountExtra: [1,2,3,4,5,6,7,8]
