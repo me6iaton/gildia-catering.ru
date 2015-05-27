@@ -45,10 +45,6 @@ header
                       h4 {{.Title}}
                         img.img-responsive src="{{.Params.slider.image}}=w200-h143-p-no"
                   {{ end }}
-                  li.col-xs-8.col-sm-6.col-md-6
-                    a href="/"
-                      h4 Ивент-комплекс
-                        img.img-responsive src="https://lh3.googleusercontent.com/JkmUiY2kOMiHuo_jY97JuSmGyVVlsLlIF0we4Dj7=w200-h143-p-no"
                 h3.page-header Ивент-комплекс
                 ul.row.nav
                   {{ range where .Data.Pages "Section" "event-complex" }}
