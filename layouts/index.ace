@@ -21,7 +21,7 @@
       {{range $index, $element := where .Data.Pages "Section" "menu" }}
       li.flex
         a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
-          img.img-responsive src="{{.Params.slider.image}}=w300-h200-p-no"
+          img.img-responsive src="{{.Params.icon}}"
       {{ end }}
   .container
     = include partials/content/why-us.html .

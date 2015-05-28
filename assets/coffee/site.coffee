@@ -15,23 +15,24 @@
 
     $('#serviceTabs a:first').tab('show')
 
-    sliderTimer = new TimerInterval((->
-      $('#serviceSlider .icon-right').click()
-    ), $('#serviceSlider').data('sliderTimeout'))
+#    sliderTimer = new TimerInterval((->
+#      $('#serviceSlider .icon-right').click()
+#    ), $('#serviceSlider').data('sliderTimeout'))
 
     sliderTimerHover = null
     $('#serviceTabs .tab').hover ->
       clearTimeout(sliderTimerHover) if sliderTimerHover
       sliderTimerHover = setTimeout( () =>
+        uniii
         $(@).tab 'show'
       , $('#serviceSlider').data('sliderTimeoutHover'))
 
-    $('#serviceTabs .tab, #serviceSlider').hover(
-      ->
-        sliderTimer.pause()
-      ,->
-        sliderTimer.resume()
-    )
+#    $('#serviceTabs .tab, #serviceSlider').hover(
+#      ->
+#        sliderTimer.pause()
+#      ,->
+#        sliderTimer.resume()
+#    )
 
 
     $('#serviceSlider .icon-right').click ->

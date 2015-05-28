@@ -2,7 +2,7 @@
 title = "Фуршет"
 weight = 2
 description = ""
-image = "https://lh3.googleusercontent.com/6PZZi8Zp86V7ndAKHdPzyHI5882h1VchDdcRnHJ4"
+icon = "images/menu/фуршеты.svg"
 [slider]
   title = "ФУРШЕТЫ" 
   description = "любой сложности <br> на любой бюджет"

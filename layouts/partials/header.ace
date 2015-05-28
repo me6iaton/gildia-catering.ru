@@ -43,7 +43,7 @@ header
                   li.col-xs-8.col-sm-6.col-md-6
                     a href="{{.RelPermalink}}"
                       h4 {{.Title}}
-                        img.img-responsive src="{{.Params.slider.image}}=w200-h143-p-no"
+                        img.img-responsive src="{{.Params.icon}}"
                   {{ end }}
                 h3.page-header Ивент-комплекс
                 ul.row.nav
