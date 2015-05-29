@@ -97,6 +97,35 @@
     width: 100%
     padding-top: 50px
 
+.separator-btn
+  @include display(flex)
+  @include align-items(center)
+  &:before, &:after
+    @include flex-grow(1)
+    content: ""
+    border-bottom: 2px solid $hr-border
+    height: 1px
+  .btn-outlined
+    margin: 0 30px
+    background: none
+    border-radius: 0
+    letter-spacing: 1px
+    -moz-user-select: none
+    vertical-align: middle
+    white-space: nowrap
+    font-weight: 700
+    text-transform: uppercase
+    @include transition(all 0.3s)
+    &:hover, &:active
+      color: $text-bg-color
+      background: $brand-primary
+      border-color: $brand-primary
+  .btn-lg
+    @include rem(font-size, 18px)
+    @include rem(line-height, 22px)
+    @include rem(padding, 13px 40px)
+    border: 4px solid
+
 h1, .h1
   @include rem(font-size, $font-size-h1)
 

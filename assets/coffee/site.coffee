@@ -23,7 +23,6 @@
     $('#serviceTabs .tab').hover ->
       clearTimeout(sliderTimerHover) if sliderTimerHover
       sliderTimerHover = setTimeout( () =>
-        uniii
         $(@).tab 'show'
       , $('#serviceSlider').data('sliderTimeoutHover'))
 
@@ -80,5 +79,25 @@
 
     $('.hypher').hyphenate('ru')
 
+#   gallery
+    mySwiper = new Swiper('.swiper-container',
+      loop: true
+      pagination: '.swiper-pagination'
+      nextButton: '.swiper-button-next'
+      prevButton: '.swiper-button-prev'
+#      scrollbar: '.swiper-scrollbar'
+#      speed: 400
+#      spaceBetween: 100
+      effect: 'coverflow'
+      grabCursor: true
+      centeredSlides: true
+      slidesPerView: 'auto'
+      coverflow:
+        rotate: 50
+        stretch: 0
+        depth: 100
+        modifier: 1
+        slideShadows: true
+    )
 
 ) jQuery

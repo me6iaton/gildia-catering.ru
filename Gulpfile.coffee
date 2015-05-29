@@ -25,6 +25,7 @@ sources =
     'assets/vendor/ramjet/dist/ramjet.js'
     'assets/vendor/hypher/dist/jquery.hypher.js'
     'assets/vendor/hyphenation-patterns/dist/browser/ru.js'
+    'assets/vendor/swiper/dist/js/swiper.jquery.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake
