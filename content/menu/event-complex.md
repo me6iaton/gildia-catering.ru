@@ -2,7 +2,7 @@
 title = "Ивент-комплекс"
 weight = 8
 description = ""
-icon = "images/menu/эвент.svg" 
+icon = "images/menu/эвент2.svg" 
 [slider]
   title = "ИВЕНТ-КОМПЛЕКС" 
   description = "Декор. Оборудование. Флористика. <br> Артисты. Персонал. Спецуслуги."
