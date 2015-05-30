@@ -45,25 +45,6 @@
 
 
 
-#    sliderTimer.pause()
-
-#    setTimeout((->
-#      sliderTimer.resume()
-#    ), 1100)
-##
-#    setTimeout((->
-#      sliderTimer.pause()
-#    ), 2100)
-#
-#    setTimeout((->
-#      sliderTimer.resume()
-#    ), 3100)
-#
-#    setTimeout((->
-#      sliderTimer.pause()
-#    ), 4100)
-
-
     transform = (a, b) ->
       # set the stage so ramjet copies the right styles...
       b.classList.remove 'hidden'
@@ -99,5 +80,22 @@
         modifier: 1
         slideShadows: true
     )
+
+#   lightbox
+
+    $('#swiper-gallery').magnificPopup
+      delegate: 'a'
+      type: 'image'
+      closeOnContentClick: false
+      closeBtnInside: false
+      mainClass: 'mfp-with-zoom mfp-img-mobile'
+      image:
+        verticalFit: true
+      gallery: enabled: true
+      zoom:
+        enabled: true
+        duration: 300
+        opener: (element) ->
+          element.find 'img'
 
 ) jQuery

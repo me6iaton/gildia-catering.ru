@@ -35,14 +35,18 @@
 
     #swiper-gallery.swiper-container
       .swiper-wrapper
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
-        .swiper-slide style="background-image:url(http://lorempixel.com/600/600/nature/5)"
+        .swiper-slide
+          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
+            img src="http://lorempixel.com/300/300/food"
+        .swiper-slide
+          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
+            img src="http://lorempixel.com/300/300/food"
+        .swiper-slide
+          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
+            img src="http://lorempixel.com/300/300/food"
+        .swiper-slide
+          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
+            img src="http://lorempixel.com/300/300/food"
       .swiper-pagination
-      .swiper-button-prev
-      .swiper-button-next
+      .swiper-button-prev.swiper-button-black
+      .swiper-button-next.swiper-button-black

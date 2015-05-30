@@ -6,6 +6,7 @@
 @import "bootstrap-theme"
 @import "menu-extra"
 @import "swiper/swiper"
+@import "magnific-popup/main"
 
 html, body, .container
   min-width: 320px
@@ -194,4 +195,16 @@ $tabs-service-top: 40px
       text-align: right
     img
       margin-bottom: 30px
+
+#swiper-gallery
+  .swiper-slide
+    a
+      display: block
+      width: 100%
+      height: 100%
+.venobox-overlay
+  background: $color-venobox-overlay
+  z-index: $zindex-navbar-fixed+1
+  .vbox-close
+    background-color: transparent
 

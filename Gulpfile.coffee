@@ -26,6 +26,7 @@ sources =
     'assets/vendor/hypher/dist/jquery.hypher.js'
     'assets/vendor/hyphenation-patterns/dist/browser/ru.js'
     'assets/vendor/swiper/dist/js/swiper.jquery.js'
+    'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake

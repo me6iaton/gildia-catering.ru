@@ -48,11 +48,12 @@ $color-complement-4: #057819;
 
 //#F53310
 $brand-primary:         #a10e07 !default; // #337ab7
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
+$brand-success:         $color-complement-0 !default;
+$brand-info:            $color-secondary-2-0 !default;
 $brand-warning:         #f2b530 !default;
 $brand-danger:          #F53310 !default;
 
+$color-venobox-overlay: rgba($color-secondary-2-1, 0.8);
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
