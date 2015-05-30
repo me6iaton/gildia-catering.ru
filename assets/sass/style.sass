@@ -53,8 +53,10 @@ header
 .content.container
     min-height: 1000px
 
+$tabs-service-top: 40px
 .tab-content
   position: relative
+  z-index: -10
   .tab-pane
     .slider-img, .slider-text
       background-color: $brand-primary
@@ -68,7 +70,7 @@ header
       @include align-content(center)
       @include justify-content(center)
       overflow: hidden
-      padding: $padding-base-vertical 50px $padding-base-vertical 20px
+      padding: $padding-base-vertical 50px $tabs-service-top 20px
       .slider-title, .slider-desc
         color: $text-bg-color
         display: inline-block
@@ -112,6 +114,46 @@ header
 .tabs-service
   list-style: none
   padding: 0
+  top: -$tabs-service-top
+  @extend .shadow-curved-hz-1
+  a
+    border-radius: 4px
+    @include flex(1)
+    position: relative
+    background: $body-bg
+    z-index: 1
+    color: $text-color
+    &:hover
+      z-index: 2
+      transform: scale(1.3)
+      text-decoration: none
+    .wrap
+      background: $body-bg
+      position: relative
+      width: 100%
+      height: 100%
+      z-index: 2
+    .title
+      height: 4rem
+      text-align: center
+      @include display(flex)
+      @include align-items(center)
+      @include justify-content(center)
+    &:hover
+      //@extend .shadow-hover-lifted
+      @extend .shadow-hover-lifted-hz-4
+
+.tabs-service a:first-child, .tabs-service a:first-child .wrap
+  border-radius: $border-radius-base 0 0 $border-radius-base
+.tabs-service a:last-child, .tabs-service a:last-child .wrap
+  border-radius: 0 $border-radius-base $border-radius-base 0
+.tabs-service
+  border-radius: $border-radius-base
+  a:first-child:hover,a:first-child:hover, a:hover
+    border-radius: $border-radius-base
+    .wrap
+      border-radius: $border-radius-base
+
 
 .whyus
   position: relative
@@ -152,6 +194,4 @@ header
       text-align: right
     img
       margin-bottom: 30px
-
-
 

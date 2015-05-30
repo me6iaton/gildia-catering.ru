@@ -19,10 +19,14 @@
   .container
     ul#serviceTabs.tabs-service.row-flexbox
       {{range $index, $element := where .Data.Pages "Section" "menu" }}
-      li.flex
-        a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
+      a.tab data-toggle="tab" href="#tabService{{$index}}" role="tab"
+        .shadow-left
+        .wrap
+          .title.hypher {{.Title}}
           img.img-responsive src="{{.Params.icon}}"
+        .shadow-right
       {{ end }}
+
   .container
     = include partials/content/why-us.html .
 

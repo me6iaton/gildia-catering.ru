@@ -9,11 +9,16 @@
     position: absolute
     box-shadow: none
     padding-bottom: 20px
-    .row.nav
-      li
-        text-align: center
+    .row
         a
-          color: $text-color
+          font-size: $font-size-h4
+          margin-top: ($line-height-computed / 2)
+          margin-bottom: ($line-height-computed / 2)
+    .row.top
+      @include respond-to('min-md')
+        a img
+          width: 50%
+          margin: 0 auto
     .page-header
       margin: 20px 0 10px 0
   &.open>.dropdown-menu
@@ -22,15 +27,4 @@
         display: inline-block
         visibility: visible
         position: relative
-
-//.navbar .navbar-nav>li>.dropdown-menu
-//  border-top-style: solid
-//  border-top-width: 1px !important
-//  margin-top: 0px !important
-//  margin-bottom: 0px !important
-//  position: relative
-//  left: 0 !important
-//  right: 0 !important
-//  top: 0px !important
-//  bottom: auto !important
 

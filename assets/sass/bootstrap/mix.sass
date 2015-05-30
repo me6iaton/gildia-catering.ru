@@ -4,10 +4,129 @@
   @include display(flex)
   @include align-items(stretch)
   @include flex-direction(row)
-  @include justify-content(flex-start)
+  @include justify-content(center)
   @include flex-wrap(wrap)
   &:before, &:after
     display: none
   >.flex
     @include flex(1)
 
+.flexhead
+  @include display(flex)
+  @include flex-direction(column)
+  @include align-items(center)
+  @include justify-content(space-around)
+  text-align: center
+  color: $text-color
+  &:hover
+    text-decoration: none
+  .title
+    @include flex-grow(1)
+    @include display(flex)
+    @include align-items(center)
+    @include align-items(center)
+
+$shadow-color: rgba(0, 0, 0, 0.7)
+$shadow-blur: 5px
+$shadow-indent-vertical: 5px
+$shadow-indent-horizontal: 15px
+$shadow-rotate: 3deg
+
+.shadow-raised
+  position: relative
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+  &:before, &:after
+    display: block
+    content: ""
+    position: absolute
+    z-index: -2
+
+.shadow-curved-vt-2
+  position: relative
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+  &:before, &:after
+    display: block
+    content: ""
+    position: absolute
+    z-index: -2
+  &:before
+    top: 10px
+    bottom: 10px
+    left: 0
+    right: 0
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6)
+    border-radius: 10px / 100px
+
+.shadow-curved-hz-1
+  position: relative
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+  &:before, &:after
+    display: block
+    content: ""
+    position: absolute
+    z-index: -2
+  &:before
+    top: 50%
+    bottom: 0px
+    left: 10px
+    right: 10px
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6)
+    border-radius: 100px / 10px
+
+.shadow-hover-lifted
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+  &:before
+    content: ""
+    position: absolute
+    z-index: -2
+    bottom: 15px
+    left: 10px
+    width: 50%
+    height: 20%
+    max-width: 300px
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+    transform: rotate(-3deg)
+  &:after
+    content: ""
+    position: absolute
+    z-index: -2
+    bottom: 15px
+    width: 50%
+    height: 20%
+    max-width: 300px
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+    right: 10px
+    left: auto
+    transform: rotate(3deg)
+
+.shadow-hover-lifted-hz-4
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+  .shadow-left:before, .shadow-left:after, .shadow-right:before, .shadow-right:after
+    content: ""
+    position: absolute
+    z-index: 0
+    width: 20%
+    height: 50%
+  .shadow-left
+    &:before
+      top: $shadow-indent-vertical
+      left: $shadow-indent-horizontal
+      max-width: 300px
+      box-shadow: -1*$shadow-indent-horizontal 0 $shadow-blur $shadow-color
+      transform: rotate(-1*$shadow-rotate)
+    &:after
+      bottom: $shadow-indent-vertical
+      left: $shadow-indent-horizontal
+      box-shadow: -1*$shadow-indent-horizontal 0 $shadow-blur $shadow-color
+      transform: rotate($shadow-rotate)
+  .shadow-right
+    &:before
+      top: $shadow-indent-vertical
+      right: $shadow-indent-horizontal
+      box-shadow: $shadow-indent-horizontal 0 $shadow-blur $shadow-color
+      transform: rotate($shadow-rotate)
+    &:after
+      bottom: $shadow-indent-vertical
+      right: $shadow-indent-horizontal
+      box-shadow: $shadow-indent-horizontal 0 $shadow-blur $shadow-color
+      transform: rotate(-1*$shadow-rotate)

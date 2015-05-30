@@ -38,20 +38,18 @@ header
               span.caret
             .dropdown-menu
               .container
-                ul.row.nav
+                nav.row.row-flexbox.top
                   {{ range where .Data.Pages "Section" "menu" }}
-                  li.col-xs-8.col-sm-6.col-md-6
-                    a href="{{.RelPermalink}}"
-                      h4 {{.Title}}
-                        img.img-responsive src="{{.Params.icon}}"
+                  a.col-xs-8.col-sm-6.col-md-6.flexhead href="{{.RelPermalink}}"
+                    .title {{.Title}}
+                    img.img-responsive src="{{.Params.icon}}"
                   {{ end }}
                 h3.page-header Ивент-комплекс
-                ul.row.nav
+                nav.row.row-flexbox
                   {{ range where .Data.Pages "Section" "event-complex" }}
-                  li.col-xs-6.col-sm-3.col-md-3
-                    a href="{{.RelPermalink}}"
-                      h4 {{.Title}}
-                        img.img-responsive src="{{.Params.icon}}"
+                  a.col-xs-6.col-sm-5.col-md-3.flexhead href="{{.RelPermalink}}"
+                    .title.hypher {{.Title}}
+                    img.img-responsive src="{{.Params.icon}}"
                   {{ end }}
 
           li
