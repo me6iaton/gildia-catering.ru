@@ -123,7 +123,20 @@ $tabs-service-top: 40px
     background: $body-bg
     z-index: 1
     color: $text-color
+    //padding: 0 5px
+    //&:after
+    //  content: ""
+    //  position: absolute
+    //  height: 60%
+    //  width: 0px
+    //  left: 1px
+    //  top: 20%
+    //  z-index: 2
+    //  border-right: 1px solid
+    //  border-color: rgba($gray-light, 0.5)
+    //  border-color: $gray-lighter
     .wrap
+      //padding: 0 5px
       background: $body-bg
       position: relative
       width: 100%
@@ -136,6 +149,8 @@ $tabs-service-top: 40px
       @include align-items(center)
       @include justify-content(center)
     &:hover
+      &:after
+        display: none
       z-index: 2
       transform: scale(1.3)
       text-decoration: none

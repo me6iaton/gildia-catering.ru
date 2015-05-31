@@ -3,9 +3,11 @@
     console.log("DOM is ready")
 #   menu
     $('.dropdown-full').hover(->
-      $(@).find('.dropdown-toggle').dropdown('toggle')
+      if (!$(@).hasClass('open'))
+        $(@).find('.dropdown-toggle').dropdown('toggle')
     ,->
-      $(@).find('.dropdown-toggle').dropdown('toggle')
+      if ($(@).hasClass('open'))
+        $(@).find('.dropdown-toggle').dropdown('toggle')
     )
 #   slider
     TimerInterval = (callback, delay) ->
