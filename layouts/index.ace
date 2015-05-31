@@ -28,8 +28,15 @@
       {{ end }}
 
   .container
-    = include partials/content/why-us.html .
+    .row
+      = include partials/content/index/top.html .
 
+  .container
+    = include partials/why-us.html .
+
+  = include partials/content/index/center.html .
+
+  .container
     .separator-btn
       a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
 
@@ -50,9 +57,14 @@
       .swiper-button-prev.swiper-button-black
       .swiper-button-next.swiper-button-black
 
+
+
+  .container
+    = include partials/content/index/bottom.html .
+
+  .container
     .separator-btn
       a.btn.btn-outlined.btn-lg href="#"  НАШИ КЛИЕНТЫ
-
     .swiper-carousel.swiper-container
       .swiper-wrapper
         {{range $index, $element := .Site.Params.count12}}

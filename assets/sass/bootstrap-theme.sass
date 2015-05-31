@@ -27,6 +27,10 @@
 .icon-chevron-thin-right:before
   content: "\e601"
 
+
+.head
+  margin-top: 0px
+
 .navbar-promo
   @extend .navbar-default
   .navbar-brand
@@ -140,6 +144,8 @@
 .separator-btn
   @include display(flex)
   @include align-items(center)
+  margin-top: $line-height-computed
+  margin-bottom: ($line-height-computed / 2)
   &:before, &:after
     @include flex-grow(1)
     content: ""
