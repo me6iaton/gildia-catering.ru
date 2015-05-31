@@ -196,15 +196,15 @@ $tabs-service-top: 40px
     img
       margin-bottom: 30px
 
-#swiper-gallery
+.swiper-gallery
   .swiper-slide
     a
       display: block
       width: 100%
       height: 100%
-.venobox-overlay
-  background: $color-venobox-overlay
-  z-index: $zindex-navbar-fixed+1
-  .vbox-close
-    background-color: transparent
 
+.swiper-carousel
+  .swiper-slide
+    @include display(flex)
+    @include justify-content(center)
+    @include align-items(center)

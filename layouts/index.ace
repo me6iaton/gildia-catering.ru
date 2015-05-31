@@ -33,7 +33,7 @@
     .separator-btn
       a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
 
-    #swiper-gallery.swiper-container
+    .swiper-gallery.swiper-container
       .swiper-wrapper
         .swiper-slide
           a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
@@ -47,6 +47,18 @@
         .swiper-slide
           a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
             img src="http://lorempixel.com/300/300/food"
+      .swiper-button-prev.swiper-button-black
+      .swiper-button-next.swiper-button-black
+
+    .separator-btn
+      a.btn.btn-outlined.btn-lg href="#"  НАШИ КЛИЕНТЫ
+
+    .swiper-carousel.swiper-container
+      .swiper-wrapper
+        {{range $index, $element := .Site.Params.count12}}
+        .swiper-slide
+          img.img-responsive src="http://lorempixel.com/300/300/food"
+        {{ end }}
       .swiper-pagination
       .swiper-button-prev.swiper-button-black
       .swiper-button-next.swiper-button-black

@@ -5,6 +5,7 @@ copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
 [params]
   menuCount =  [1,2,3,4,5,6]
   menuCountExtra = [1,2,3,4,5,6,7,8]
+  count12 = [1,2,3,4,5,6,7,8,9,10,11,12]
   [params.slider]
   timeout = 5000
   timeoutHover = 200

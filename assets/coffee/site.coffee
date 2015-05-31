@@ -61,7 +61,7 @@
     $('.hypher').hyphenate('ru')
 
 #   gallery
-    mySwiper = new Swiper('.swiper-container',
+    swiperGallery = new Swiper('.swiper-gallery',
       loop: true
       pagination: '.swiper-pagination'
       nextButton: '.swiper-button-next'
@@ -81,9 +81,18 @@
         slideShadows: true
     )
 
+    swiperCarousel = new Swiper('.swiper-carousel', {
+      pagination: '.swiper-pagination'
+      nextButton: '.swiper-button-next'
+      prevButton: '.swiper-button-prev'
+      slidesPerView: 6
+      paginationClickable: true
+      spaceBetween: 30
+    })
+
 #   lightbox
 
-    $('#swiper-gallery').magnificPopup
+    $('.swiper-gallery').magnificPopup
       delegate: 'a'
       type: 'image'
       closeOnContentClick: false
