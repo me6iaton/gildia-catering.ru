@@ -96,6 +96,47 @@
     width: 100%
     padding-top: 50px
 
+// menu extra
+.navbar .navbar-nav >.dropdown-full
+  position: static
+  .dropdown-title, .dropdown-toggle
+    display: inline-block
+  .dropdown-toggle
+    padding-left: 0px
+    cursor: pointer
+    i
+      @include rem(font-size, 20px)
+      position: relative
+      top: 1px
+      transform: scale(1.2)
+  //font-weight: bold
+  >.dropdown-menu
+    left: 0px
+    right: 0px
+    position: absolute
+    box-shadow: none
+    padding-bottom: 20px
+    .row
+      a
+        font-size: $font-size-h4
+        margin-top: ($line-height-computed / 2)
+        margin-bottom: ($line-height-computed / 2)
+        &:hover
+          color: $text-color
+    .row.top
+      //@include respond-to('min-md')
+      //  a img
+      //    width: 50%
+      //    margin: 0 auto
+    .page-header
+      margin: 20px 0 10px 0
+  &.open>.dropdown-menu
+    display: block
+    @include respond-to('xs')
+      display: inline-block
+      visibility: visible
+      position: relative
+
 .separator-btn
   @include display(flex)
   @include align-items(center)

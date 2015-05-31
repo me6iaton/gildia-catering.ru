@@ -4,7 +4,6 @@
 @import "./bootstrap/responsive-mixins"
 @import "./bootstrap/mix"
 @import "bootstrap-theme"
-@import "menu-extra"
 @import "swiper/swiper"
 @import "magnific-popup/main"
 
@@ -124,10 +123,6 @@ $tabs-service-top: 40px
     background: $body-bg
     z-index: 1
     color: $text-color
-    &:hover
-      z-index: 2
-      transform: scale(1.3)
-      text-decoration: none
     .wrap
       background: $body-bg
       position: relative
@@ -141,6 +136,9 @@ $tabs-service-top: 40px
       @include align-items(center)
       @include justify-content(center)
     &:hover
+      z-index: 2
+      transform: scale(1.3)
+      text-decoration: none
       //@extend .shadow-hover-lifted
       @extend .shadow-hover-lifted-hz-4
 

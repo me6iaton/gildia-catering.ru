@@ -34,13 +34,14 @@ header
           li
             a href="#"  О нас
           li.dropdown-full.no-shadow.no-border-radius
-            a.dropdown-toggle data-toggle="dropdown" href="javascript:void(0);" Услуги
-              span.caret
+            a.dropdown-title href="javascript:void(0);" Услуги
+            a.dropdown-toggle data-toggle="dropdown"
+              i.fa.fa-angle-down
             .dropdown-menu
               .container
                 nav.row.row-flexbox.top
                   {{ range where .Data.Pages "Section" "menu" }}
-                  a.col-xs-8.col-sm-6.col-md-6.flexhead href="{{.RelPermalink}}"
+                  a.col-xs-8.col-sm-6.col-md-3.flexhead href="{{.RelPermalink}}"
                     .title {{.Title}}
                     img.img-responsive src="{{.Params.icon}}"
                   {{ end }}

@@ -1,8 +1,13 @@
 (($) ->
   $ ->
     console.log("DOM is ready")
-
-#    slider
+#   menu
+    $('.dropdown-full').hover(->
+      $(@).find('.dropdown-toggle').dropdown('toggle')
+    ,->
+      $(@).find('.dropdown-toggle').dropdown('toggle')
+    )
+#   slider
     TimerInterval = (callback, delay) ->
       timerId = undefined
       remaining = delay
