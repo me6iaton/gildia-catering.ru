@@ -68,24 +68,65 @@
     $('.hypher').hyphenate('ru')
 
 #   gallery
-    swiperGallery = new Swiper('.swiper-gallery',
-      loop: true
-      pagination: '.swiper-pagination'
-      nextButton: '.swiper-button-next'
-      prevButton: '.swiper-button-prev'
-#      scrollbar: '.swiper-scrollbar'
-#      speed: 400
-#      spaceBetween: 100
-      effect: 'coverflow'
-      grabCursor: true
-      centeredSlides: true
-      slidesPerView: 'auto'
-      coverflow:
-        rotate: 50
-        stretch: 0
-        depth: 100
-        modifier: 1
-        slideShadows: true
+    $('a.swiper-link-gallery').gphoto(
+      filter: (imageUrl, image)->
+        img: "#{imageUrl}/w1200/"
+        thumb: "#{imageUrl}/w300-h300-c/"
+      insert: ($link, images)->
+        $swiper = $('<div class="swiper-gallery swiper-container"></div>')
+        $swiperWrapper = $('<div class="swiper-wrapper"></div>')
+        $.each(images, (index, element)->
+          $swiperWrapper.append(
+            '
+            <div class="swiper-slide">
+               <a href="'+element.img+'" data-effect="mfp-zoom-in">
+                  <img src="'+element.thumb+'" alt=""/>
+                </a>
+            </div>
+            '
+          )
+        )
+        $swiper.append($swiperWrapper)
+        $swiper.append(
+          '
+          <div class="swiper-button-prev swiper-button-black"></div>
+          <div class="swiper-button-next swiper-button-black"></div>
+          '
+        )
+        $link.replaceWith($swiper)
+
+        swiperGallery = new Swiper('.swiper-gallery',
+          loop: true
+          nextButton: '.swiper-button-next'
+          prevButton: '.swiper-button-prev'
+        #      scrollbar: '.swiper-scrollbar'
+        #      speed: 400
+        #      spaceBetween: 100
+          effect: 'coverflow'
+          grabCursor: true
+          centeredSlides: true
+          slidesPerView: 'auto'
+          coverflow:
+            rotate: 50
+            stretch: 0
+            depth: 100
+            modifier: 1
+            slideShadows: true
+        )
+        $('.swiper-gallery').magnificPopup
+          delegate: 'a'
+          type: 'image'
+          closeOnContentClick: false
+          closeBtnInside: false
+          mainClass: 'mfp-with-zoom mfp-img-mobile'
+          image:
+            verticalFit: true
+          gallery: enabled: true
+          zoom:
+            enabled: true
+            duration: 300
+            opener: (element) ->
+              element.find 'img'
     )
 
     swiperCarousel = new Swiper('.swiper-carousel', {
@@ -98,20 +139,4 @@
     })
 
 #   lightbox
-
-    $('.swiper-gallery').magnificPopup
-      delegate: 'a'
-      type: 'image'
-      closeOnContentClick: false
-      closeBtnInside: false
-      mainClass: 'mfp-with-zoom mfp-img-mobile'
-      image:
-        verticalFit: true
-      gallery: enabled: true
-      zoom:
-        enabled: true
-        duration: 300
-        opener: (element) ->
-          element.find 'img'
-
 ) jQuery

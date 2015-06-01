@@ -20,6 +20,7 @@
     "hypher": "https://github.com/bramstein/hypher.git#~0.2.3",
     "hyphenation-patterns": "https://github.com/bramstein/hyphenation-patterns.git#~0.2.1",
     "swiper": "~3.0.7",
-    "magnific-popup": "~1.0.0"
+    "magnific-popup": "~1.0.0",
+    "URIjs": "~1.15.1"
   }
 }

@@ -16,7 +16,10 @@ isProd = gutil.env.type is 'prod'
 sources =
   sass: ['assets/sass/**/*.sass', 'assets/sass/**/*.scss']
   sassPublic: ['assets/sass/style.sass']
-  coffee: 'assets/coffee/**/*.coffee'
+  coffee: [
+    'assets/coffee/jquery.gphoto.coffee'
+    'assets/coffee/site.coffee'
+  ]
   js: [
     'assets/vendor/jquery/dist/jquery.js'
     'assets/vendor/bootstrap-sass/assets/javascripts/bootstrap.js'
@@ -27,6 +30,7 @@ sources =
     'assets/vendor/hyphenation-patterns/dist/browser/ru.js'
     'assets/vendor/swiper/dist/js/swiper.jquery.js'
     'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
+    'assets/vendor/URIjs/src/URI.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake

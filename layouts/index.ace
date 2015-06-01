@@ -40,24 +40,7 @@
     .separator-btn
       a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
 
-    .swiper-gallery.swiper-container
-      .swiper-wrapper
-        .swiper-slide
-          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
-            img src="http://lorempixel.com/300/300/food"
-        .swiper-slide
-          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
-            img src="http://lorempixel.com/300/300/food"
-        .swiper-slide
-          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
-            img src="http://lorempixel.com/300/300/food"
-        .swiper-slide
-          a href="http://lorempixel.com/1000/1000/food" data-effect="mfp-zoom-in"
-            img src="http://lorempixel.com/300/300/food"
-      .swiper-button-prev.swiper-button-black
-      .swiper-button-next.swiper-button-black
-
-
+    a.swiper-link-gallery href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогаллерея
 
   .container
     = include partials/content/index/bottom.html .
