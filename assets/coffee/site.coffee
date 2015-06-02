@@ -58,6 +58,10 @@
       ramjet.transform a, b, done: ->
         # this function is called as soon as the transition completes
         b.classList.remove 'hidden'
+        if($(a).hasClass('whyus-intro'))
+          $('.whyus').css('min-height', $(b).find('.row').innerHeight() + 20)
+        else
+          $('.whyus').css('min-height', '')
       # ...then hide the original elements for the duration of the transition
       a.classList.add 'hidden'
       b.classList.add 'hidden'

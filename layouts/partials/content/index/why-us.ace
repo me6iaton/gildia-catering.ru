@@ -1,0 +1,32 @@
+h2 ПОЧЕМУ ИМЕННО МЫ?
+.row-flexbox.whyus
+  {{range $index, $element := where .Data.Pages "Type" "whyus" }}
+    .col-xs-12.col-sm-8.col-md-6.whyus-item
+      .whyus-intro
+        img.img-responsive src="{{.Params.image}}=w263-h263-p-no"
+        h3.title.hypher {{.Title}}
+      .whyus-detail.hidden
+        .row
+          .col-xs-24.col-sm-10
+            img.img-responsive src="{{.Params.image}}=w460"
+          .col-xs-24.col-sm-14
+            h3.page-header {{.Title}}
+            {{.Content}}
+  {{end}}
+  {{$count := 7}}
+  {{range $index, $element := seq $count}}
+    .col-xs-12.col-sm-8.col-md-6.whyus-item
+      .whyus-intro
+        img.img-responsive src="http://www.kalitniki.ru/f/upload/images/doverie.jpg"
+        h3.title.hypher ОТВЕТСТВЕННОСТЬ
+      .whyus-detail.hidden
+        .row
+          .col-xs-24.col-sm-10
+            img.img-responsive src="http://www.kalitniki.ru/f/upload/images/doverie_b.jpg"
+          .col-xs-24.col-sm-14
+            h3.page-header ОТВЕТСТВЕННОСТЬ
+            p Наша компания провела кейтеринговое обслуживание таких значимых мероприятий, как:
+            ul
+              li открытие международного Дома музыки;
+              li праздничные ужины для посольств Канады, Франции, Израиля, Великобритании, Италии и Кении.
+  {{end}}
