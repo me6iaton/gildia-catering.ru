@@ -28,32 +28,32 @@ $color-primary-2: #FD6E62;
 $color-primary-3: #C62518;
 $color-primary-4: #9D1106;
 
-$color-secondary-1-0: #E58C3B;	/* Main Secondary color (1) */
-$color-secondary-1-1: #FFC48D;
-$color-secondary-1-2: #FDAC62;
-$color-secondary-1-3: #C66B18;
-$color-secondary-1-4: #9D4F06;
+$color-warning-0: #E58C3B;	/* Main Secondary color (1) */
+$color-warning-1: #FFC48D;
+$color-warning-2: #FDAC62;
+$color-warning-3: #C66B18;
+$color-warning-4: #9D4F06;
 
-$color-secondary-2-0: #26808C;	/* Main Secondary color (2) */
-$color-secondary-2-1: #6AB2BD;
-$color-secondary-2-2: #3E8F9B;
-$color-secondary-2-3: #116C79;
-$color-secondary-2-4: #055560;
+$color-info-0: #26808C;	/* Main Secondary color (2) */
+$color-info-1: #6AB2BD;
+$color-info-2: #3E8F9B;
+$color-info-3: #116C79;
+$color-info-4: #055560;
 
-$color-complement-0: #2DAF44;	/* Main Complement color */
-$color-complement-1: #77D787;
-$color-complement-2: #4BC160;
-$color-complement-3: #12982A;
-$color-complement-4: #057819;
+$color-success-0: #2DAF44;	/* Main Complement color */
+$color-success-1: #77D787;
+$color-success-2: #4BC160;
+$color-success-3: #12982A;
+$color-success-4: #057819;
 
 //#F53310
 $brand-primary:         #a10e07 !default; // #337ab7
-$brand-success:         $color-complement-0 !default;
-$brand-info:            $color-secondary-2-0 !default;
+$brand-success:         $color-success-0 !default;
+$brand-info:            $color-info-0 !default;
 $brand-warning:         #f2b530 !default;
 $brand-danger:          #F53310 !default;
 
-$color-venobox-overlay: rgba($color-secondary-2-1, 0.8);
+$color-venobox-overlay: rgba($color-info-1, 0.8);
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
@@ -67,9 +67,10 @@ $text-bg-color:         $body-bg !default;
 //** Global textual link color.
 $link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+//$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      $brand-danger !default;
 //** Link hover decoration.
-$link-hover-decoration: underline !default;
+$link-hover-decoration: none !default;
 
 
 //== Typography

@@ -1,5 +1,6 @@
 baseurl = "http://gildia-catering.ru/"
 title = "gildia-catering.ru"
+CanonifyUrls = "true"
 author =  "Anton Mamrashev"
 copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
 [params]

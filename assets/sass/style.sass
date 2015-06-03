@@ -51,6 +51,96 @@ header
   h3
     margin-top: 10px
 
+/*  food table
+ *=================================================================
+$margin-bottom: 2rem
+
+.panel-food
+  margin-bottom: $margin-bottom
+
+.nav-btns
+  list-style: none
+  padding: 0
+  margin-bottom: $margin-bottom
+  &-top
+    @include display(flex)
+    @include justify-content(flex-end)
+    @include align-items(stretch)
+    margin: 1rem 0 3rem 0
+    a
+      margin-left: 3rem
+  &-menu
+    @include display(flex)
+    a
+      @include flex(1)
+      @include display(flex)
+      @include align-items(center)
+      color: $text-color
+      margin-right: 2rem
+      @include transition(all 0.3s)
+      &:last-child
+        margin-right: 0
+      img, .title
+        width: 50%
+        height: 50%
+      .title
+        text-transform: uppercase
+        padding:  1rem
+        margin: 0
+        overflow: hidden
+        text-align: center
+      &:hover, &:focus
+        text-decoration: none
+        color: $text-color
+      &.selected
+        color: $text-bg-color
+        background: $brand-primary
+        img
+          display: none
+        .title
+          width: 100%
+          font-weight: 700
+          letter-spacing: 0.05rem
+          font-kerning: auto
+          //font-size: $font-size-h2
+  &-person
+    a
+      margin-right: 2rem
+      &.selected
+        background: $brand-primary
+        color: $text-bg-color
+        border: 4px solid $brand-primary
+    //@include justify-content(center)
+
+.table
+  border-spacing: 0.6rem
+  border-collapse: separate
+  margin: 0 -0.6rem $margin-bottom -0.6rem
+  >tbody
+    >tr
+      >th, >td
+        border: none
+        margin-right: 20px
+      th:nth-child(1), td:nth-child(1)
+        width: 45%
+      >th
+        background: $color-info-2
+        //background: $brand-warning
+        color: $text-bg-color
+        font-family: $font-family-serif
+        text-transform: uppercase
+        letter-spacing: 0.01rem
+        font-kerning: normal
+      &.even
+        td
+          background: rgba($color-info-1, 0.3)
+
+.dl-data
+  margin: 1rem 0 0 0
+
+//a[title="anchor"]
+  //position: relative
+  //top: -50px
 /*  main
  *=================================================================
 
@@ -58,7 +148,7 @@ header
     min-height: 1000px
 
 $tabs-service-top: 40px
-.tab-content
+#serviceSlider.tab-content
   position: relative
   z-index: -10
   .tab-pane

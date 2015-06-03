@@ -39,7 +39,6 @@
   .container
     .separator-btn
       a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
-
     a.swiper-link-gallery href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогаллерея
 
   .container

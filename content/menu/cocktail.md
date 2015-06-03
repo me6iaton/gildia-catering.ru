@@ -1,8 +1,8 @@
 +++
-title = "Коктель"
+title = "Коктейль"
 weight = 4
 description = ""
-icon = "images/menu/коктели.svg"
+icon = "/images/menu/коктели.svg"
 [slider]
   title = "КОКТЕЙЛИ" 
   description = "для выставок, презентаций, конференций <br> и частных праздников"

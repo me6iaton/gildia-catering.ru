@@ -117,6 +117,8 @@
             modifier: 1
             slideShadows: true
         )
+
+        #   lightbox
         $('.swiper-gallery').magnificPopup
           delegate: 'a'
           type: 'image'
@@ -142,5 +144,24 @@
       spaceBetween: 30
     })
 
-#   lightbox
+    $("#food .nav-btns-menu a").click((e)->
+      e.preventDefault()
+      $(@).parent().find('a').removeClass('selected')
+      $(@).addClass('selected')
+      $(this).tab('show')
+    )
+    $('#food .nav-btns-person a').click((e)->
+      e.preventDefault()
+      $(@).closest('.tab-pane').find('.nav-btns-person a').removeClass('selected')
+      $(@).addClass('selected')
+      $(@).closest('.tab-pane').find('.nav-btns-person a[href="'+$(@).attr('href')+'"]').addClass('selected')
+      $(this).tab('show')
+    )
+    $('.nav-btns-person:hidden a:nth-child(1)').click()
+    $('#food .nav-btns-menu a:first').click()
+
+    $('.table').each(()->
+      $('tr.td').filter(':odd').addClass('even')
+    )
+
 ) jQuery

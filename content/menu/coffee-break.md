@@ -2,7 +2,7 @@
 title = "Кофе-брейк"
 weight = 3
 description = ""
-icon = "images/menu/кофе-бр.svg"
+icon = "/images/menu/кофе-бр.svg"
 [slider]
   title = "КОФЕ-БРЕЙКИ" 
   description = "любого формата <br> в любом месте"

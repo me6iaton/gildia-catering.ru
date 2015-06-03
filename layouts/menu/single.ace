@@ -1,0 +1,88 @@
+= content main
+  .container id="food"
+    nav.nav-btns.nav-btns-top
+      {{ if isset .Params "button" }}
+        a.btn.btn-outlined.btn-lg href="#menu" {{.Params.button}}
+      {{ end }}
+      {{ if isset .Params "gallery" }}
+        a.btn.btn-outlined.btn-lg href="#gallery" ФОТОГАЛЕРЕЯ
+      {{ end }}
+    .panel.panel-food
+      .row
+        .col-xs-12.col-sm-12.col-md-12
+          img.img-responsive src="{{.Params.image}}=w600"
+        .col-xs-12.col-sm-12.col-md-12
+          h2.head {{.Params.pagetitle}}
+          {{.Content}}
+
+    ul.nav-btns.nav-btns-menu id="menu"
+      {{range $index, $element := .Params.food }}
+      a.btn-menu href="#menu{{$index}}"
+        img src="{{.image}}"
+        h3.title {{.name}}
+      {{end}}
+
+    .tab-content.tab-food
+      {{range $index, $element := .Params.food }}
+        {{ $.Scratch.Add "menuindex" $index}}
+        .tab-pane id="menu{{$index}}"
+          ul.nav-btns.nav-btns-person
+            {{range $index, $element := .person }}
+            a.btn.btn-outlined.btn-lg href=".menu{{ $.Scratch.Get "menuindex" }}person{{$index}}" {{.name}}
+            {{end}}
+          .tab-content
+            {{range $index, $element := .person}}
+              .tab-pane class="menu{{ $.Scratch.Get "menuindex" }}person{{$index}}"
+                .table-responsive
+                  table.table
+                    {{range $index, $element := .table}}
+                    {{ if isset . "th" }}
+                    tr class="th"
+                      th {{.name}}
+                      th КОЛИЧЕСТВО
+                      th ВЫХОД (ГР)
+                      th ГР./ПЕР.
+                    {{else}}
+                    tr class="td"
+                      td {{.name}}
+                      td {{.quantity}}
+                      td {{.output}}
+                      td {{.perPerson}}
+                    {{end}}
+                    {{end}}
+            {{end}}
+          ul.nav-btns.nav-btns-person
+            {{range $index, $element := .person }}
+            a.btn.btn-outlined.btn-lg href=".menu{{ $.Scratch.Get "menuindex" }}person{{$index}}" {{.name}}
+            {{end}}
+          .tab-content
+            {{range $index, $element := .person }}
+            .tab-pane class="menu{{ $.Scratch.Get "menuindex" }}person{{$index}}"
+              {{range $index, $element := .data}}
+                dl.dl-data
+                  strong {{.name}}
+                {{range $index, $element := .table}}
+                  dd
+                    em {{$index}}: {{$element}}
+                {{end}}
+              {{end}}
+            {{end}}
+      {{end}}
+      {{ if isset .Params "gallery" }}
+      a#gallery title="anchor"
+      .separator-btn
+        a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
+      a.swiper-link-gallery href="{{.Params.gallery}}" фотогаллерея
+      {{end}}
+
+      .separator-btn
+        a.btn.btn-outlined.btn-lg href="#"  НАШИ КЛИЕНТЫ
+      .swiper-carousel.swiper-container
+        .swiper-wrapper
+          {{range $index, $element := .Site.Params.count12}}
+          .swiper-slide
+            img.img-responsive src="http://lorempixel.com/300/300/food"
+          {{ end }}
+        .swiper-pagination
+        .swiper-button-prev.swiper-button-black
+        .swiper-button-next.swiper-button-black

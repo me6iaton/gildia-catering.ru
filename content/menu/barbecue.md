@@ -2,7 +2,7 @@
 title = "Барбекю"
 weight = 5
 description = ""
-icon = "images/menu/барбекю.svg"
+icon = "/images/menu/барбекю.svg"
 [slider]
   title = "БАРБЕКЮ" 
   description = "Организация пикников <br> Профессиональный BBQ кейтеринг"

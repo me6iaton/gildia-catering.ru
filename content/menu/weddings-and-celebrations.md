@@ -2,7 +2,7 @@
 title = "Свадьбы и Праздники"
 weight = 6
 description = ""
-icon = "images/menu/свадьбы.svg" 
+icon = "/images/menu/свадьбы.svg" 
 [slider]
   title = "СВАДЬБЫ И ПРАЗДНИКИ" 
   description = "<ul> <li>Свадебные торжества «под ключ» <li> Частные и корпоративные праздники </ul>"
