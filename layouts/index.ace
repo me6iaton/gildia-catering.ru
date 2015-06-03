@@ -37,22 +37,23 @@
   = include partials/content/index/center.html .
 
   .container
-    .separator-btn
+    .separator-btn.separator-btn-swiper#swiperGalleryBtn
+      .swiper-button-prev.swiper-button-black
       a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
+      .swiper-button-next.swiper-button-black
     a.swiper-link-gallery href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогаллерея
 
   .container
     = include partials/content/index/bottom.html .
 
   .container
-    .separator-btn
+    .separator-btn.separator-btn-swiper#swiperCarouselBtn
+      .swiper-button-prev.swiper-button-black
       a.btn.btn-outlined.btn-lg href="#"  НАШИ КЛИЕНТЫ
+      .swiper-button-next.swiper-button-black
     .swiper-carousel.swiper-container
       .swiper-wrapper
         {{range $index, $element := .Site.Params.count12}}
         .swiper-slide
-          img.img-responsive src="http://lorempixel.com/300/300/food"
+          img.img-responsive src="http://lorempixel.com/300/200/food"
         {{ end }}
-      .swiper-pagination
-      .swiper-button-prev.swiper-button-black
-      .swiper-button-next.swiper-button-black

@@ -91,18 +91,19 @@
           )
         )
         $swiper.append($swiperWrapper)
-        $swiper.append(
-          '
-          <div class="swiper-button-prev swiper-button-black"></div>
-          <div class="swiper-button-next swiper-button-black"></div>
-          '
-        )
+#        $swiper.append(
+#          '
+#          <div class="swiper-button-prev swiper-button-black"></div>
+#          <div class="swiper-button-next swiper-button-black"></div>
+#          '
+#        )
         $link.replaceWith($swiper)
 
         swiperGallery = new Swiper('.swiper-gallery',
-          loop: true
-          nextButton: '.swiper-button-next'
-          prevButton: '.swiper-button-prev'
+          loop: false
+          nextButton: '#swiperGalleryBtn .swiper-button-next'
+          prevButton: '#swiperGalleryBtn .swiper-button-prev'
+          paginationClickable: true
         #      scrollbar: '.swiper-scrollbar'
         #      speed: 400
         #      spaceBetween: 100
@@ -136,12 +137,13 @@
     )
 
     swiperCarousel = new Swiper('.swiper-carousel', {
-      pagination: '.swiper-pagination'
-      nextButton: '.swiper-button-next'
-      prevButton: '.swiper-button-prev'
-      slidesPerView: 6
+      loop: true
+      nextButton:  '#swiperCarouselBtn .swiper-button-next'
+      prevButton: '#swiperCarouselBtn .swiper-button-prev'
+      slidesPerView: 4
+      slidesPerGroup: 4
       paginationClickable: true
-      spaceBetween: 30
+      spaceBetween: 20
     })
 
     $("#food .nav-btns-menu a").click((e)->
