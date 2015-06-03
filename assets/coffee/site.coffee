@@ -100,7 +100,7 @@
         $link.replaceWith($swiper)
 
         swiperGallery = new Swiper('.swiper-gallery',
-          loop: false
+#          loop: false
           nextButton: '#swiperGalleryBtn .swiper-button-next'
           prevButton: '#swiperGalleryBtn .swiper-button-prev'
           paginationClickable: true
@@ -109,7 +109,7 @@
         #      spaceBetween: 100
           effect: 'coverflow'
           grabCursor: true
-          centeredSlides: true
+          centeredSlides: false
           slidesPerView: 'auto'
           coverflow:
             rotate: 50
