@@ -47,7 +47,7 @@
                       td {{.name}}
                       td {{.quantity}}
                       td {{.output}}
-                      td {{.perPerson}}
+                      td {{.person}}
                     {{end}}
                     {{end}}
             {{end}}

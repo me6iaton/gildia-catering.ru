@@ -35,7 +35,7 @@ header
           li
             a href="#"  О нас
           li.dropdown-full.no-shadow.no-border-radius
-            a.dropdown-title href="javascript:void(0);" Услуги
+            a.dropdown-title href="/services/" Услуги
             a.dropdown-toggle data-toggle="dropdown"
               i.fa.fa-angle-down
             .dropdown-menu
@@ -57,7 +57,7 @@ header
           li
             a href="#" Портфолио
           li
-            a href="#" Меню
+            a href="/menu/" Меню
           li
             a href="#" Клиенты
           li

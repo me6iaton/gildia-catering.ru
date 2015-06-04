@@ -1,8 +1,9 @@
 baseurl = "http://gildia-catering.me6iaton.ru/"
 title = "gildia-catering.ru"
-CanonifyUrls = "true"
 author =  "Anton Mamrashev"
 copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
+[Taxonomies]
+    service = "services"
 [params]
   menuCount =  [1,2,3,4,5,6]
   menuCountExtra = [1,2,3,4,5,6,7,8]

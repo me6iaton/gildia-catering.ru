@@ -51,7 +51,54 @@ body
       @include align-items(center)
 
 
+.page-header-siple
+  @extend .page-header
+  border-bottom: none
 
+.cut
+  position: relative
+  padding-top: 3rem
+  margin-bottom: 5rem
+  min-height: 454px
+  >.sub
+    padding: 0
+    position: absolute
+    left: 0px
+    top: 0px
+    @extend .shadow-raised
+    img
+      border-radius: $border-radius-base
+  .incut
+    float: right
+    margin: 0 0 0 0
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    padding-bottom: $padding-base-horizontal
+    background-color: $body-bg
+    border-radius: $border-radius-base
+    text-align: justify
+    @extend .shadow-raised
+    h3
+      text-align: right
+    a.more
+      display: inline-block
+      float: right
+      color: $text-color
+      font-weight: 700
+      &:hover
+        color: $link-hover-color
+.zigzag
+  .cut
+    &:nth-child(2n)
+      >.sub
+        right: 0px
+        left: auto
+      .incut
+        float: left
+        h3
+          text-align: left
+        a.more
+          float: left
 
 /*  header
  *=================================================================
