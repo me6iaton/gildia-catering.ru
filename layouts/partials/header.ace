@@ -33,7 +33,7 @@ header
       #navbar-main-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right
           li
-            a href="#"  О нас
+            a href="/about/"  О нас
           li.dropdown-full.no-shadow.no-border-radius
             a.dropdown-title href="/services/" Услуги
             a.dropdown-toggle data-toggle="dropdown"
