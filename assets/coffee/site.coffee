@@ -93,7 +93,6 @@
         image: "#{imageUrl}/#{@.imageSize}/"
         thumb: "#{imageUrl}/#{@.thumbSize}/"
       insert: ($link, images)->
-        console.log(@)
         $swiper = $('<div class="swiper-container"></div>')
         $swiperWrapper = $('<div class="swiper-wrapper"></div>')
         $.each(images, (index, element)->
@@ -110,7 +109,11 @@
         $swiper.append($swiperWrapper)
         $swiper.addClass(@.containerClass)
         $link.replaceWith($swiper)
-        new Swiper($swiper, @.swiper)
+        btnCntrSelector = $link.data("buttonContainer")
+        new Swiper($swiper, jQuery.extend(@.swiper, {
+          nextButton: "#{btnCntrSelector} .swiper-button-next"
+          prevButton: "#{btnCntrSelector} .swiper-button-prev"
+        }))
         lightbox(".#{@.containerClass}")
 
     $('a.swiper-link-gallery').gphoto(
@@ -119,8 +122,6 @@
       thumbSize: 'w300-h300-c'
       containerClass: 'swiper-gallery'
       swiper:
-        nextButton: '#swiperGalleryBtn .swiper-button-next'
-        prevButton: '#swiperGalleryBtn .swiper-button-prev'
         paginationClickable: true
         effect: 'coverflow'
         grabCursor: true
@@ -151,8 +152,8 @@
 
     swiperCarousel = new Swiper('.swiper-carousel', {
       loop: true
-      nextButton:  '#swiperCarouselBtn .swiper-button-next'
-      prevButton: '#swiperCarouselBtn .swiper-button-prev'
+      nextButton:  '#btnClients .swiper-button-next'
+      prevButton: '#btnClients .swiper-button-prev'
       slidesPerView: 4
       slidesPerGroup: 4
       paginationClickable: true

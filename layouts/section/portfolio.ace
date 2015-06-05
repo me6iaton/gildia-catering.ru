@@ -7,15 +7,15 @@
         h2 {{.Site.Params.portfolio.title}}
         .description
           {{.Site.Params.portfolio.content}}
-    {{ range where .Site.Pages "Section" "menu" }}
-    .separator-btn.separator-btn-swiper#swiperCarouselBtn
+    {{ range $index, $element := where .Site.Pages "Section" "menu" }}
+    .separator-btn.separator-btn-swiper#btn{{$index}}
       .swiper-button-prev.swiper-button-black
-      a.btn.btn-outlined.btn-lg href="#"  {{.Title}}
+      a.btn.btn-outlined.btn-lg href=""  {{.Title}}
       .swiper-button-next.swiper-button-black
     {{if .Params.gallery}}
-    a.swiper-link-carousel href="{{.Params.gallery}}" фотогалерея
+    a.swiper-link-carousel data-button-container="#btn{{$index}}" href="{{.Params.gallery}}" фотогалерея
     {{else}}
-    a.swiper-link-carousel href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогалерея
+    a.swiper-link-carousel data-button-container="#btn{{$index}}" href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогалерея
     {{end}}
     {{end}}
     = include partials/clients.html .
