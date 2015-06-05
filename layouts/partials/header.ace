@@ -59,7 +59,7 @@ header
           li
             a href="/menu/" Меню
           li
-            a href="#" Клиенты
+            a href="/clients/" Клиенты
           li
             a href="#" Площадки
           li

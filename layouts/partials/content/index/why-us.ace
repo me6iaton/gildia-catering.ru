@@ -1,6 +1,6 @@
 h2 ПОЧЕМУ ИМЕННО МЫ?
 .row-flexbox.whyus
-  {{range $index, $element := where .Data.Pages "Type" "whyus" }}
+  {{range $index, $element := where .Site.Pages "Type" "whyus" }}
     .col-xs-12.col-sm-8.col-md-6.whyus-item
       .whyus-intro
         img.img-responsive src="{{.Params.image}}=w263-h263-p-no"

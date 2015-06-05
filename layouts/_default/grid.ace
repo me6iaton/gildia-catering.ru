@@ -1,0 +1,16 @@
+= content main
+  .container
+    article.cut
+      .sub.col-md-17
+        img src="{{.Params.image}}"
+      .incut.col-md-16
+        h2 {{.Title}}
+        .description
+          {{.Content}}
+    .row.row-flexbox.row-img
+      {{$count := 12}}
+      {{range $index, $element := seq $count}}
+      .col-xs-12.col-sm-8.col-md-4
+        img.img-responsive src="http://lorempixel.com/300/200/food"
+      {{end}}
+    = include partials/content/index/why-us.html .
