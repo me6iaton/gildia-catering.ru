@@ -1,0 +1,21 @@
+= content main
+  .container
+    article.cut
+      .sub.col-md-17
+        img src="{{.Site.Params.portfolio.image}}"
+      .incut.col-md-16
+        h2 {{.Site.Params.portfolio.title}}
+        .description
+          {{.Site.Params.portfolio.content}}
+    {{ range where .Site.Pages "Section" "menu" }}
+    .separator-btn.separator-btn-swiper#swiperCarouselBtn
+      .swiper-button-prev.swiper-button-black
+      a.btn.btn-outlined.btn-lg href="#"  {{.Title}}
+      .swiper-button-next.swiper-button-black
+    {{if .Params.gallery}}
+    a.swiper-link-carousel href="{{.Params.gallery}}" фотогалерея
+    {{else}}
+    a.swiper-link-carousel href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогалерея
+    {{end}}
+    {{end}}
+    = include partials/clients.html .
