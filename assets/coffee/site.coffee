@@ -87,6 +87,28 @@
           opener: (element) ->
             element.find 'img'
 
+    $.fn.gphoto.provider['ggridLightbox'] =
+      filter: (imageUrl, image) ->
+        imageUrl: imageUrl
+        data: image
+      insert: ($link, images) ->
+        $ggrid = $('<div class="ggrid"></div>')
+        options = data: images
+        if $link.attr("title")?
+          options['template'] =  $link.attr("title")
+        $link.replaceWith($ggrid)
+        $ggrid.ggrid $.extend options, @
+        lightbox(".ggrid")
+#        $ggrid.find('a').fluidbox()
+
+
+    $('a.gphoto-ggrid-lightbox').gphoto(
+      provider: 'ggridLightbox'
+      columns: 3
+      maxWidth: 1170
+      padding: 5
+    )
+      #        gphoto-row-lightbox
 #   gallery
     $.fn.gphoto.provider['swiper'] =
       filter: (imageUrl, image)->

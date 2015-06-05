@@ -18,6 +18,7 @@ sources =
   sassPublic: ['assets/sass/style.sass']
   coffee: [
     'assets/coffee/jquery.gphoto.coffee'
+    'assets/coffee/jquery.ggrid.coffee'
     'assets/coffee/site.coffee'
   ]
   js: [
