@@ -55,7 +55,7 @@ header
                   {{ end }}
 
           li
-            a href="#" Портфолио
+            a href="/portfolio/" Портфолио
           li
             a href="/menu/" Меню
           li
