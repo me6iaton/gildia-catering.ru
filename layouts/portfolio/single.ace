@@ -18,3 +18,4 @@
     a.swiper-link-carousel href="https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201" фотогалерея
     {{end}}
     {{end}}
+    = include partials/clients.html .
