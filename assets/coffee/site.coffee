@@ -12,7 +12,7 @@
 #   hyphenate
     $('.hypher').hyphenate('ru')
 
-#   slider
+#   main slider
     TimerInterval = (callback, delay) ->
       timerId = undefined
       remaining = delay
@@ -51,7 +51,6 @@
       $next = $('#serviceTabs a:last') if (!$next.length)
       $next.tab 'show'
 
-
 #   why us
     transform = (a, b) ->
       # set the stage so ramjet copies the right styles...
@@ -70,8 +69,18 @@
     $('.whyus-intro').click -> transform(@, @.nextSibling)
     $('.whyus-detail').click -> transform(@, @.previousSibling)
 
-#   lightbox
-    lightbox = (slector) ->
+#   lightbox form
+    $('.btn-order').magnificPopup
+      type: 'inline'
+      preloader: false
+      focus: '#name'
+      callbacks: beforeOpen: ->
+        if $(window).width() < 700
+          @st.focus = false
+        else
+          @st.focus = '#name'
+#   lightbox images gallery
+    lightboxImages = (slector) ->
       $(slector).magnificPopup
         delegate: 'a'
         type: 'image'
@@ -87,6 +96,7 @@
           opener: (element) ->
             element.find 'img'
 
+#   gphoto images grid
     $.fn.gphoto.provider['ggrid'] =
       filter: (imageUrl, image) ->
         imageUrl: imageUrl
@@ -98,7 +108,7 @@
           options['template'] =  $link.attr("title")
         $link.replaceWith($ggrid)
         $ggrid.ggrid $.extend options, @
-        lightbox(".ggrid") if @.lightbox
+        lightboxImages(".ggrid") if @.lightbox
 
     $('a.gphoto-ggrid-lightbox').gphoto(
       provider: 'ggrid'
@@ -117,7 +127,7 @@
       lightbox: true
     )
 
-#   gallery
+#   gphoto gallery
     $.fn.gphoto.provider['swiper'] =
       filter: (imageUrl, image)->
         image: "#{imageUrl}/#{@.imageSize}/"
@@ -144,7 +154,7 @@
           nextButton: "#{btnCntrSelector} .swiper-button-next"
           prevButton: "#{btnCntrSelector} .swiper-button-prev"
         }))
-        lightbox(".#{@.containerClass}")
+        lightboxImages(".#{@.containerClass}")
 
     $('a.swiper-link-gallery').gphoto(
       provider: 'swiper'
@@ -180,6 +190,7 @@
         spaceBetween: 20
     )
 
+#   Clients carousel
     swiperCarousel = new Swiper('.swiper-carousel', {
       loop: true
       nextButton:  '#btnClients .swiper-button-next'
