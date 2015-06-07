@@ -358,3 +358,36 @@ $tabs-service-top: 40px
       text-align: right
     img
       margin-bottom: 30px
+
+/*  footer
+ *=================================================================
+
+footer
+  background: $color-success-1
+  background: $color-footer
+  .footer-bottom
+    padding: 1rem
+    color: $text-bg-color
+    a
+      color: $text-bg-color
+      //text-decoration: underline
+    background: $color-footer-bottom
+
+.navbar-footer
+  ul
+    @include display(flex)
+    width: 100%
+    li
+      @include flex(1)
+      text-align: center
+        //border: 2px solid $text-color
+      &:nth-child(n)
+        //border-left: none
+      &:first-child
+        //border-left: 2px solid $text-color
+      a
+        color: $text-color
+        font-weight: 700
+        &:hover
+          background: transparent
+          color: $link-hover-color

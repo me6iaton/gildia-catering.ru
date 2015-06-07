@@ -1,0 +1,19 @@
+li.dropdown-full.no-shadow.no-border-radius
+  a.dropdown-title href="/services/" Услуги
+  a.dropdown-toggle data-toggle="dropdown"
+    i.fa.fa-angle-down
+  .dropdown-menu
+    .container
+      nav.row.row-flexbox.top
+        {{ range where .Site.Pages "Section" "menu" }}
+        a.col-xs-8.col-sm-6.col-md-3.flexhead href="{{.RelPermalink}}"
+          .title {{.Title}}
+          img.img-responsive src="{{.Params.icon}}"
+        {{ end }}
+      h3.page-header Ивент-комплекс
+      nav.row.row-flexbox
+        {{ range where .Site.Pages "Section" "event-complex" }}
+        a.col-xs-6.col-sm-5.col-md-3.flexhead href="{{.RelPermalink}}"
+          .title.hypher {{.Title}}
+          img.img-responsive src="{{.Params.icon}}"
+        {{ end }}

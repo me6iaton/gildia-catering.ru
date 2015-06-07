@@ -1,25 +1,7 @@
 header
   nav.navbar.navbar-promo.navbar-fixed-top
-    .container
-      span.navbar-brand.hidden-xs  +7 (499) 411 19 62
-      button.navbar-toggle.collapsed data-target="#navbar-main-collapse" data-toggle="collapse" type="button"
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      ul.nav.navbar-nav
-        li
-          a.callback href="#"
-            span.hidden-xs Обратный звонок
-            span.visible-xs Звонок
-        li
-          a href="#"  Контакты
-      ul.nav.navbar-nav.navbar-right
-        li
-          a.btn-order.btn-order-header href=""
-            span.hidden-xs Оставить заявку
-            span.visible-xs Заявка
-            = include partials/triangle.html
+    {{$orderBtn := "Оставить заявку"}}
+    = include partials/menu-promo.html $orderBtn
   .container
     div.row
       div.col-xs-9.col-sm-6.col-md-6.header-logo
@@ -32,37 +14,21 @@ header
     .container
       #navbar-main-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right
-          li
-            a href="/about/"  О нас
-          li.dropdown-full.no-shadow.no-border-radius
-            a.dropdown-title href="/services/" Услуги
-            a.dropdown-toggle data-toggle="dropdown"
-              i.fa.fa-angle-down
-            .dropdown-menu
-              .container
-                nav.row.row-flexbox.top
-                  {{ range where .Site.Pages "Section" "menu" }}
-                  a.col-xs-8.col-sm-6.col-md-3.flexhead href="{{.RelPermalink}}"
-                    .title {{.Title}}
-                    img.img-responsive src="{{.Params.icon}}"
-                  {{ end }}
-                h3.page-header Ивент-комплекс
-                nav.row.row-flexbox
-                  {{ range where .Site.Pages "Section" "event-complex" }}
-                  a.col-xs-6.col-sm-5.col-md-3.flexhead href="{{.RelPermalink}}"
-                    .title.hypher {{.Title}}
-                    img.img-responsive src="{{.Params.icon}}"
-                  {{ end }}
-
-          li
-            a href="/portfolio/" Портфолио
-          li
-            a href="/menu/" Меню
-          li
-            a href="/clients/" Клиенты
-          li
-            a href="#" Площадки
-          li
-            a href="#" Новости
-          li
-            a href="#" Контакты
+          {{ $currentNode := . }}
+          {{ range .Site.Menus.main }}
+            {{if $currentNode.IsMenuCurrent "main" . }}
+              {{ $.Scratch.Set "menu-active" "active" }}
+            {{else}}
+              {{ $.Scratch.Set "menu-active" " " }}
+            {{end}}
+            {{ if .HasChildren }}
+          li  to-do
+            {{else}}
+              {{if eq .URL "/services/"}}
+                = include partials/menu-services.html $
+              {{else}}
+          li class="{{ $.Scratch.Get "menu-active" }}"
+            a href="{{.URL}}"  {{.Name}}
+              {{end}}
+            {{end}}
+          {{end}}

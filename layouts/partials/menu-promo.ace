@@ -1,0 +1,20 @@
+.container
+  span.navbar-brand.hidden-xs  +7 (499) 411 19 62
+  button.navbar-toggle.collapsed data-target="#navbar-main-collapse" data-toggle="collapse" type="button"
+    span.sr-only Toggle navigation
+    span.icon-bar
+    span.icon-bar
+    span.icon-bar
+  ul.nav.navbar-nav
+    li
+      a.callback href="#"
+        span.hidden-xs Обратный звонок
+        span.visible-xs Звонок
+    li
+      a href="#"  Контакты
+  ul.nav.navbar-nav.navbar-right
+    li
+      a.btn-order.btn-order-header href=""
+        span.hidden-xs {{.}}
+        span.visible-xs Заявка
+        = include partials/triangle.html
