@@ -20,7 +20,7 @@ footer
         .col-xs-24.col-sm-6.col-md-6.text-right
           a href="http://brainstorage.me/me6iaton/portfolio" © Антон Мамрашев
 
-= include partials/form-order.html
+= include partials/form-order.html .
 
 script src=/js/all.js
 script src=/js/site.js

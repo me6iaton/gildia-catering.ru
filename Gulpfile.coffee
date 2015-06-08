@@ -32,6 +32,9 @@ sources =
     'assets/vendor/swiper/dist/js/swiper.jquery.js'
     'assets/vendor/magnific-popup/dist/jquery.magnific-popup.js'
     'assets/vendor/URIjs/src/URI.js'
+    'assets/vendor/bootstrap-validator/dist/validator.js'
+    'assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.js'
+    'assets/vendor/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake

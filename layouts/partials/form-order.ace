@@ -1,4 +1,73 @@
-form#form-order.mfp-hide.white-popup-block
-  h2 form
-  p
-    | test
+#popup-alert-success.mfp-hide.mfp-with-anim.popup.alert.alert-success.text-primary
+  h2 Спасибо!
+#popup-order.mfp-hide.mfp-with-anim.popup.popup-white
+  .row
+    .col-sm-6.text-right
+      h2 БРИФ
+    .col-sm-18
+  form#form-order.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
+    .form-group.required
+      label.col-sm-6.control-label Ваше имя:
+      .col-sm-18
+        input#inputName.form-control name="Ваше имя" required=""
+
+    .form-group.required
+      label.col-sm-6.control-label Телефон:
+      .col-sm-18
+        input#inputPhone.form-control name="Телефон" required=""
+
+    .form-group.required
+      label.col-sm-6.control-label E-mail:
+      .col-sm-18
+        input#inputEmail.form-control type="email" name="email" required=""
+
+    .form-group
+      label.col-sm-6.control-label Организация:
+      .col-sm-18
+        input#inputOrg.form-control name="Организация"
+
+    .form-group
+      label.col-sm-6.control-label Тип мероприятия:
+      .col-sm-18
+        select#inputType.form-control name=""
+          option.placeholder value="Тип мероприятия" default="" selected="" Выбрать
+          {{ range where .Site.Pages "Section" "menu" }}
+          option value="{{.Title}}" {{.Title}}
+          {{ end }}
+
+    .form-group
+      label.col-sm-6.control-label Количество персон:
+      .col-sm-18
+        input#inputPersonQuantity.form-control name="Количество персон"
+
+    .form-group
+      label.col-sm-6.control-label Бюджет на персону:
+      .col-sm-18
+        input#inputPersonBudget.form-control name="Бюджет на персону"
+
+    .form-group
+      label.col-sm-6.control-label Дата мероприятия:
+      .col-sm-18
+        .input-group.date
+          input#inputDate.form-control name="Дата мероприятия"
+          span.input-group-addon
+            i.fa.fa-calendar
+
+    .form-group
+      label.col-sm-6.control-label Место проведения мероприятия:
+      .col-sm-18
+        select#inputPlace.form-control name="Место проведения мероприятия"
+          option value="Необходимо подобрать" Необходимо подобрать
+          option value="Есть своя площадка" Есть своя площадка
+        input#inputAddress.form-control name="Адрес" placeholder="Укажите адрес"
+
+    .form-group
+      label.col-sm-6.control-label Комментарий:
+      .col-sm-18
+        textarea#textareaComment.form-control name="Комментарий" rows="3"
+
+    .form-group
+      .col-sm-offset-6.col-sm-18
+        input type="hidden" name="_subject" value="Новая завка на gildia-catering.tu"
+        input type="text" name="_gotcha" style="display:none"
+        button.btn.btn-default type="submit" value="Send"  Отправить

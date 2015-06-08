@@ -57,9 +57,10 @@ a
       background: $brand-danger
       @include rem(font-size, $font-size-h3)
       color: $text-bg-color
-      &:hover
+      &:hover, &:active, &:focus
         background: $brand-danger
         color: $text-bg-color
+        outline: none
       #btnTriangle
         position: absolute
         bottom: -13px
@@ -150,13 +151,33 @@ a
       position: relative
 
 // popup
-.white-popup-block
-  background: #FFF
-  padding: 20px 30px
+.popup
+  padding: 10px 40px 20px 30px
   text-align: left
-  max-width: 650px
+  max-width: 850px
   margin: 40px auto
   position: relative
+  border-radius: $border-radius-base
+  h2
+    margin-bottom: 2rem
+  #popup-alert
+    display: none
+  &-white
+    background: #FFF
+.form-group.required .control-label:after
+  content: "*"
+  margin-left: 5px
+  color: $brand-danger
+
+
+form
+  select+input,input+input
+    margin-top: $form-group-margin-bottom
+  label
+    position: relative
+    top: -5px
+  select option[default]
+    color: $input-color-placeholder
 
 // btns
 .separator-btn

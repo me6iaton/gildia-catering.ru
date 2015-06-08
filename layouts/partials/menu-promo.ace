@@ -14,7 +14,7 @@
       a href="#"  Контакты
   ul.nav.navbar-nav.navbar-right
     li
-      a.btn-order href="#form-order"
+      a.btn-order href="#popup-order"
         span.hidden-xs.popup-with-form {{.}}
         span.visible-xs.popup-with-form Заявка
         = include partials/triangle.html

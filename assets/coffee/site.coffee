@@ -70,15 +70,49 @@
     $('.whyus-detail').click -> transform(@, @.previousSibling)
 
 #   lightbox form
+    magnificPopup = $.magnificPopup.instance
     $('.btn-order').magnificPopup
       type: 'inline'
       preloader: false
-      focus: '#name'
+      focus: '#inputName'
+      removalDelay: 500
+      mainClass: 'mfp-move-from-top'
       callbacks: beforeOpen: ->
-        if $(window).width() < 700
-          @st.focus = false
-        else
-          @st.focus = '#name'
+        this.st.mainClass = 'mfp-move-from-top'
+#        if $(window).width() < 700
+#          @st.focus = false
+#        else
+#          @st.focus = '#inputName'
+
+    $('#inputDate').datepicker(
+      language: 'ru'
+      orientation: 'bottom'
+    )
+
+    $formOrder = $('#form-order')
+    $formOrder.validator().on 'submit', (e) ->
+      if e.isDefaultPrevented()
+        console.log('validation fail')
+      else
+        e.preventDefault()
+        $.ajax
+          type: 'POST'
+          url: $formOrder.attr('action')
+          data: $formOrder.serialize()
+          dataType: "json"
+          success: (data) ->
+            $('#popup-alert-success').magnificPopup(items:
+              src: '#popup-alert-success'
+              type: 'inline').magnificPopup 'open'
+            setTimeout(()->
+              $formOrder[0].reset()
+              magnificPopup.close()
+            , 700)
+          error: (xhr, str) ->
+            console.error(xhr)
+            console.error(str)
+            alert('Возникла ошибка: ' + xhr.responseCode)
+
 #   lightbox images gallery
     lightboxImages = (slector) ->
       $(slector).magnificPopup
