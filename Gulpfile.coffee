@@ -35,6 +35,7 @@ sources =
     'assets/vendor/bootstrap-validator/dist/validator.js'
     'assets/vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.js'
     'assets/vendor/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js'
+    'assets/vendor/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'
   ]
 
 # dev and prod will both go to dist for simplicity sake

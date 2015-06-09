@@ -89,16 +89,46 @@ a
     .navbar-nav > li > a
       padding: $navbar-padding-vertical 10px $navbar-padding-vertical 10px
 
-.navbar-main
+.container-wider
+  @include respond-to('sm')
+    padding-left: 0
+    padding-right: 0
+#navbar-main
   @extend .navbar-default
   border: none
   background: $body-bg
+  border-radius: 0
+  .navbar-nav > li > a
+    color: $text-color
+    &:hover,
+    &:focus
+        color: $link-hover-color
+    @include rem(font-size, $font-size-h4)
+    @include respond-to('md')
+      padding: 15px 10px
+    @include respond-to('sm')
+      //@include rem(font-size, 16px)
+      padding: 15px 5px
+  &.collapsing
+    //margin-bottom: -40px
+  &.affix
+    position: fixed
+    top: 50px
+    margin: 0px
+    background: $body-bg
+    z-index: 2
+    width: 100%
+    border-bottom: 1px solid $gray-light
+    .navbar-right
+      float: left !important
+    .container, .navbar-collapse
+      padding: 0
+    ul>li>a
+      padding-top: 18px
+      padding-bottom: 18px
   @include respond-to('xs')
     z-index: 110
-  @include respond-to('md')
-  .navbar-nav > li > a
-    padding: 15px 10px
-  @include respond-to('min-md')
+  @include respond-to('min-xs')
     margin-top: -50px
   @include respond-to('xs')
     position: fixed
@@ -107,7 +137,13 @@ a
     width: 100%
     padding-top: 50px
 
-
+#navbar-main-trigger
+  height: 1px
+  &.affix
+    position: static
+#navbar-main-btn
+  @include respond-to('xs')
+    display: none
 
 // menu extra
 .navbar .navbar-nav >.dropdown-full
@@ -119,16 +155,21 @@ a
     cursor: pointer
     i
       @include rem(font-size, 20px)
+      //@include rem(top, -1px)
       position: relative
-      top: 1px
-      transform: scale(1.2)
+      right: 0.1rem
+      transform: scale(1.3)
   //font-weight: bold
   >.dropdown-menu
     left: 0px
     right: 0px
+    top: 98%
     position: absolute
     box-shadow: none
     padding-bottom: 20px
+    border-radius: 0
+    border-left: 0
+    border-right: 0
     .row
       a
         font-size: $font-size-h4
@@ -136,7 +177,7 @@ a
         margin-bottom: ($line-height-computed / 2)
         &:hover
           color: $text-color
-    .row.top
+    //.row.top
       //@include respond-to('min-md')
       //  a img
       //    width: 50%

@@ -1,12 +1,28 @@
 (($) ->
   $ ->
 #   menu
-    $('.dropdown-full').hover(->
-      if (!$(@).hasClass('open'))
-        $(@).find('.dropdown-toggle').dropdown('toggle')
-    ,->
-      if ($(@).hasClass('open'))
-        $(@).find('.dropdown-toggle').dropdown('toggle')
+#    $('.dropdown-full').hover(->
+#      if (!$(@).hasClass('open'))
+#        $(@).find('.dropdown-toggle').dropdown('toggle')
+#    ,->
+#      if ($(@).hasClass('open'))
+#        $(@).find('.dropdown-toggle').dropdown('toggle')
+#    )
+    $navbarMain = $('#navbar-main')
+    $('#navbar-main-trigger').affix({
+      offset: {
+        top: ()->
+          if $(document).width() > 768
+            $('#navbar-main-trigger').offset().top
+          else
+            10000000000
+      }
+    }).on('affix.bs.affix', ()->
+      $navbarMain.addClass('collapse affix')
+      $('#navbar-main-btn').show()
+    ).on('affix-top.bs.affix', ()->
+      $('#navbar-main-btn').hide()
+      $navbarMain.removeClass('collapse affix')
     )
 
 #   hyphenate

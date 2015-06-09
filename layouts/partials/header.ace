@@ -2,7 +2,7 @@ header
   nav.navbar.navbar-promo.navbar-fixed-top
     {{$orderBtn := "Оставить заявку"}}
     = include partials/menu-promo.html $orderBtn
-  .container
+  .container.container-wider
     div.row
       div.col-xs-9.col-sm-6.col-md-6.header-logo
         a href="/"
@@ -10,7 +10,8 @@ header
       div.col-xs-15.col-sm-18.col-md-18.text-right.header-text
         h1 Гильдия кейтеринг
         h3 первый в России единый кейтеринг-подрядчик
-  nav.navbar.navbar-main
+  #navbar-main-trigger
+  nav#navbar-main.navbar.navbar-main
     .container
       #navbar-main-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right

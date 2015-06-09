@@ -1,4 +1,4 @@
-li.dropdown-full.no-shadow.no-border-radius
+li.dropdown-full.no-shadow.no-border-radius class="{{ $.Scratch.Get "menu-active" }}"
   a.dropdown-title href="/services/" Услуги
   a.dropdown-toggle data-toggle="dropdown"
     i.fa.fa-angle-down

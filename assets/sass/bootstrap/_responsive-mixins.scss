@@ -27,6 +27,9 @@
   //@else if $media == max-ms{
   //  @media  (max-width: $screen-ms-max ) { @content; }
   //}
+  @else if $media == min-xs{
+    @media  (min-width: $screen-xs-min) { @content; }
+  }
   @else if $media == min-md{
     @media  (min-width: $screen-md-min) { @content; }
   }
