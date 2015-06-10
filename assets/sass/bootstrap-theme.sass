@@ -50,6 +50,10 @@ a
       color: $navbar-promo-link-color
       &:hover
         color: $navbar-promo-link-hover-color
+    .btn-popup
+      &:active, &:focus
+        outline: none
+        color: $text-bg-color
     .btn-order
       position: relative
       //margin-right: $padding-large-horizontal
@@ -59,8 +63,6 @@ a
       color: $text-bg-color
       &:hover, &:active, &:focus
         background: $brand-danger
-        color: $text-bg-color
-        outline: none
       #btnTriangle
         position: absolute
         bottom: -13px

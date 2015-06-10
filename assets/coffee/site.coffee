@@ -100,14 +100,13 @@
 
 #   lightbox form
     magnificPopup = $.magnificPopup.instance
-    $('.btn-order').magnificPopup
+    $('.btn-popup').magnificPopup
       type: 'inline'
       preloader: false
       focus: '#inputName'
       removalDelay: 500
       mainClass: 'mfp-move-from-top'
       callbacks: beforeOpen: ->
-        this.st.mainClass = 'mfp-move-from-top'
 #        if $(window).width() < 700
 #          @st.focus = false
 #        else
@@ -118,23 +117,24 @@
       orientation: 'bottom'
     )
 
-    $formOrder = $('#form-order')
-    $formOrder.validator().on 'submit', (e) ->
+    $popupForm = $('.popup-form')
+    $popupForm.validator().on 'submit', (e) ->
       if e.isDefaultPrevented()
         console.log('validation fail')
       else
         e.preventDefault()
+        $target = $(e.target)
         $.ajax
           type: 'POST'
-          url: $formOrder.attr('action')
-          data: $formOrder.serialize()
+          url: $target.attr('action')
+          data: $target.serialize()
           dataType: "json"
           success: (data) ->
             $('#popup-alert-success').magnificPopup(items:
               src: '#popup-alert-success'
               type: 'inline').magnificPopup 'open'
             setTimeout(()->
-              $formOrder[0].reset()
+              e.target.reset()
               magnificPopup.close()
             , 700)
           error: (xhr, str) ->

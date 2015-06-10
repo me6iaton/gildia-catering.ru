@@ -21,6 +21,9 @@ footer
           a href="http://brainstorage.me/me6iaton/portfolio" © Антон Мамрашев
 
 = include partials/form-order.html .
+= include partials/form-callback.html .
+#popup-alert-success.mfp-hide.mfp-with-anim.popup.alert.alert-success.text-primary
+  h2 Спасибо!
 
 script src=/js/all.js
 script src=/js/site.js

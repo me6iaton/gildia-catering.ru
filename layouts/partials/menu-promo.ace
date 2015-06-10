@@ -14,14 +14,14 @@
   {{end}}
   ul.nav.navbar-nav
     li
-      a.callback href="#"
+      a.callback.btn-popup href="#popup-callback"
         span.hidden-xs.hidden-ms Обратный звонок
         span.visible-xs.visible-ms Звонок
     li
       a href="#"  Контакты
   ul.nav.navbar-nav.navbar-right
     li
-      a.btn-order href="#popup-order"
+      a.btn-order.btn-popup href="#popup-order"
         span.hidden-xs.hidden-ms.popup-with-form {{.}}
         span.visible-xs.visible-ms.popup-with-form Заявка
         = include partials/triangle.html

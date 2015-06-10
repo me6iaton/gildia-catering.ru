@@ -1,0 +1,22 @@
+#popup-callback.mfp-hide.mfp-with-anim.popup.popup-white
+  .row
+    .col-sm-6.text-right
+      h2 Звонок
+    .col-sm-18
+  form.popup-form.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
+
+    .form-group.required
+      label.col-sm-6.control-label Телефон:
+      .col-sm-18
+        input#inputPhone.form-control type="tel" pattern="(\+?\d[- .]*){7,13}" name="Телефон" required=""
+
+    .form-group.required
+      label.col-sm-6.control-label Ваше имя:
+      .col-sm-18
+        input#inputName.form-control name="Ваше имя" required=""
+
+    .form-group
+      .col-sm-offset-6.col-sm-18
+        input type="hidden" name="_subject" value="Новый обратный звонок на gildia-catering.ru"
+        input type="text" name="_gotcha" style="display:none"
+        button.btn.btn-default type="submit" value="Send"  Заказать звонок

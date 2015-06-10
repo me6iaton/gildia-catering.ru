@@ -1,11 +1,9 @@
-#popup-alert-success.mfp-hide.mfp-with-anim.popup.alert.alert-success.text-primary
-  h2 Спасибо!
 #popup-order.mfp-hide.mfp-with-anim.popup.popup-white
   .row
     .col-sm-6.text-right
       h2 Заявка
     .col-sm-18
-  form#form-order.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
+  form.popup-form.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
     .form-group.required
       label.col-sm-6.control-label Ваше имя:
       .col-sm-18
@@ -14,7 +12,7 @@
     .form-group.required
       label.col-sm-6.control-label Телефон:
       .col-sm-18
-        input#inputPhone.form-control name="Телефон" required=""
+        input#inputPhone.form-control type="tel" name="Телефон" required=""
 
     .form-group.required
       label.col-sm-6.control-label E-mail:
@@ -68,6 +66,6 @@
 
     .form-group
       .col-sm-offset-6.col-sm-18
-        input type="hidden" name="_subject" value="Новая завка на gildia-catering.tu"
+        input type="hidden" name="_subject" value="Новая завка на gildia-catering.ru"
         input type="text" name="_gotcha" style="display:none"
         button.btn.btn-default type="submit" value="Send"  Отправить
