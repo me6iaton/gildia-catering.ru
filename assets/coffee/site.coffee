@@ -9,23 +9,36 @@
 #        $(@).find('.dropdown-toggle').dropdown('toggle')
 #    )
     $navbarMain = $('#navbar-main')
+    $navbarMainBtn = $('#navbar-main-btn')
+    $flagDocWidthXs = $(window).width() > 768
+    $flagNavbarMainScroll = $(window).scrollTop() > $('#navbar-main-trigger').offset().top
     $('#navbar-main-trigger').affix({
       offset: {
         top: ()->
-          if $(document).width() > 768
+          if $flagDocWidthXs
             $('#navbar-main-trigger').offset().top
           else
             10000000000
       }
     }).on('affix.bs.affix', ()->
       $navbarMain.addClass('collapse affix')
-      $('#navbar-main-btn').show()
+      $navbarMainBtn.show()
     ).on('affix-top.bs.affix', ()->
-      $('#navbar-main-btn').hide()
+      $navbarMainBtn.hide()
       $navbarMain.removeClass('collapse affix')
     )
+    if $flagNavbarMainScroll  and $flagDocWidthXs
+      $navbarMain.addClass('collapse affix')
+      $navbarMainBtn.show()
 
-#   hyphenate
+    uri = new URI()
+    $('#navbar-main-collapse ul li a').each(()->
+      $this = $(this)
+      if $this.attr('href') and new URI($this.attr('href')).segment(0) == uri.segment(0)
+        $this.parent().addClass('active')
+    )
+
+    #   hyphenate
     $('.hypher').hyphenate('ru')
 
 #   main slider

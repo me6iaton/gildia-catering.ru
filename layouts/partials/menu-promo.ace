@@ -1,5 +1,5 @@
 .container
-  span.navbar-brand.hidden-xs  +7 (499) 411 19 62
+  span.navbar-brand.hidden-xs.hidden-xs  +7 (499) 411 19 62
   {{if eq . "Оставить заявку"}}
   button.navbar-toggle.collapsed data-target="#navbar-main-collapse" data-toggle="collapse" type="button"
     span.sr-only Toggle navigation
@@ -15,13 +15,13 @@
   ul.nav.navbar-nav
     li
       a.callback href="#"
-        span.hidden-xs Обратный звонок
-        span.visible-xs Звонок
+        span.hidden-xs.hidden-ms Обратный звонок
+        span.visible-xs.visible-ms Звонок
     li
       a href="#"  Контакты
   ul.nav.navbar-nav.navbar-right
     li
       a.btn-order href="#popup-order"
-        span.hidden-xs.popup-with-form {{.}}
-        span.visible-xs.popup-with-form Заявка
+        span.hidden-xs.hidden-ms.popup-with-form {{.}}
+        span.visible-xs.visible-ms.popup-with-form Заявка
         = include partials/triangle.html

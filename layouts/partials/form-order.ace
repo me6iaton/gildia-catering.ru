@@ -3,7 +3,7 @@
 #popup-order.mfp-hide.mfp-with-anim.popup.popup-white
   .row
     .col-sm-6.text-right
-      h2 БРИФ
+      h2 Заявка
     .col-sm-18
   form#form-order.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
     .form-group.required

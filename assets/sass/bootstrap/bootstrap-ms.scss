@@ -42,7 +42,19 @@ $screen-xs-max-new: ($screen-ms-min - 1) !default;
 .col-ms-9,
 .col-ms-10,
 .col-ms-11,
-.col-ms-12 {
+.col-ms-12,
+.col-ms-13,
+.col-ms-14,
+.col-ms-15,
+.col-ms-16,
+.col-ms-17,
+.col-ms-18,
+.col-ms-19,
+.col-ms-20,
+.col-ms-21,
+.col-ms-22,
+.col-ms-23,
+.col-ms-24 {
   position: relative;
   // Prevent columns from collapsing when empty
   min-height: 1px;

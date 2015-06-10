@@ -52,7 +52,7 @@ a
         color: $navbar-promo-link-hover-color
     .btn-order
       position: relative
-      margin-right: $padding-large-horizontal
+      //margin-right: $padding-large-horizontal
       text-align: center
       background: $brand-danger
       @include rem(font-size, $font-size-h3)
@@ -93,6 +93,7 @@ a
   @include respond-to('sm')
     padding-left: 0
     padding-right: 0
+
 #navbar-main
   @extend .navbar-default
   border: none
@@ -109,8 +110,6 @@ a
     @include respond-to('sm')
       //@include rem(font-size, 16px)
       padding: 15px 5px
-  &.collapsing
-    //margin-bottom: -40px
   &.affix
     position: fixed
     top: 50px
@@ -119,16 +118,30 @@ a
     z-index: 2
     width: 100%
     border-bottom: 1px solid $gray-light
+    &.collapsing
+      height: auto !important
+      #navbar-main-collapse.collapse
+        height: auto !important
     .navbar-right
       float: left !important
     .container, .navbar-collapse
       padding: 0
-    ul>li>a
-      padding-top: 18px
-      padding-bottom: 18px
+    ul
+      padding-top: 15px
+      padding-bottom: 15px
+      >li
+        margin-right: 5px
+        >a
+          padding-top: 10px
+          padding-bottom: 10px
+          @include respond-to('sm')
+            padding: 10px
   @include respond-to('xs')
     z-index: 110
-  @include respond-to('min-xs')
+  @include respond-to('xs-new')
+    .title
+      display: none
+  @include respond-to('min-sm')
     margin-top: -50px
   @include respond-to('xs')
     position: fixed
@@ -146,6 +159,8 @@ a
     display: none
 
 // menu extra
+.navbar-collapse.collapse.in
+  max-height: 75vh
 .navbar .navbar-nav >.dropdown-full
   position: static
   .dropdown-title, .dropdown-toggle

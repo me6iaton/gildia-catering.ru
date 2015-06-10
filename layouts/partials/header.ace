@@ -12,7 +12,7 @@ header
         h3 первый в России единый кейтеринг-подрядчик
   #navbar-main-trigger
   nav#navbar-main.navbar.navbar-main
-    .container
+    .container.container-wider
       #navbar-main-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav.navbar-right
           {{ $currentNode := . }}

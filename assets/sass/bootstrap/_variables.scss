@@ -441,8 +441,8 @@ $navbar-promo-brand-color:               $navbar-promo-link-color !default;
 $navbar-promo-brand-hover-color:         $navbar-promo-link-color;
 
 // Navbar toggle
-$navbar-default-toggle-hover-bg:           #ddd !default;
-$navbar-default-toggle-icon-bar-bg:        #888 !default;
+$navbar-default-toggle-hover-bg:           $color-warning-3 !default;
+$navbar-default-toggle-icon-bar-bg:        $text-bg-color !default;
 $navbar-default-toggle-border-color:       #ddd !default;
 
 

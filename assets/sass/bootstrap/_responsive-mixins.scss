@@ -6,9 +6,12 @@
   @if $media == xs {
     @media  (max-width: $screen-xs-max ) { @content; }
   }
-  //@else if $media == ms  {
-  //  @media (min-width: $screen-xs) and (max-width: $screen-sm - 1) { @content; }
-  //}
+  @if $media == xs-new {
+    @media  (max-width: $screen-xs-max-new ) { @content; }
+  }
+  @else if $media == ms  {
+    @media (min-width: $screen-ms-min) and (max-width: $screen-ms-max) { @content; }
+  }
   @else if $media == sm {
     @media  (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { @content; }
   }
@@ -29,6 +32,12 @@
   //}
   @else if $media == min-xs{
     @media  (min-width: $screen-xs-min) { @content; }
+  }
+  @else if $media == min-ms{
+    @media  (min-width: $screen-ms-min) { @content; }
+  }
+  @else if $media == min-sm{
+    @media  (min-width: $screen-sm-min) { @content; }
   }
   @else if $media == min-md{
     @media  (min-width: $screen-md-min) { @content; }
