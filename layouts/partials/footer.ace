@@ -25,5 +25,8 @@ footer
 #popup-alert-success.mfp-hide.mfp-with-anim.popup.alert.alert-success.text-primary
   h2 Спасибо!
 
+a#btn-top href="#0"
+  i.fa.fa-angle-up
+
 script src=/js/all.js
 script src=/js/site.js

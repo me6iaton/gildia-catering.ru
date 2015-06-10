@@ -1,6 +1,7 @@
 (($) ->
   $ ->
 #   menu
+
 #    $('.dropdown-full').hover(->
 #      if (!$(@).hasClass('open'))
 #        $(@).find('.dropdown-toggle').dropdown('toggle')
@@ -30,7 +31,6 @@
     if $flagNavbarMainScroll  and $flagDocWidthXs
       $navbarMain.addClass('collapse affix')
       $navbarMainBtn.show()
-
     uri = new URI()
     $('#navbar-main-collapse ul li a').each(()->
       $this = $(this)
@@ -38,7 +38,7 @@
         $this.parent().addClass('active')
     )
 
-    #   hyphenate
+#   hyphenate
     $('.hypher').hyphenate('ru')
 
 #   main slider
@@ -106,17 +106,10 @@
       focus: '#inputName'
       removalDelay: 500
       mainClass: 'mfp-move-from-top'
-      callbacks: beforeOpen: ->
-#        if $(window).width() < 700
-#          @st.focus = false
-#        else
-#          @st.focus = '#inputName'
-
     $('#inputDate').datepicker(
       language: 'ru'
       orientation: 'bottom'
     )
-
     $popupForm = $('.popup-form')
     $popupForm.validator().on 'submit', (e) ->
       if e.isDefaultPrevented()
@@ -141,6 +134,18 @@
             console.error(xhr)
             console.error(str)
             alert('Возникла ошибка: ' + xhr.responseCode)
+
+#   #btn scroll top
+    $('#btn-top').affix
+      offset:
+        top: ()->
+          document.documentElement.clientHeight + 200
+        bottom: 200
+    $('#btn-top').on 'click', (e)->
+      e.preventDefault()
+      $('body,html').animate
+          scrollTop: 0
+        , 700
 
 #   lightbox images gallery
     lightboxImages = (slector) ->

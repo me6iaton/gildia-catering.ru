@@ -393,3 +393,40 @@ footer
         &:hover
           background: transparent
           color: $link-hover-color
+
+#btn-top
+  +display(flex)
+  height: 50px
+  width: 50px
+  position: fixed
+  bottom: 30px
+  right: 30px
+  color: $text-bg-color
+  font-size: 40px
+  +justify-content(center)
+  +align-items(center)
+  box-shadow: 0 0 10px rgba(black, 0.05)
+  overflow: hidden
+  white-space: nowrap
+  background: rgba($link-top-color, 0.8)
+  visibility: hidden
+  opacity: 0
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s
+  -moz-transition: opacity .3s 0s, visibility 0s .3s
+  transition: opacity .3s 0s, visibility 0s .3s
+  z-index: 99999
+  .fa
+    position: relative
+    top: -2px
+  &.affix
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s
+    -moz-transition: opacity .3s 0s, visibility 0s 0s
+    transition: opacity .3s 0s, visibility 0s 0s
+    visibility: visible
+    opacity: 1
+  &:hover
+    background-color: rgba($link-top-color, 1)
+    opacity: 1
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s
+    -moz-transition: opacity .3s 0s, visibility 0s 0s
+    transition: opacity .3s 0s, visibility 0s 0s
