@@ -1,0 +1,14 @@
+= content main
+  .container
+    = include partials/news-head.html .
+    {{ range $index, $element := .Data.Pages}}
+    article.row.row-places
+      .col-md-14
+        a href="{{.RelPermalink}}"
+          img.img-responsive src="{{.Params.image}}=w700-h300-c"
+      .md-10
+        h2.head {{.Title}}
+        p {{.Summary}}
+        a.more href="{{.RelPermalink}}" подробнее...
+    {{end}}
+    = include partials/clients.html .

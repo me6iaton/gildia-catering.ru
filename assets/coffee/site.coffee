@@ -31,12 +31,21 @@
     if $flagNavbarMainScroll  and $flagDocWidthXs
       $navbarMain.addClass('collapse affix')
       $navbarMainBtn.show()
+
     uri = new URI()
+    uriSegmentFirst = uri.segment(0)
     $('#navbar-main-collapse ul li a').each(()->
       $this = $(this)
-      if $this.attr('href') and new URI($this.attr('href')).segment(0) == uri.segment(0)
+      if $this.attr('href') and new URI($this.attr('href')).segment(0) == uriSegmentFirst
         $this.parent().addClass('active')
     )
+    $('.nav-btns-active a').each ()->
+      $this = $(this)
+      if $this.attr('href') and new URI($this.attr('href')).segment(0) == uriSegmentFirst
+        $this.addClass('selected')
+    if uriSegmentFirst == "articles"
+      $('#navbar-main-collapse ul li a[href="/news/"]').parent().addClass('active')
+    console.log(uriSegmentFirst)
 
 #   hyphenate
     $('.hypher').hyphenate('ru')

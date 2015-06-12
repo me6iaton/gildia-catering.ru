@@ -26,7 +26,7 @@
       {{range $index, $element := .Params.food }}
         {{ $.Scratch.Add "menuindex" $index}}
         .tab-pane id="menu{{$index}}"
-          ul.nav-btns.nav-btns-person
+          ul.nav-btns.nav-btns-left.nav-btns-person
             {{range $index, $element := .person }}
             a.btn.btn-outlined.btn-lg href=".menu{{ $.Scratch.Get "menuindex" }}person{{$index}}" {{.name}}
             {{end}}
@@ -51,7 +51,7 @@
                     {{end}}
                     {{end}}
             {{end}}
-          ul.nav-btns.nav-btns-person
+          ul.nav-btns.nav-btns-left.nav-btns-person
             {{range $index, $element := .person }}
             a.btn.btn-outlined.btn-lg href=".menu{{ $.Scratch.Get "menuindex" }}person{{$index}}" {{.name}}
             {{end}}

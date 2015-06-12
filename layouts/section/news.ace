@@ -1,0 +1,15 @@
+= content main
+  .container
+    = include partials/news-head.html .
+    .row.row-flexbox.row-news.clearfix
+      {{ range $index, $element := .Data.Pages}}
+      .col-md-8
+        a href="{{.RelPermalink}}"
+          img.img-responsive src="{{.Params.image}}=w360-h154-c"
+        h3 {{.Title}}
+        .summary {{.Summary}}
+        span.date {{dateFormat "02.01.2006" .Date}}
+        a.more.pull-right href="{{.RelPermalink}}" подробнее...
+      {{end}}
+
+    = include partials/clients.html .

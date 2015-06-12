@@ -1,0 +1,19 @@
+= content main
+  .container
+    .clearfix
+      ul.nav-btns.nav-btns-right.nav-btns-active.pull-right
+        a class="btn btn-outlined" href="/news/"  НОВОСТИ
+        a.btn.btn-outlined href="/articles/" СТАТЬИ
+    img.img-responsive.center-block src="{{.Params.image}}=w1000-h563-c"
+    h2 {{.Title}}
+    .content
+      {{.Content}}
+  {{ if isset .Params "gallery" }}
+  .container.container-ggrid
+    a.gphoto-ggrid-lightbox href="{{.Params.gallery}}" ...
+  {{end}}
+  .container
+    .clearfix
+      ul.nav-btns.nav-btns-right.nav-btns-active.pull-right
+        a class="btn btn-outlined" href="/news/"  НОВОСТИ
+        a.btn.btn-outlined href="/articles/" СТАТЬИ

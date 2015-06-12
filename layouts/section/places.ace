@@ -1,0 +1,20 @@
+= content main
+  .container
+    article.cut
+      .sub.col-md-17
+        img src="{{.Site.Params.places.image}}=w807-h454-c"
+      .incut.col-md-16
+        h2 {{.Site.Params.places.title}}
+        .description
+          {{.Site.Params.places.content | markdownify}}
+    {{ range $index, $element := .Data.Pages}}
+    article.row.row-places
+      .col-md-14
+        a href="{{.RelPermalink}}"
+          img.img-responsive src="{{.Params.image}}=w700-h300-c"
+      .md-10
+        h2.head {{.Title}}
+        p {{.Summary}}
+        a.more href="{{.RelPermalink}}" подробнее...
+    {{end}}
+    = include partials/clients.html .

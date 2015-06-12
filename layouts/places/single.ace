@@ -1,0 +1,17 @@
+= content main
+  .container
+    article.row
+      .col-md-12
+        h2.head {{.Title}}
+        {{.Content}}
+      .col-md-12
+        img.img-responsive src="{{.Params.image}}=w555"
+    {{ if isset .Params "gallery" }}
+    a#gallery title="anchor"
+    .separator-btn.separator-btn-swiper#swiperGalleryBtn
+      .swiper-button-prev.swiper-button-black
+      a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
+      .swiper-button-next.swiper-button-black
+    a.swiper-link-gallery href="{{.Params.gallery}}" фотогаллерея
+    {{end}}
+    = include partials/clients.html .

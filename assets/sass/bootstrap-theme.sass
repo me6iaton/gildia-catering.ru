@@ -268,6 +268,7 @@ form
   white-space: nowrap
   font-weight: 700
   text-transform: uppercase
+  border: 4px solid
   @include transition(all 0.3s)
   &.btn-title
     cursor: default
@@ -276,11 +277,16 @@ form
     background: $brand-primary
     border-color: $brand-primary
 
+
 .btn-lg
   @include rem(font-size, 18px)
   @include rem(line-height, 22px)
   @include rem(padding, 13px 40px)
-  border: 4px solid
+
+.btn-lg
+  @include rem(font-size, 18px)
+  @include rem(line-height, 22px)
+  @include rem(padding, 13px 40px)
 
 h1, .h1
   @include rem(font-size, $font-size-h1)

@@ -53,10 +53,10 @@ body
       @include justify-content(center)
       @include align-items(center)
 
-
 .page-header-siple
   @extend .page-header
   border-bottom: none
+  margin-top: 0
 
 .cut
   position: relative
@@ -130,6 +130,10 @@ $margin-bottom: 2rem
   list-style: none
   padding: 0
   margin-bottom: $margin-bottom
+  a.selected
+    background: $brand-primary
+    color: $text-bg-color
+    border: 4px solid $brand-primary
   &-top
     @include display(flex)
     @include justify-content(flex-end)
@@ -170,15 +174,12 @@ $margin-bottom: 2rem
           font-weight: 700
           letter-spacing: 0.05rem
           font-kerning: auto
-          //font-size: $font-size-h2
-  &-person
+  &-left
     a
       margin-right: 2rem
-      &.selected
-        background: $brand-primary
-        color: $text-bg-color
-        border: 4px solid $brand-primary
-    //@include justify-content(center)
+  &-right
+    a
+      margin-left: 2rem
 
 .table
   border-spacing: 0.6rem
@@ -206,9 +207,9 @@ $margin-bottom: 2rem
 .dl-data
   margin: 1rem 0 0 0
 
-//a[title="anchor"]
-  //position: relative
-  //top: -50px
+//.nav-btns-active
+//  margin: 40px 0 20px
+
 /*  main
  *=================================================================
 
@@ -361,6 +362,18 @@ $tabs-service-top: 40px
     img
       margin-bottom: 30px
 
+
+.row-places
+  margin-bottom: 2rem
+.row-news
+  >div
+    margin-bottom: 2rem
+
+a.more
+  color: $text-color
+  font-weight: 700
+  &:hover
+    color: $link-hover-color
 /*  footer
  *=================================================================
 
