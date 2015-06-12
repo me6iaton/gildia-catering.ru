@@ -61,18 +61,10 @@
         timerId = setInterval(callback, remaining)
       @resume()
 
-    $('#serviceTabs a:first').tab('show')
-
 #    sliderTimer = new TimerInterval((->
 #      $('#serviceSlider .icon-right').click()
 #    ), $('#serviceSlider').data('sliderTimeout'))
 
-    sliderTimerHover = null
-    $('#serviceTabs .tab').hover ->
-      clearTimeout(sliderTimerHover) if sliderTimerHover
-      sliderTimerHover = setTimeout( () =>
-        $(@).tab 'show'
-      , $('#serviceSlider').data('sliderTimeoutHover'))
 
 #    $('#serviceTabs .tab, #serviceSlider').hover(
 #      ->
@@ -80,14 +72,24 @@
 #      ,->
 #        sliderTimer.resume()
 #    )
-    $('#serviceSlider .icon-right').click ->
-      $next = $('#serviceTabs .active').next().find('a')
-      $next = $('#serviceTabs a:first') if (!$next.length)
-      $next.tab 'show'
-    $('#serviceSlider .icon-left').click ->
-      $next = $('#serviceTabs .active').prev().find('a')
-      $next = $('#serviceTabs a:last') if (!$next.length)
-      $next.tab 'show'
+
+    swiperIndex = new Swiper('#swiperIndex', {
+      loop: true
+      nextButton:  '#swiperIndex .icon-left'
+      prevButton: '#swiperIndex .icon-right'
+      slidesPerView: 1
+      effect: 'fade'
+      speed: 1000
+      paginationClickable: true
+    })
+
+    sliderTimerHover = null
+    $('#serviceTabs .tab').hover ->
+      clearTimeout(sliderTimerHover) if sliderTimerHover
+      sliderTimerHover = setTimeout( () =>
+        console.log($(@).index())
+        swiperIndex.slideTo($(@).index() + 1)
+      , $('#swiperIndex').data('sliderTimeoutHover'))
 
 #   why us
     transform = (a, b) ->

@@ -11,5 +11,9 @@
         span.date {{dateFormat "02.01.2006" .Date}}
         a.more.pull-right href="{{.RelPermalink}}" подробнее...
       {{end}}
-
+    .clearfix
+      ul.nav-btns.nav-btns-right.nav-btns-active.pull-right
+        a class="btn btn-outlined" href="/news/"  НОВОСТИ
+        a.btn.btn-outlined href="/articles/" СТАТЬИ
+    = include partials/services-promo.html .
     = include partials/clients.html .

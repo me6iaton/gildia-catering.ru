@@ -17,4 +17,5 @@
         p {{.Summary}}
         a.more href="{{.RelPermalink}}" подробнее...
     {{end}}
+    = include partials/services-promo.html .
     = include partials/clients.html .

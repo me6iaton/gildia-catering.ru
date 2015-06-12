@@ -14,4 +14,4 @@
       .swiper-button-next.swiper-button-black
     a.swiper-link-gallery href="{{.Params.gallery}}" фотогаллерея
     {{end}}
-    = include partials/clients.html .
+    = include partials/services-promo.html .

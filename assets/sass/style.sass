@@ -21,11 +21,20 @@ body
   padding-left: 0
   padding-right: 0
   max-width: 1600px
+  position: relative
+  overflow: hidden
 
 .container-fluid
   padding-left: 0
   padding-right: 0
   max-width: 1600px
+  .row
+    margin-left: 0px
+    margin-right: 0px
+    >div:first-child
+      padding-left: 0
+    >div:last-child
+      padding-right: 0
 
 .swiper-container
   width: 100%
@@ -217,10 +226,14 @@ $margin-bottom: 2rem
     min-height: 1000px
 
 $tabs-service-top: 40px
-#serviceSlider.tab-content
-  position: relative
-  z-index: -10
-  .tab-pane
+
+
+#swiperIndex
+  background-color: $brand-primary
+  .swiper-slide
+    @include respond-to(xs)
+      .row-flexbox
+        @include flex-direction(column)
     .slider-img, .slider-text
       background-color: $brand-primary
     .slider-img
@@ -251,14 +264,14 @@ $tabs-service-top: 40px
           display: inline-block
           height: 1.5rem
           padding: 0 1rem
-        @include respond-to(lg)
-          @include rem(font-size, floor($font-size-h2*1.1))
-          .dot-right, .dot-left
-            height: 1.8rem
+        //@include respond-to(lg)
+        //  @include rem(font-size, floor($font-size-h2*1.1))
+        //  .dot-right, .dot-left
+        //    height: 1.8rem
       .slider-desc
         margin-top: 5px
-        @include respond-to(lg)
-          @include rem(font-size, floor($font-size-h3*1.1))
+        //@include respond-to(lg)
+        //  @include rem(font-size, floor($font-size-h3*1.1))
         li
           text-align: left
           margin-bottom: 5px
@@ -269,15 +282,19 @@ $tabs-service-top: 40px
     font-size: 60px
     color: $text-bg-color
     cursor: pointer
+    z-index: 10
   .icon-left
     left: -5px
   .icon-right
-    right:  -5px
+    right: -5px
 
 .tabs-service
   list-style: none
   padding: 0
-  top: -$tabs-service-top
+  &.tabs-service-promo
+    margin: 3rem 0 4rem 0
+  &#serviceTabs
+    top: -$tabs-service-top
   @extend .shadow-curved-hz-1
   a
     border-radius: 4px
