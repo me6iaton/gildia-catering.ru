@@ -1,6 +1,6 @@
 = content main
   .container
-    = include partials/news-head.html .
+    = include partials/news-top.html .
     {{ range $index, $element := .Data.Pages}}
     article.row.row-places
       .col-md-14
@@ -11,4 +11,5 @@
         p {{.Summary}}
         a.more href="{{.RelPermalink}}" подробнее...
     {{end}}
+    = include partials/news-bottom.html .
     = include partials/clients.html .

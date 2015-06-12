@@ -1,0 +1,4 @@
+.clearfix
+  ul.nav-btns.nav-btns-right.nav-btns-active.pull-right
+    a class="btn btn-outlined" href="/news/"  НОВОСТИ
+    a.btn.btn-outlined href="/articles/" СТАТЬИ
