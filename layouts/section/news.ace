@@ -12,5 +12,3 @@
         a.more.pull-right href="{{.RelPermalink}}" подробнее...
       {{end}}
     = include partials/news-bottom.html .
-    = include partials/nav-services.html .
-    = include partials/clients.html .

@@ -12,4 +12,3 @@
         a.more href="{{.RelPermalink}}" подробнее...
     {{end}}
     = include partials/news-bottom.html .
-    = include partials/clients.html .

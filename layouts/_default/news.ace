@@ -18,3 +18,4 @@
         a class="btn btn-outlined" href="/news/"  НОВОСТИ
         a.btn.btn-outlined href="/articles/" СТАТЬИ
     = include partials/nav-services.html .
+    = include partials/nav-event.html .
