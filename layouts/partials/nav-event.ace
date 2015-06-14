@@ -1,5 +1,5 @@
 .separator-btn
-  h2.btn-title.btn.btn-outlined.btn-lg href="#"  ИВЕНТ-КОМПЛЕКС
+  a.btn.btn-outlined.btn-lg href="/event-complex/"  ИВЕНТ-КОМПЛЕКС
 ul.row-flexbox.tabs-service.tabs-service-promo.nav-event
   {{range $index, $element := where .Site.Pages "Section" "event-complex" }}
   a.tab href="{{.RelPermalink}}"

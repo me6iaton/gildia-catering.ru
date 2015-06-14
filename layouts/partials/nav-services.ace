@@ -1,5 +1,5 @@
 .separator-btn
-  h2.btn-title.btn.btn-outlined.btn-lg href="#"  Услуги
+  a.btn.btn-outlined.btn-lg href="/services/"  Услуги
 ul.row-flexbox.tabs-service.tabs-service-promo
   {{range $index, $element := where .Site.Pages "Section" "menu" }}
   a.tab href="{{.RelPermalink}}"
