@@ -1,0 +1,11 @@
+.separator-btn
+  h2.btn-title.btn.btn-outlined.btn-lg href="#"  ИВЕНТ-КОМПЛЕКС
+ul.row-flexbox.tabs-service.tabs-service-promo.nav-event
+  {{range $index, $element := where .Site.Pages "Section" "event-complex" }}
+  a.tab href="{{.RelPermalink}}"
+    .shadow-left
+    .wrap
+      .title.hypher {{.Title}}
+      img.img-responsive src="{{.Params.icon}}"
+    .shadow-right
+  {{ end }}

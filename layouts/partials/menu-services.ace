@@ -11,7 +11,7 @@ li.dropdown-full.no-shadow.no-border-radius class="{{ $.Scratch.Get "menu-active
           img.img-responsive src="{{.Params.icon}}"
         {{ end }}
       h3.page-header Ивент-комплекс
-      nav.row.row-flexbox
+      nav.row.row-flexbox.nav-event
         {{ range where .Site.Pages "Section" "event-complex" }}
         a.col-xs-6.col-sm-5.col-md-3.flexhead href="{{.RelPermalink}}" title="{{.Title}}"
           .title.hypher {{.Title}}

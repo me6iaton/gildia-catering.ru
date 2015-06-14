@@ -25,4 +25,4 @@
             {{end}}
           a.more href="{{.RelPermalink}}" подробнее...
       {{end}}
-
+    = include partials/nav-event.html .
