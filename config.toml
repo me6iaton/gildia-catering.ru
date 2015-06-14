@@ -63,7 +63,6 @@ copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
   weight = 80
   url = "/contacts/"
 
-
 [params.slider]
   timeout = 5000
   timeoutHover = 200
@@ -80,5 +79,12 @@ copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
   image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
   content = """
 Компания имеет большой опыт в организации выездных банкетов. Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
+"""
+
+[params.event_complex]
+  title = "ИВЕНТ-КОМПЛЕКС"
+  image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
+  content = """
+Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
 """
 

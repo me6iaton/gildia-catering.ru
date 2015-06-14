@@ -14,7 +14,7 @@
                 span {{.Params.slider.title}}
                 span.dot-right *
               h3.slider-desc
-                {{.Params.slider.description | safeHtml}}
+                {{.Params.slider.description | safeHTML}}
       {{ end }}
 
   .container.container-slider-tabs

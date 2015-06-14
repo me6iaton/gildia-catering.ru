@@ -1,0 +1,25 @@
+= content main
+  .container
+    article.cut
+      .sub.col-md-17
+        img src="{{.Site.Params.places.image}}=w807-h454-c"
+      .incut.col-md-16
+        h2 {{.Site.Params.event_complex.title}}
+        .description
+          {{.Site.Params.event_complex.content | markdownify}}
+    .row.row-flexbox.row-event
+      {{ range where .Site.Pages "Section" "event-complex" }}
+      .col-md-12
+        {{if .Params.image}}
+        a.icon href="{{.RelPermalink}}"
+          img.img-responsive src="{{.Params.image}}=w700-h300-c"
+        {{else}}
+        a.icon href="{{.RelPermalink}}"
+          img.img-responsive src="{{.Params.icon}}"
+        {{end}}
+        .description
+          h2 {{.Title}}
+          p {{.Summary}}
+          a.more href="{{.RelPermalink}}" подробнее...
+      {{end}}
+    = include partials/services-promo.html .

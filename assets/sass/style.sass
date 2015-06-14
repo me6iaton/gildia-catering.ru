@@ -112,6 +112,31 @@ body
         a.more
           float: left
 
+// event- compex
+.row-event
+  >div
+    margin-bottom: 3rem
+    .icon
+      +display(flex)
+      +justify-content(center)
+      margin-bottom: 1.2rem
+      img
+        width: 150px
+        height: 150px
+        border-radius: 75px
+        @extend .shadow-raised
+      +flex-shrink(0)
+    .description
+      padding: 1rem 1rem 1rem 2rem
+      h2
+        text-align: center
+        margin: 0 0 0 0
+      @extend .shadow-raised
+      a
+        display: block
+        text-align: right
+      //@extend .shadow-curved-hz-1
+
 /*  header
  *=================================================================
 header
