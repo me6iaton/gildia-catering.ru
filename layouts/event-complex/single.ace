@@ -8,9 +8,9 @@
         {{ if .Params.image }}
         img.img-responsive src="{{.Params.image}}=w555-h312-c"
         {{else}}
-        img.img-responsive src="http://lorempixel.com/555/555/food"
+        img.img-responsive src="http://lorempixel.com/555/312/food"
         {{end}}
-    {{ if .Params.gallery }}
+    {{ if isset .Params "gallery" }}
     a#gallery title="anchor"
     .separator-btn.separator-btn-swiper#swiperGalleryBtn
       .swiper-button-prev.swiper-button-black
