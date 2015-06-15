@@ -1,0 +1,37 @@
+= content main
+  .container
+    h2.page-header-siple {{.Title}}
+    #accordion.panel-group
+      {{range $index, $element := .Params.accordion }}
+      {{ $.Scratch.Add "panelIndex" $index}}
+      .panel.panel-success
+        .panel-heading
+          h4.panel-title
+            a data-parent="#accordion" data-toggle="collapse" href="#collapse{{$index}}"  {{.name}}
+        .panel-collapse.collapse id="collapse{{$index}}"
+          .panel-body
+            {{range $index, $element := .item}}
+            .row
+              {{if .gallery}}
+              .col-md-4
+                img.img-responsive src="{{.image}}=w200-c"
+              .col-md-12
+                h4.head {{.name}}
+                {{.description}}
+              .col-md-8
+                .arrows
+                  i.fa.fa-angle-left
+                  i.fa.fa-angle-right
+                a.swiper-link-artists href="{{.gallery}}"
+              {{else}}
+              .col-md-8
+                img.img-responsive src="{{.image}}=w320"
+              .col-md-16
+                h4.head {{.name}}
+                {{.description}}
+              {{end}}
+            {{end}}
+      {{end}}
+
+    = include partials/nav-services.html .
+    = include partials/nav-event.html .

@@ -61,6 +61,11 @@ body
       @include display(flex)
       @include justify-content(center)
       @include align-items(center)
+  &.swiper-artists
+    padding: 0
+    .swiper-slide
+      width: auto
+      height: auto
 
 .page-header-siple
   @extend .page-header
@@ -152,6 +157,27 @@ header
   h3
     margin-top: 10px
 
+/*  accordion
+ *=================================================================
+#accordion
+  margin-bottom: 2rem
+  .row
+    margin-bottom: 1.3rem
+    &:last-child
+      margin-bottom: 0
+    .arrows
+      float: right
+      font-size: $font-size-h3
+      .fa
+        margin-left: 2rem
+        cursor: pointer
+        color: $gray-light
+        &:hover
+          color: $text-color
+  .panel
+    margin-bottom: 0.5rem
+    .panel-heading
+      cursor: pointer
 /*  food table
  *=================================================================
 $margin-bottom: 2rem

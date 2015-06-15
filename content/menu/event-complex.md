@@ -1,9 +1,9 @@
 +++
 title = "Ивент-комплекс"
+layout = "event-complex"
 weight = 8
 description = ""
 icon = "/images/menu/эвент2.svg"
-layout = "event-complex"
 url = "event-complex/"
 [slider]
   title = "ИВЕНТ-КОМПЛЕКС" 

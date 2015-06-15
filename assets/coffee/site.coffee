@@ -269,6 +269,33 @@
         spaceBetween: 20
     )
 
+    $('a.swiper-link-artists').gphoto(
+      provider: 'swiper'
+      imageSize: 'w1600'
+      thumbSize: 'w150-h150-c'
+      containerClass: 'swiper-artists'
+      swiper:
+        loop: true
+        nextButton:  '#swiperCarouselBtn .swiper-button-next'
+        prevButton: '#swiperCarouselBtn .swiper-button-prev'
+        slidesPerView: 3
+        slidesPerGroup: 3
+        paginationClickable: true
+        spaceBetween: 10
+    )
+    $('#accordion a').one 'click', ()->
+      $(@).closest('.panel').find('.swiper-container').each ()->
+        setTimeout ()=>
+          @.swiper.update(true)
+        , 100
+    $('#accordion .fa-angle-left').on 'click', (e)->
+      $(@).parent().parent().find('.swiper-container')[0].swiper.slidePrev()
+    $('#accordion .fa-angle-right').on 'click', (e)->
+      $(@).parent().parent().find('.swiper-container')[0].swiper.slideNext()
+#    $('#accordion .panel-heading').on 'click', (e)->
+#      console.log($(@).find('a'))
+##      $(@).find('a').triggerHandler('click')
+
 #   Clients carousel
     swiperCarousel = new Swiper('.swiper-carousel', {
       loop: true
