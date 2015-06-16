@@ -18,7 +18,7 @@
         span.hidden-xs.hidden-ms Обратный звонок
         span.visible-xs.visible-ms Звонок
     li
-      a href="#"  Контакты
+      a href="/contacts/"  Контакты
   ul.nav.navbar-nav.navbar-right
     li
       a.btn-order.btn-popup href="#popup-order"
