@@ -423,7 +423,7 @@ $tabs-service-top: 40px
       @include display(flex)
       @include justify-content(center)
       @include align-items(center)
-      box-shadow: 0 2px 5px 0 rgba(51, 51, 51, 0.70)
+      @extend .shadow-raised
       background: $body-bg
   &-detail
     position: absolute
@@ -434,7 +434,6 @@ $tabs-service-top: 40px
     height: calc(100% - #{$grid-gutter-width})
     background-color: $body-bg
     cursor: pointer
-    //overflow: hidden
     .page-header
       margin-top: 0
       text-align: right
