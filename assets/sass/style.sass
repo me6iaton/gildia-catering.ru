@@ -450,6 +450,28 @@ a.more
   font-weight: 700
   &:hover
     color: $link-hover-color
+
+/*  contacts
+ *=================================================================
+.container-map
+  position: relative
+  margin-bottom: 3rem
+  .contacts
+    position: absolute
+    left: 25px
+    top: 90px
+    padding: 0.1rem 1.5rem
+    background: $body-bg
+    @extend .shadow-raised
+    +respond-to(xs)
+      position: static
+      margin-top: 3rem
+    .org
+      font-family: $font-family-serif
+    address
+      strong
+        display: block
+
 /*  footer
  *=================================================================
 
