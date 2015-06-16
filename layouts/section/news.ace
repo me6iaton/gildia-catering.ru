@@ -2,7 +2,8 @@
   .container
     = include partials/news-top.html .
     .row.row-flexbox.row-news.clearfix
-      {{ range $index, $element := .Data.Pages}}
+      {{ $paginator := .Paginate (.Data.Pages) }}
+      {{ range $index, $element := $paginator.Pages}}
       .col-md-8
         a href="{{.RelPermalink}}"
           img.img-responsive src="{{.Params.image}}=w360-h154-c"

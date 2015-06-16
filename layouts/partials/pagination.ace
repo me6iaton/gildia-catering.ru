@@ -1,0 +1,14 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+  ul.pagination.pull-left
+    li class="{{ if not $pag.HasPrev }}disabled{{ end }}"
+      a href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}"
+        span &laquo;
+    {{ range $pag.Pagers }}
+    li class="{{ if eq . $pag }}active{{ end }}"
+      a href="{{ .URL }}" {{ .PageNumber }}
+    {{end}}
+    li class="{{ if not $pag.HasNext }}disabled{{ end }}"
+      a href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}"
+        span &raquo;
+{{ end }}

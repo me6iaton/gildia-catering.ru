@@ -1,3 +1,4 @@
+= include partials/pagination.html .
 .clearfix
   ul.nav-btns.nav-btns-right.nav-btns-active.pull-right
     a class="btn btn-outlined" href="/news/"  НОВОСТИ
