@@ -149,8 +149,7 @@
 #   #btn scroll top
     $('#btn-top').affix
       offset:
-        top: ()->
-          document.documentElement.clientHeight + 200
+        top: 500
         bottom: 200
     $('#btn-top').on 'click', (e)->
       e.preventDefault()
