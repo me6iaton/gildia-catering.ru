@@ -1,6 +1,6 @@
 = content main
   .container
-    h2.page-header-siple МЕНЮ
+    / h2.page-header-siple МЕНЮ
     section.zigzag
       {{ range where .Site.Pages "Section" "menu" }}
       article.cut
