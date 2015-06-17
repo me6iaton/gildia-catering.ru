@@ -66,6 +66,12 @@
                     em {{$index}}: {{$element}}
                 {{end}}
               {{end}}
+              {{if .pdf}}
+              a.btn-order.btn-menu-pdf target="_blank" href="{{.pdf}}"
+                i.fa.fa-file-pdf-o
+                span СКАЧАТЬ МЕНЮ
+                = include partials/triangle.html
+              {{end}}
             {{end}}
       {{end}}
       {{ if isset .Params "gallery" }}

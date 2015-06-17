@@ -34,6 +34,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "http://lorempixel.com/400/400/food"
   [[food.person]]
     name = "на 50 персон"
+    pdf = "/pdf/menu-banket-econom-50persons.jpg"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
