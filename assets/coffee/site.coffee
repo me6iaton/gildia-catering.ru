@@ -52,45 +52,61 @@
 #endregion
 
 #region   main slider
-    TimerInterval = (callback, delay) ->
-      timerId = undefined
-      remaining = delay
-      @pause = ->
-        clearTimeout timerId
-      @resume = ->
-        clearTimeout timerId
-        timerId = setInterval(callback, remaining)
-      @resume()
+    if ($('#swiperIndex')[0])
+      TimerInterval = (callback, delay) ->
+        timerId = undefined
+        remaining = delay
+        @pause = ->
+          clearTimeout timerId
+        @resume = ->
+          clearTimeout timerId
+          timerId = setInterval(callback, remaining)
+        @resume()
 
-#    sliderTimer = new TimerInterval((->
-#      $('#serviceSlider .icon-right').click()
-#    ), $('#serviceSlider').data('sliderTimeout'))
+      swiperIndex = new Swiper('#swiperIndex', {
+        loop: true
+        nextButton:  '#swiperIndex .icon-right'
+        prevButton: '#swiperIndex .icon-left'
+        slidesPerView: 1
+        effect: 'fade'
+        speed: 1000
+        paginationClickable: true
+      })
 
+      sliderTimer = new TimerInterval ()->
+        swiperIndex.update(true)
+        swiperIndex.slideNext()
+      , $('#swiperIndex').data('sliderTimeout')
 
-#    $('#serviceTabs .tab, #serviceSlider').hover(
-#      ->
-#        sliderTimer.pause()
-#      ,->
-#        sliderTimer.resume()
-#    )
+      sliderTimerAutoplay = null
+      $('#serviceTabs .tab, #swiperIndex').hover(
+        ->
+          clearTimeout(sliderTimerAutoplay) if sliderTimerAutoplay
+          sliderTimerAutoplay = setTimeout () ->
+            sliderTimer.pause()
+  #          console.log('end')
+          , 100
+        ,->
+          sliderTimerAutoplay = setTimeout () ->
+            sliderTimer.resume()
+  #          console.log('start')
+          , 100
+      )
 
-    swiperIndex = new Swiper('#swiperIndex', {
-      loop: true
-      nextButton:  '#swiperIndex .icon-left'
-      prevButton: '#swiperIndex .icon-right'
-      slidesPerView: 1
-      effect: 'fade'
-      speed: 1000
-      paginationClickable: true
-    })
+      $('#serviceTabs .tab').eq(0).addClass 'hover'
+      swiperIndex.on 'slideChangeStart',  ()->
+        index = swiperIndex.activeIndex - 1
+        index = 0 if(index == 8)
+  #      console.log(index)
+        $('#serviceTabs .tab').removeClass 'hover'
+        $('#serviceTabs .tab').eq(index).addClass 'hover'
 
-    sliderTimerHover = null
-    $('#serviceTabs .tab').hover ->
-      clearTimeout(sliderTimerHover) if sliderTimerHover
-      sliderTimerHover = setTimeout( () =>
-        console.log($(@).index())
-        swiperIndex.slideTo($(@).index() + 1)
-      , $('#swiperIndex').data('sliderTimeoutHover'))
+      sliderTimerHover = null
+      $('#serviceTabs .tab').hover ->
+        clearTimeout(sliderTimerHover) if sliderTimerHover
+        sliderTimerHover = setTimeout( () =>
+          swiperIndex.slideTo( $(@).index() + 1)
+        , $('#swiperIndex').data('sliderTimeoutHover'))
 
 #endregion
 

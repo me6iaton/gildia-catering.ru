@@ -378,7 +378,7 @@ $tabs-service-top: 40px
       @include display(flex)
       @include align-items(center)
       @include justify-content(center)
-    &:hover
+    &:hover, &.hover
       &:after
         display: none
       z-index: 2
@@ -393,7 +393,7 @@ $tabs-service-top: 40px
   border-radius: 0 $border-radius-base $border-radius-base 0
 .tabs-service
   border-radius: $border-radius-base
-  a:first-child:hover,a:first-child:hover, a:hover
+  a:first-child:hover,a:first-child:hover, a:hover, a.hover
     border-radius: $border-radius-base
     .wrap
       border-radius: $border-radius-base
