@@ -1,7 +1,9 @@
 (($) ->
   $ ->
-#   menu
+#   hyphenate
+    $('.hypher').hyphenate('ru')
 
+#region   menu
 #    $('.dropdown-full').hover(->
 #      if (!$(@).hasClass('open'))
 #        $(@).find('.dropdown-toggle').dropdown('toggle')
@@ -9,6 +11,7 @@
 #      if ($(@).hasClass('open'))
 #        $(@).find('.dropdown-toggle').dropdown('toggle')
 #    )
+
     $navbarMain = $('#navbar-main')
     $navbarMainBtn = $('#navbar-main-btn')
     $flagDocWidthXs = $(window).width() > 768
@@ -46,11 +49,9 @@
     if uriSegmentFirst == "articles"
       $('#navbar-main-collapse ul li a[href="/news/"]').parent().addClass('active')
     console.log(uriSegmentFirst)
+#endregion
 
-#   hyphenate
-    $('.hypher').hyphenate('ru')
-
-#   main slider
+#region   main slider
     TimerInterval = (callback, delay) ->
       timerId = undefined
       remaining = delay
@@ -91,7 +92,9 @@
         swiperIndex.slideTo($(@).index() + 1)
       , $('#swiperIndex').data('sliderTimeoutHover'))
 
-#   why us
+#endregion
+
+#region   why us
     transform = (a, b) ->
       # set the stage so ramjet copies the right styles...
       b.classList.remove 'hidden'
@@ -108,8 +111,9 @@
 
     $('.whyus-intro').click -> transform(@, @.nextSibling)
     $('.whyus-detail').click -> transform(@, @.previousSibling)
+#endregion
 
-#   lightbox form
+#region   lightbox form
     magnificPopup = $.magnificPopup.instance
     $('.btn-popup').magnificPopup
       type: 'inline'
@@ -145,8 +149,9 @@
             console.error(xhr)
             console.error(str)
             alert('Возникла ошибка: ' + xhr.responseCode)
+#endregion
 
-#   #btn scroll top
+#region   #btn scroll top
     $('#btn-top').affix
       offset:
         top: 500
@@ -156,8 +161,9 @@
       $('body,html').animate
           scrollTop: 0
         , 700
+#endregion
 
-#   lightbox images gallery
+#region   lightbox images gallery
     lightboxImages = (slector) ->
       $(slector).magnificPopup
         delegate: 'a'
@@ -173,8 +179,9 @@
           duration: 300
           opener: (element) ->
             element.find 'img'
+#endregion
 
-#   gphoto images grid
+#region   gphoto images grid
     $.fn.gphoto.provider['ggrid'] =
       filter: (imageUrl, image) ->
         imageUrl: imageUrl
@@ -204,8 +211,9 @@
       template: '1-2-2'
       lightbox: true
     )
+#endregion
 
-#   gphoto gallery
+#region gphoto gallery
     $.fn.gphoto.provider['swiper'] =
       filter: (imageUrl, image)->
         image: "#{imageUrl}/#{@.imageSize}/"
@@ -294,8 +302,9 @@
 #    $('#accordion .panel-heading').on 'click', (e)->
 #      console.log($(@).find('a'))
 ##      $(@).find('a').triggerHandler('click')
+#endregion
 
-#   Clients carousel
+#region   Clients carousel
     swiperCarousel = new Swiper('.swiper-carousel', {
       loop: true
       nextButton:  '#btnClients .swiper-button-next'
@@ -305,8 +314,9 @@
       paginationClickable: true
       spaceBetween: 20
     })
+#endregion
 
-#   food tabs
+#region   food tabs
     $("#food .nav-btns-menu a").click((e)->
       e.preventDefault()
       $(@).parent().find('a').removeClass('selected')
@@ -325,6 +335,7 @@
 
     $('#food .table').each(()->
       $('tr.td').filter(':odd').addClass('even')
+#endregion
 
   )
 ) jQuery
