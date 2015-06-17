@@ -5,7 +5,7 @@ li.dropdown-full.no-shadow.no-border-radius class="{{ $.Scratch.Get "menu-active
   .dropdown-menu
     .container
       nav.row.row-flexbox.top
-        {{ range where .Site.Pages "Section" "menu" }}
+        {{ range where .Site.Pages "Section" "services" }}
         a.col-xs-6.col-sm-6.col-md-3.flexhead href="{{.RelPermalink}}" title="{{.Title}}"
           .title {{.Title}}
           img.img-responsive src="{{.Params.icon}}"

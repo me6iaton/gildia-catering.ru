@@ -3,7 +3,7 @@
     i.icon-left.icon-chevron-thin-left
     i.icon-right.icon-chevron-thin-right
     .swiper-wrapper
-      {{range $index, $element := where .Data.Pages "Section" "menu" }}
+      {{range $index, $element := where .Data.Pages "Section" "services" }}
         .swiper-slide
           .row-flexbox
             .flex.slider-img
@@ -19,8 +19,8 @@
 
   .container.container-slider-tabs
     ul#serviceTabs.tabs-service.row-flexbox
-      {{range $index, $element := where .Data.Pages "Section" "menu" }}
-      a.tab href="{{.RelPermalink}}"
+      {{range $index, $element := where .Data.Pages "Section" "services" }}
+      a.tab href="{{.RelPermalink}}#"
         .shadow-left
         .wrap
           .title.hypher {{.Title}}

@@ -2,7 +2,7 @@
   .container
     h2.page-header-siple НАШИ УСЛУГИ
     section.zigzag
-      {{ range where .Site.Pages "Section" "menu" }}
+      {{ range where .Site.Pages "Section" "services" }}
       article.cut
         a.sub.col-md-17 href="{{.RelPermalink}}"
           {{if .Params.image}}
