@@ -1,12 +1,6 @@
 = content main
   .container
-    article.cut
-      .sub.col-md-17
-        img src="{{.Site.Params.portfolio.image}}"
-      .incut.col-md-16
-        h2 {{.Site.Params.portfolio.title}}
-        .description
-          {{.Site.Params.portfolio.content | markdownify}}
+    = include partials/article-cut.html .Site.Params.portfolio
     {{ range $index, $element := .Data.Pages}}
     .separator-btn.separator-btn-swiper#btn{{$index}}
       .swiper-button-prev.swiper-button-black

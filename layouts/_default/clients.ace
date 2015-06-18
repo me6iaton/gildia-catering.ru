@@ -1,12 +1,6 @@
 = content main
   .container
-    article.cut
-      .sub.col-md-17
-        img src="{{.Params.image}}"
-      .incut.col-md-16
-        h2 {{.Title}}
-        .description
-          {{.Content}}
+    = include partials/article-cut.html .
     .row.row-flexbox.row-img
       {{$count := 12}}
       {{range $index, $element := seq $count}}

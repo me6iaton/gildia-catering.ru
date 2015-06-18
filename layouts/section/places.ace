@@ -1,12 +1,6 @@
 = content main
   .container
-    article.cut
-      .sub.col-md-17
-        img src="{{.Site.Params.places.image}}=w807-h454-c"
-      .incut.col-md-16
-        h2 {{.Site.Params.places.title}}
-        .description
-          {{.Site.Params.places.content | markdownify}}
+    = include partials/article-cut.html .Site.Params.places
     {{ range $index, $element := .Data.Pages}}
     article.row.row-places
       .col-md-14
