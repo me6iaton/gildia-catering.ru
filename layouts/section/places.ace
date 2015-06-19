@@ -3,10 +3,10 @@
     = include partials/article-cut.html .Site.Params.places
     {{ range $index, $element := .Data.Pages}}
     article.row.row-places
-      .col-md-14
+      .col-md-13
         a href="{{.RelPermalink}}"
           img.img-responsive src="{{.Params.image}}=w700-h300-c"
-      .col-md-10
+      .col-md-11
         h2.head {{.Title}}
         p {{.Summary}}
         a.more href="{{.RelPermalink}}" подробнее...

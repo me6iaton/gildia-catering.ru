@@ -1,7 +1,7 @@
 = content main
   .container
     h2.page-header-siple НАШИ УСЛУГИ
-    section.zigzag.zigzag-services
+    section.zigzag
       {{ range where .Site.Pages "Section" "services" }}
       article.cut
         a.sub.col-md-13 href="{{.RelPermalink}}"

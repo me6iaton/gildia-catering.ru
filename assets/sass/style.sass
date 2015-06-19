@@ -88,22 +88,20 @@ body
 //    +respond-to(xs)
 //      margin-bottom: 1rem
 
-.zigzag-services
-  .cut
-    min-height: 347px !important
 .cut
   position: relative
-  padding-top: 3rem
-  margin-bottom: 5rem
-  min-height: 454px
+  padding-top: 2rem
+  min-height: 347px
+  margin-left: -($grid-gutter-width / 2)
+  margin-right: -($grid-gutter-width / 2)
+  margin-bottom: 4rem
   >.sub
-    padding: 0
     position: absolute
     left: 0px
     top: 0px
-    @extend .shadow-raised
     img
       border-radius: $border-radius-base
+      @extend .shadow-raised
   .incut
     float: right
     margin: 0 0 0 0
@@ -123,6 +121,21 @@ body
       font-weight: 700
       &:hover
         color: $link-hover-color
+  +respond-to(md)
+    min-height: 286px
+  +respond-to(max-sm)
+    min-height: 0
+    padding-top: 0px
+    margin-bottom: 1.5rem
+    >.sub
+      position: static
+      display: block
+    .incut
+      float: none !important
+      overflow: hidden
+      position: relative
+      top: -20px
+
 .zigzag
   .cut
     &:nth-child(2n)

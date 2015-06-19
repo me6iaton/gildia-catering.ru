@@ -4,13 +4,13 @@
     section.zigzag
       {{ range where .Site.Pages "Section" "services" }}
       article.cut
-        a.sub.col-md-17 href="{{.RelPermalink}}#menu"
+        a.sub.col-md-13 href="{{.RelPermalink}}#menu"
           {{if .Params.image}}
-          img src="{{.Params.image}}=w807-h454-c"
+          img.img-responsive src="{{.Params.image}}=w807-h454-c"
           {{else}}
-          img src="http://lorempixel.com/807/454/food"
+          img.img-responsive src="http://lorempixel.com/807/454/food"
           {{end}}
-        .incut.col-md-16
+        .incut.col-md-15
           {{if .Params.menulist.title}}
             h3 {{.Params.menulist.title}}
           {{else}}
