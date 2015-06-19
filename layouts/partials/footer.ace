@@ -2,7 +2,7 @@ footer
   nav.navbar.navbar-promo
     {{$orderBtn := "Заказать кейтеринг"}}
     = include partials/menu-promo.html $orderBtn
-  nav.navbar.navbar-footer
+  nav.navbar.navbar-footer.hidden-xs.hidden-ms
     .container
       #navbar-main-collapse.collapse.navbar-collapse
         ul.nav.navbar-nav

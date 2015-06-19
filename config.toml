@@ -3,101 +3,102 @@ title = "gildia-catering.ru"
 author =  "Anton Mamrashev"
 copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
 Paginate = 9
-
-[[menu.main]]
-   name = "О нас"
-   weight = 10
-   url = "/about/"
-[[menu.main]]
-  name = "Услуги"
-  weight = 20
-  identifier = "services"
-  url = "/services/"
-[[menu.main]]
-  name = "Портфолио"
-  weight = 30
-  url = "/portfolio/"
-[[menu.main]]
-  name = "Меню"
-  weight = 40
-  url = "/menu/"
-[[menu.main]]
-  name = "Клиенты"
-  weight = 50
-  url = "/clients/"
-[[menu.main]]
-  name = "Площадки"
-  weight = 60
-  url = "/places/"
-[[menu.main]]
-  name = "Новости"
-  weight = 70
-  url = "/news/"
-[[menu.main]]
-  name = "Контакты"
-  weight = 80
-  url = "/contacts/"
-
-[[menu.footer]]
-   name = "О нас"
-   weight = 10
-   url = "/about/"
-[[menu.footer]]
-  name = "Услуги"
-  weight = 20
-  identifier = "services"
-  url = "/services/"
-[[menu.footer]]
-  name = "Портфолио"
-  weight = 30
-  url = "/portfolio/"
-[[menu.footer]]
-  name = "Меню"
-  weight = 40
-  url = "/menu/"
-[[menu.footer]]
-  name = "Площадки"
-  weight = 60
-  url = "/places/"
-[[menu.footer]]
-  name = "Контакты"
-  weight = 80
-  url = "/contacts/"
+watch = true
 
 [params.slider]
   timeout = 5000
   timeoutHover = 200
 
+[menu]
+  [[menu.main]]
+     name = "О нас"
+     weight = 10
+     url = "/about/"
+  [[menu.main]]
+    name = "Услуги"
+    weight = 20
+    identifier = "services"
+    url = "/services/"
+  [[menu.main]]
+    name = "Портфолио"
+    weight = 30
+    url = "/portfolio/"
+  [[menu.main]]
+    name = "Меню"
+    weight = 40
+    url = "/menu/"
+  [[menu.main]]
+    name = "Клиенты"
+    weight = 50
+    url = "/clients/"
+  [[menu.main]]
+    name = "Площадки"
+    weight = 60
+    url = "/places/"
+  [[menu.main]]
+    name = "Новости"
+    weight = 70
+    url = "/news/"
+  [[menu.main]]
+    name = "Контакты"
+    weight = 80
+    url = "/contacts/"
+
+  [[menu.footer]]
+     name = "О нас"
+     weight = 10
+     url = "/about/"
+  [[menu.footer]]
+    name = "Услуги"
+    weight = 20
+    identifier = "services"
+    url = "/services/"
+  [[menu.footer]]
+    name = "Портфолио"
+    weight = 30
+    url = "/portfolio/"
+  [[menu.footer]]
+    name = "Меню"
+    weight = 40
+    url = "/menu/"
+  [[menu.footer]]
+    name = "Площадки"
+    weight = 60
+    url = "/places/"
+  [[menu.footer]]
+    name = "Контакты"
+    weight = 80
+    url = "/contacts/"
+
 [params.footer]
   left = """
-© 2015, Гильдия Кейтеринг - организация праздников, банкеты, фуршеты, свадьбы, корпоративные мероприятия. Все права защищены.
-<br>
-Наш адрес: г. Москва, Мясницкий проезд, д.2/1 стр.1. (<a href="/contacts/">схема проезда</a>)
-<br>
-Наш телефон: +7 (499) 411-19-62 (многоканальный)
-"""
+  © 2015, Гильдия Кейтеринг - организация праздников, банкеты, фуршеты, свадьбы, корпоративные мероприятия. Все права защищены.
+  <br>
+  Наш адрес: г. Москва, Мясницкий проезд, д.2/1 стр.1. (<a href="/contacts/">схема проезда</a>)
+  <br>
+  Наш телефон: +7 (499) 411-19-62 (многоканальный)
+  """
   right = """
-<a target="_blank" href="http://brainstorage.me/me6iaton">©Создание сайта <br> Anton Mamrashev</a>
-"""
+  <a target="_blank" href="http://brainstorage.me/me6iaton">©Создание сайта <br> Anton Mamrashev</a>
+  """
 
 [params.portfolio]
   title = "Портфолио"
   image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
   content = """
-Компания имеет большой опыт в организации выездных банкетов. Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
-"""
+  Компания имеет большой опыт в организации выездных банкетов. Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
+  """
 
 [params.places]
-  title = "ПЛОЩАДКИ ДЛЯ КЕЙТЕРИНГА"
+  title = "Площадки для кейтеринга"
   image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
   content = """
-Компания имеет большой опыт в организации выездных банкетов. Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
-"""
+  Компания имеет большой опыт в организации выездных банкетов. Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
+  """
 
 [params.event_complex]
-  title = "ИВЕНТ-КОМПЛЕКС"
+  title = "Ивент-Комплекс"
   image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
   content = """
-Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
-"""
-
+  Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
+  """

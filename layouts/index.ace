@@ -29,7 +29,7 @@
       {{ end }}
 
   .container
-    .row
+    .row.rom-col-2
       = include partials/content/index/top.html .
 
   .container

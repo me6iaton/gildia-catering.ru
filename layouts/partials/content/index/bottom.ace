@@ -1,8 +1,8 @@
 h2 СОБЫТИЙНЫЙ КЕЙТЕРИНГ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/0hkOrpGDr1v25jtEF2rsn14jTfEhrjJGlkYB3BLVsw=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/0hkOrpGDr1v25jtEF2rsn14jTfEhrjJGlkYB3BLVsw=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         услуги и питание для глав государств, высокопоставленных лиц и посольств, на официальных приемах и деловых встречах, презентациях, международных выставках и форумах
@@ -15,9 +15,9 @@ h2 СОБЫТИЙНЫЙ КЕЙТЕРИНГ
 
 h2 СТРИТ-ФУД КЕЙТЕРИНГ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/4drZSSKsrQxc_JGI-bs3oE9o_KZtGu3MFCaUPmBrwQ=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/4drZSSKsrQxc_JGI-bs3oE9o_KZtGu3MFCaUPmBrwQ=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         питание уличного типа на крупномасштабных мероприятиях: городских праздниках, фестивалях, парадах и спортивных мероприятиях
@@ -28,9 +28,9 @@ h2 СТРИТ-ФУД КЕЙТЕРИНГ
 
 h2 ПИТАНИЕ НА ТРАНСПОРТЕ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/4nFrSnhpbJnO7dVuRaf80uJqFzYiKPkLiGsvf_4H5Q=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/4nFrSnhpbJnO7dVuRaf80uJqFzYiKPkLiGsvf_4H5Q=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         частное и корпоративное ресторанное обслуживание на борту морских или речных судов
@@ -41,9 +41,9 @@ h2 ПИТАНИЕ НА ТРАНСПОРТЕ
 
 h2 СОЦИАЛЬНОЕ ПИТАНИЕ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/GaRVu0y9XMGBC4qQwjAsWaPhmEy3iE9raOYsQM8rzw=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/GaRVu0y9XMGBC4qQwjAsWaPhmEy3iE9raOYsQM8rzw=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         организация специального питания в образовательных и медицинских учреждениях
@@ -54,9 +54,9 @@ h2 СОЦИАЛЬНОЕ ПИТАНИЕ
 
 h2 КОРПОРАТИВНОЕ ПИТАНИЕ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/YVQK6yt6xWvld9kT98KKldOwQy-LWyRlmX3dQzQiCQ=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/YVQK6yt6xWvld9kT98KKldOwQy-LWyRlmX3dQzQiCQ=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         постоянная доставка питания в офис (бизнес-ланчи и VIP-питание)
@@ -71,9 +71,9 @@ h2 КОРПОРАТИВНОЕ ПИТАНИЕ
 
 h2 ЧАСТНЫЕ МЕРОПРИЯТИЯ
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg=w500"
+  .col-xs-24.col-sm-12.col-md-14
     ul
       li..
         свадебные торжества
@@ -89,9 +89,9 @@ h2 ЧАСТНЫЕ МЕРОПРИЯТИЯ
         детские праздники
 h2  ВЫЕЗДНЫЕ МЕРОПРИЯТИЯ «ПОД КЛЮЧ»
 .row
-  .col-xs-12.col-sm-12.col-md-10
-    img.img-responsive src="https://lh3.googleusercontent.com/TQ_184tPtULHo1x_bmZVTj_GCMSkfeE5zczrLJau7w=w500"
-  .col-xs-12.col-sm-12.col-md-14
+  .col-xs-24.col-sm-12.col-md-10
+    img.img-responsive.img-btm src="https://lh3.googleusercontent.com/TQ_184tPtULHo1x_bmZVTj_GCMSkfeE5zczrLJau7w=w500"
+  .col-xs-24.col-sm-12.col-md-14
     p..
       «Гильдия Кейтеринг» имеет возможность оказывать своим корпоративным и индивидуальным заказчикам в разных регионах страны <em>полный спектр услуг кейтеринга</em>, гарантирует проведение выездных мероприятий «под ключ» - независимо от бюджета - на самом высоком уровне. Мы обожаем сложные проекты и умеем в любом случае дарить нашим клиентам радость и ощущение праздника.
     p..

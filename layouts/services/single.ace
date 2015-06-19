@@ -9,9 +9,9 @@
       {{ end }}
     .panel.panel-food
       .row
-        .col-xs-12.col-sm-12.col-md-12
-          img.img-responsive src="{{.Params.image}}=w600"
-        .col-xs-12.col-sm-12.col-md-12
+        .col-xs-24.col-sm-12.col-md-12
+          img.img-responsive.img-btm src="{{.Params.image}}=w600"
+        .col-xs-24.col-sm-12.col-md-12
           h2.head {{.Params.pagetitle}}
           {{.Content}}
 
@@ -33,23 +33,22 @@
           .tab-content
             {{range $index, $element := .person}}
               .tab-pane class="menu{{ $.Scratch.Get "menuindex" }}person{{$index}}"
-                .table-responsive
-                  table.table
-                    {{range $index, $element := .table}}
-                    {{ if isset . "th" }}
-                    tr class="th"
-                      th {{.name}}
-                      th КОЛИЧЕСТВО
-                      th ВЫХОД (ГР)
-                      th ГР./ПЕР.
-                    {{else}}
-                    tr class="td"
-                      td {{.name}}
-                      td {{.quantity}}
-                      td {{.output}}
-                      td {{.person}}
-                    {{end}}
-                    {{end}}
+                table.table
+                  {{range $index, $element := .table}}
+                  {{ if isset . "th" }}
+                  tr class="th"
+                    th {{.name}}
+                    th КОЛИЧЕСТВО
+                    th ВЫХОД (ГР)
+                    th ГР./ПЕР.
+                  {{else}}
+                  tr class="td"
+                    td {{.name}}
+                    td {{.quantity}}
+                    td {{.output}}
+                    td {{.person}}
+                  {{end}}
+                  {{end}}
             {{end}}
           ul.nav-btns.nav-btns-left.nav-btns-person
             {{range $index, $element := .person }}

@@ -3,7 +3,7 @@ h2 ПОЧЕМУ ИМЕННО МЫ?
   {{range $index, $element := where .Site.Pages "Type" "whyus" }}
     .col-xs-12.col-sm-8.col-md-6.whyus-item
       .whyus-intro
-        img.img-responsive src="{{.Params.image}}=w263-h263-p-no"
+        img.img-responsive src="{{.Params.image}}=w350-h350-p-no"
         h3.title.hypher {{.Title}}
       .whyus-detail.hidden
         .row

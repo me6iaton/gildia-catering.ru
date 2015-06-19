@@ -4,10 +4,10 @@ header
     = include partials/menu-promo.html $orderBtn
   .container.container-wider
     div.row
-      div.col-xs-9.col-sm-6.col-md-6.header-logo
+      div.col-xs-10.col-ms-7.col-sm-6.col-md-6.header-logo
         a href="/"
           img.logo.img-responsive src=/images/GILDIAcatering.svg
-      div.col-xs-15.col-sm-18.col-md-18.text-right.header-text
+      div.col-xs-14.col-ms-17.col-sm-18.col-md-18.text-right.header-text
         h1 Гильдия кейтеринг
         h3 первый в России единый кейтеринг-подрядчик
   #navbar-main-trigger

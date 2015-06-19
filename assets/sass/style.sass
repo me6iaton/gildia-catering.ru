@@ -72,6 +72,22 @@ body
   border-bottom: none
   margin-top: 0
 
+.rom-col-2
+  .col-xs-24
+    >h3
+      margin-top: 0px
+
+.img-btm
+  margin-bottom: 1rem
+
+.row-flexbox-center
+  +justify-content(center)
+
+//.col-xs-24
+//  img.img-responsive
+//    +respond-to(xs)
+//      margin-bottom: 1rem
+
 .zigzag-services
   .cut
     min-height: 347px !important
@@ -155,6 +171,10 @@ header
   z-index: 100
   width: 200px
   margin-bottom: -20px
+  +respond-to(xs)
+    margin-bottom: 0px
+
+
 
 
 .header-text
@@ -162,6 +182,8 @@ header
     margin-bottom: 0px
   h3
     margin-top: 10px
+    +respond-to(ms)
+      margin-top: 1.5rem
 
 /*  accordion
  *=================================================================
@@ -320,7 +342,12 @@ $tabs-service-top: 40px
           display: inline-block
           height: 1.5rem
           padding: 0 1rem
-        //@include respond-to(lg)
+        @include respond-to(xs-new)
+          @include rem(font-size, 16px)
+          font-weight: 700
+          .dot-right, .dot-left
+            height: 0.7rem
+      //@include respond-to(lg)
         //  @include rem(font-size, floor($font-size-h2*1.1))
         //  .dot-right, .dot-left
         //    height: 1.8rem
@@ -331,6 +358,8 @@ $tabs-service-top: 40px
         li
           text-align: left
           margin-bottom: 5px
+          @include respond-to(max-sm)
+            @include rem(font-size, 14px)
   .icon-left, .icon-right
     position: absolute
     top: 50%
@@ -381,6 +410,8 @@ $tabs-service-top: 40px
       @include display(flex)
       @include align-items(center)
       @include justify-content(center)
+      +respond-to(xs)
+        display: none
     &:hover, &.hover
       &:after
         display: none

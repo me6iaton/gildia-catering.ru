@@ -7,11 +7,11 @@ article.cut
     {{end}}
   .incut.col-md-16
     h2
-    {{if  isset . "title" }}
+      {{if  isset . "title" }}
       {{.title}}
-    {{else}}
+      {{else}}
       {{.Title}}
-    {{end}}
+      {{end}}
     .description
       {{if  isset . "content" }}
         {{.content | markdownify}}
