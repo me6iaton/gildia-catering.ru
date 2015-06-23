@@ -1,0 +1,10 @@
+box: wercker/default
+build:
+  steps:
+    - me6iaton/hugo-build
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: nwstroy.info
+        basedir: public
