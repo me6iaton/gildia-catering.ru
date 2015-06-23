@@ -14,7 +14,8 @@
         .col-xs-24.col-sm-12.col-md-12
           h2.head {{.Params.pagetitle}}
           {{.Content}}
-
+        .col-md-24
+          = include partials/share.html .
     ul.nav-btns.nav-btns-menu id="menu"
       {{range $index, $element := .Params.food }}
       a.btn-menu href="#menu{{$index}}"
