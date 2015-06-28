@@ -1,9 +1,9 @@
 = content main
   .container
-    .row
-      .col-xs-12.col-sm-12.col-md-12.ggrid-no-p
+    .row.row-img
+      .col-xs-24.col-sm-24.col-md-12.ggrid-no-p
         a.gphoto-ggrid-about href="{{.Params.gallery}}" ...
-      .col-xs-12.col-sm-12.col-md-12
+      .col-xs-24.col-sm-24.col-md-12
         h2.head {{.Title}}
         {{.Content}}
 

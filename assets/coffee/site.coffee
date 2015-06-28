@@ -222,7 +222,7 @@
     $('a.gphoto-ggrid-about').gphoto(
       provider: 'ggrid'
       columns: 2
-      maxWidth: 557
+      maxWidth: 800
       padding: 5
       template: '1-2-2'
       lightbox: true
