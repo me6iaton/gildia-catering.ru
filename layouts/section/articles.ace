@@ -2,11 +2,11 @@
   .container
     = include partials/news-top.html .
     {{ range $index, $element := .Data.Pages}}
-    article.row.row-places
-      .col-md-14
+    article.row.row-flexbox.row-img
+      .col-sm-14.col-md-14
         a href="{{.RelPermalink}}"
           img.img-responsive src="{{.Params.image}}=w700-h300-c"
-      .md-10
+      .col-sm-10.col-md-10
         h2.head {{.Title}}
         p {{.Summary}}
         a.more href="{{.RelPermalink}}" подробнее...

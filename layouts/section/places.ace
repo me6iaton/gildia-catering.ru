@@ -2,11 +2,11 @@
   .container
     = include partials/article-cut.html .Site.Params.places
     {{ range $index, $element := .Data.Pages}}
-    article.row.row-places
-      .col-md-13
+    article.row.row-flexbox.row-img
+      .col-sm-13.col-md-13
         a href="{{.RelPermalink}}"
           img.img-responsive src="{{.Params.image}}=w700-h300-c"
-      .col-md-11
+      .col-sm-11.col-md-11
         h2.head {{.Title}}
         p {{.Summary}}
         a.more href="{{.RelPermalink}}" подробнее...

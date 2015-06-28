@@ -4,7 +4,7 @@
     .row.row-flexbox.row-news.clearfix
       {{ $paginator := .Paginate (.Data.Pages) }}
       {{ range $index, $element := $paginator.Pages}}
-      .col-md-8
+      .col-ms-12.col-sm-12.col-md-8
         a href="{{.RelPermalink}}"
           img.img-responsive src="{{.Params.image}}=w360-h154-c"
         h3 {{.Title}}
