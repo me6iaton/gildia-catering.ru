@@ -4,8 +4,8 @@
   .swiper-button-next.swiper-button-black
 .swiper-carousel.swiper-container
   .swiper-wrapper
-    {{$count := 12}}
-    {{range $index, $element := seq $count}}
+    {{range $index, $element := .Site.Params.clients}}
     .swiper-slide
-      img.img-responsive src="http://lorempixel.com/300/200/food"
+      a href="{{.link}}" target="_blank"
+        img.img-responsive src="{{.image}}"
     {{ end }}

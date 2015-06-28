@@ -2,9 +2,9 @@
   .container
     = include partials/article-cut.html .
     .row.row-flexbox.row-img
-      {{$count := 12}}
-      {{range $index, $element := seq $count}}
+      {{range $index, $element := .Site.Params.clients}}
       .col-xs-12.col-sm-8.col-md-4
-        img.img-responsive src="http://lorempixel.com/300/200/food"
-      {{end}}
+        a href="{{.link}}" target="_blank"
+          img.img-responsive src="{{.image}}"
+      {{ end }}
     = include partials/content/index/why-us.html .

@@ -42,6 +42,56 @@ watch = true
   Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
   """
 
+['']
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+  [[params.clients]]
+    image = "http://lorempixel.com/300/200/food"
+    link = "http://gildia-catering.ru"
+
 [menu]
   [[menu.main]]
      name = "О нас"
