@@ -7,4 +7,4 @@
         a href="{{.link}}" target="_blank"
           img.img-responsive src="{{.image}}"
       {{ end }}
-    = include partials/content/index/why-us.html .
+    = include partials/why-us.html .

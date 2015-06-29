@@ -8,4 +8,4 @@
         {{.Content}}
 
     = include partials/clients.html .
-    = include partials/content/index/why-us.html .
+    = include partials/why-us.html .

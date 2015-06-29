@@ -33,7 +33,7 @@
       = include partials/content/index/top.html .
 
   .container
-    = include partials/content/index/why-us.html .
+    = include partials/why-us.html .
 
   = include partials/content/index/center.html .
 
