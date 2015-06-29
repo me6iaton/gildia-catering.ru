@@ -1,9 +1,9 @@
 = content main
   .container
     article.cut
-      .sub.col-md-17
-        img src="{{.Site.Params.places.image}}=w807-h454-c"
-      .incut.col-md-16
+      .sub.col-md-13
+        img.img-responsive src="{{.Site.Params.places.image}}=w807-h454-c"
+      .incut.col-md-15
         h2 {{.Site.Params.event_complex.title}}
         .description
           {{.Site.Params.event_complex.content | markdownify}}
