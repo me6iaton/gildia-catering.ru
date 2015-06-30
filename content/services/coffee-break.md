@@ -7,7 +7,7 @@ icon = "/images/menu/кофе-бр.svg"
   title = "КОФЕ-БРЕЙКИ"
   description = "любого формата <br> в любом месте"
   image = "https://lh3.googleusercontent.com/6PZZi8Zp86V7ndAKHdPzyHI5882h1VchDdcRnHJ4"
-date = "2015-05-16"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
 
 [menulist]
   title = "КОФЕ-БРЕЙК"
