@@ -8,3 +8,10 @@ deploy:
         token: $GIT_TOKEN
         domain: gildia-catering.ru
         basedir: public
+  after-steps:
+    - wercker/email-notify:
+        from: alerts@wercker.com
+        to: gildia.catering@gmail.com
+        username: gildia.catering
+        password: $EMAIL_PASSWORD
+        host: smtp.gmail.com:587
