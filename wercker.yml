@@ -14,4 +14,4 @@ deploy:
         to: gildia.catering@gmail.com
         username: gildia.catering
         password: $EMAIL_PASSWORD
-        host: smtp.gmail.com:465
+        host: smtp.gmail.com:587
