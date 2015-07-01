@@ -1,0 +1,17 @@
+<div class="row row-img">
+  <div class="col-xs-24 col-sm-12 col-md-12">
+      {{if .Get "image"}}
+        <img class="img-responsive" src="{{.Get "image"}}=w800">
+      {{else}}
+        <img class="img-responsive" src="{{.Page.Params.image}}=w800">
+      {{end}}
+  </div>
+  <div class="col-xs-24 col-sm-12 col-md-12">
+    {{if .Get "title"}}
+    <h2 class="head">
+      {{.Get "title"}}
+    </h2>
+    {{end}}
+    {{.Inner}}
+  </div>
+</div>

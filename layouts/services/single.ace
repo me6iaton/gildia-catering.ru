@@ -8,12 +8,8 @@
         a.btn.btn-outlined.btn-lg href="#gallery" ФОТОГАЛЕРЕЯ
       {{ end }}
     .panel.panel-food
-      .row
-        .col-xs-24.col-sm-12.col-md-12
-          img.img-responsive.img-btm src="{{.Params.image}}=w600"
-        .col-xs-24.col-sm-12.col-md-12
-          h2.head {{.Params.pagetitle}}
-          {{.Content}}
+      {{.Content}}
+      .row  
         .col-md-24
           = include partials/share.html .
     ul.nav-btns.nav-btns-menu id="menu"
