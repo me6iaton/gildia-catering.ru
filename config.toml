@@ -43,7 +43,7 @@ Paginate = 9
 
 ['']
   [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
+    image = "/images/clients/Tulips.jpg"
     link = "http://gildia-catering.ru"
   [[params.clients]]
     image = "http://lorempixel.com/300/200/food"

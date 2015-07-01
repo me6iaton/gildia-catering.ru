@@ -164,5 +164,3 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         person = "50,00"
 
 +++
-
-[текст ссылки](/services/banket/#test)
