@@ -1,6 +1,5 @@
 +++
 title = "Банкет"
-pagetitle = "ВЫЕЗДНОЙ БАНКЕТ"
 button = "БАНКЕТНОЕ МЕНЮ"
 weight = 1
 description = ""
@@ -163,3 +162,15 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
       person = "50,00"
 
 +++
+
+{{% row title="БАНКЕТНОЕ МЕНЮ" %}}
+контент
+{{% /row %}}
+
+{{% row image="https://lh3.googleusercontent.com/EVI3SQD8gIyNcRZ3OdGkSbyWcUpdthhWYRJEBnAI3w" %}}
+контент
+{{% /row %}}
+
+{{% row image="https://lh3.googleusercontent.com/EVI3SQD8gIyNcRZ3OdGkSbyWcUpdthhWYRJEBnAI3w" %}}
+контент
+{{% /row %}}

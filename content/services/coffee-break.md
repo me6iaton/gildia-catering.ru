@@ -6,7 +6,7 @@ icon = "/images/menu/кофе-бр.svg"
 [slider]
   title = "КОФЕ-БРЕЙКИ"
   description = "любого формата <br> в любом месте"
-  image = "https://lh3.googleusercontent.com/6PZZi8Zp86V7ndAKHdPzyHI5882h1VchDdcRnHJ4"
+  image = "https://lh3.googleusercontent.com/blcV5TExI-DsCYvBV4LYQJvdaHfdAM6OwQq7j9iy" 
 gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
 
 [menulist]
