@@ -3,10 +3,13 @@ title = "Кофе-брейк"
 weight = 3
 description = ""
 icon = "/images/menu/кофе-бр.svg"
+image = "https://lh3.googleusercontent.com/VhfIopq0n3oAPULsd7aOosGm3r1MFhu7i5skhQROyw"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+
 [slider]
   title = "КОФЕ-БРЕЙКИ"
   description = "любого формата <br> в любом месте"
-  image = "https://lh3.googleusercontent.com/blcV5TExI-DsCYvBV4LYQJvdaHfdAM6OwQq7j9iy" 
+  image = "https://lh3.googleusercontent.com/blcV5TExI-DsCYvBV4LYQJvdaHfdAM6OwQq7j9iy"
 gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
 
 [menulist]
