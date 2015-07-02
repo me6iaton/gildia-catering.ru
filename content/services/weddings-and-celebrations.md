@@ -1,11 +1,166 @@
 +++
 title = "Свадьбы и Праздники"
+pagetitle = "СВАДЬБЫ И ПРАЗДНИКИ"
+button = "СВАДЕБНЫЕ МЕНЮ"
 weight = 6
 description = ""
-icon = "/images/menu/свадьбы.svg" 
+icon = "/images/menu/свадьбы.svg"
+image = "https://lh3.googleusercontent.com/knFrpOVRUrcubOiQ4GShjXAUj30Qpm1noKs_C1drsw"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+
 [slider]
-  title = "СВАДЬБЫ И ПРАЗДНИКИ" 
-  description = "<ul> <li>Свадебные торжества «под ключ» <li> Частные и корпоративные праздники </ul>"
-  image = "https://lh3.googleusercontent.com/3lU2_7YnHm05oTyJ-0RBgcQXq-uI9KyBSE5I0_ao"
+title = "СВАДЬБЫ И ПРАЗДНИКИ"
+description = "<ul> <li>Свадебные торжества «под ключ» <li> Частные и корпоративные праздники </ul>"
+image = "https://lh3.googleusercontent.com/3lU2_7YnHm05oTyJ-0RBgcQXq-uI9KyBSE5I0_ao"
 date = "2015-05-16"
+
+[menulist]
+title = "СВАДЕБНЫЕ МЕНЮ"
+description = """
+Здесь вы найдете примеры банкетного свадебного меню, сможете оценить примерную стоимость вашего торжества и оставить заявку.  
+"""  
+
+[servicelist]
+title = "ОРГАНИЗАЦИЯ СВАДЕБНЫХ ТОРЖЕСТВ И ПРАЗДНИКОВ"
+description = """  
+Кейтеринг на свадьбу – это возможность сделать особенным и незабываемым одно из самых важных событий в вашей жизни. «Гильдия Кейтеринг» предлагает полный спектр услуг по организации свадебных торжеств, в том числе подбор площадок, приготовление и доставку блюд, обслуживание гостей и подготовку развлекательной программы. Мы организуем «под ключ» частные и корпоративные праздники.
+"""
+
+[[food]]
+  name = "Банкетное меню 'Эконом'"
+  image = "http://lorempixel.com/400/400/food"
+  [[food.person]]
+    name = "на 50 персон"
+    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    [[food.person.table]]
+      name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Средиземноморский салат с курицей ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
+      quantity = 30
+      output = 100
+      person = 60.00
+    [[food.person.data]]
+      name = "Общие данные"
+      [food.person.data.table]
+        "Количество персон" = "50"  
+        "Выход блюд в граммах на 1 персону" = "1 043,80"
+        "Выход безалкогольных напитков на 1 персону" = "650,00"
+        "Выход алкогольных напитков на 1 персону" = "0,00"
+    [[food.person.data]]
+      name = "Обслуживание"
+      [food.person.data.table]
+        "Менеджер" = 1
+        "Официант" = 6
+        "Повар" = 2
+    [[food.person.data]]
+      name = "Общий расчёт стоимости мероприятия"
+      [food.person.data.table]
+        "Стоимость на 1 персону" = "2 465,40 руб."
+        "Итого за проект" = "123 270,00 руб."
+
+  [[food.person]]
+    name = "на 100 персон"
+    [[food.person.table]]
+      name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "test"
+      quantity = 20
+      output = 10
+      person = "test"
+    [[food.person.table]]
+      name = "Заголовок"
+      th = true
+    [[food.person.table]]
+      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
+      quantity = 50
+      output = 50
+      person = "50,00"
+
+[[food]]
+  name = "Банкетное меню 'Стандрт'"
+  image = "http://lorempixel.com/400/400/food"
+
+  [[food.person]]
+    name = "на 50 персон"
+    [[food.person.table]]
+      name = "Стандрт КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Стандрт Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      quantity = 50
+      output = 50
+      person = "50,00"
+
+  [[food.person]]
+    name = "на 100 персон"
+    [[food.person.table]]
+      name = "Стандрт КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      th = true
+    [[food.person.table]]
+      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
+      quantity = 50
+      output = 50
+      person = "50,00"
+    [[food.person.table]]
+      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
+      quantity = 50
+      output = 50
+      person = "50,00"
+
 +++
+
+{{% row title="СВАДЬБЫ И ПРАЗДНИКИ" %}}
