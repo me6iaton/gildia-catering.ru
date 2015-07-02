@@ -2,14 +2,14 @@ baseurl = "http://gildia-catering.ru/"
 title = "gildia-catering.ru"
 author =  "Anton Mamrashev"
 copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
-Paginate = 9  
+Paginate = 9
 
 [params.slider]
   timeout = 5000
   timeoutHover = 200
 
 [params.footer]
-  left = """ test 3
+  left = """
   © 2015, Гильдия Кейтеринг - организация праздников, банкеты, фуршеты, свадьбы, корпоративные мероприятия. Все права защищены.
   <br>
   Наш адрес: г. Москва, Мясницкий проезд, д.2/1 стр.1. (<a href="/contacts/">схема проезда</a>)
