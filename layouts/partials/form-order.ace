@@ -3,7 +3,7 @@
     .col-sm-6.text-right
       h2 Заявка
     .col-sm-18
-  form.popup-form.form-horizontal data-toggle="validator" action="//formspree.io/me6iaton@gmail.com" method="POST"
+  form.popup-form.form-horizontal data-toggle="validator" action="//formspree.io/info@gildia-catering.ru" method="POST"
     .form-group.required
       label.col-sm-6.control-label Ваше имя:
       .col-sm-18
