@@ -9,8 +9,8 @@
       {{ end }}
     .panel.panel-food
       {{.Content}}
-      .row  
-        .col-md-24
+      .row.row-img  
+        .col-xs-24.col-sm-offset-12.col-sm-12.col-md-12
           = include partials/share.html .
     ul.nav-btns.nav-btns-menu id="menu"
       {{range $index, $element := .Params.food }}
