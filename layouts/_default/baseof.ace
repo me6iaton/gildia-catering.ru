@@ -1,6 +1,7 @@
 = doctype html
 html
   head
+    = yield head
     = include partials/head.html .
   body
     = include partials/header.html .

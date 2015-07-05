@@ -1,0 +1,67 @@
+{{ $params := $.Scratch.Get "nodeParams" }}
+
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+<title>
+  {{$.Site.Params.seo.title}}
+  {{if .IsPage}}
+    {{.Title}}
+  {{else}}
+    {{$params.title}}
+  {{end}}
+</title>
+<meta name="description" content="
+{{if .IsPage}}
+  {{.Description}}
+{{else}}
+
+{{end}}
+"/>
+
+<!-- <link rel="icon" href="/favicon2.ico" type="image/x-icon"> -->
+<!-- <link rel="shortcut icon" href="/favicon2.ico" type="image/x-icon"> -->
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{.Permalink}}">
+<meta property="og:title" content="
+{{if .IsPage}}
+  {{.Title}}
+{{else}}
+  {{$params.title}}
+{{end}}
+">
+<meta property="og:description" content="
+{{if .IsPage}}
+  {{.Description}}
+{{else}}
+  {{$params.content}}
+{{end}}
+">
+<meta property="og:image" content="
+{{if .IsPage}}
+  {{.Params.image}}=w100-h100-c
+{{else}}
+  {{$params.image}}=w100-h100-c
+{{end}}
+">
+<meta property="og:image:width" content="100">
+<meta property="og:image:height" content="100">
+<link rel="image_src" href="
+{{if .IsPage}}
+  {{.Params.image}}=w100-h100-c
+{{else}}
+  {{$params.image}}=w100-h100-c
+{{end}}
+"  />
+
+<!-- <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shantambala"/>
+<meta name="twitter:creator" content="@shantambala">
+<meta name="twitter:domain" content="shantambala.com"/>
+<meta name="twitter:title" content="[[*pagetitle]]">
+<meta name="twitter:description" content="[[*description:default=`[[*introtext:default=`shantambala team`]]`]]">
+<meta name="twitter:image" content="[[+image:replace=`w0==w800`:default=`http://shantambala.com[[*mainImage:phpthumbof=`w=800`:default=`http://shantambala.com/images/tpl/photo-100.png`]]`]]"> -->

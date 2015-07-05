@@ -4,6 +4,9 @@ author =  "Anton Mamrashev"
 copyright = "Copyright (c) 2015, Anton Mamrashev; all rights reserved."
 Paginate = 9
 
+[params.seo]
+  title = "gildia-catering.ru - "
+
 [params.slider]
   timeout = 5000
   timeoutHover = 200

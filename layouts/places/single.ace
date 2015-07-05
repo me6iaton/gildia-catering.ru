@@ -1,3 +1,5 @@
+= content head
+  = include partials/meta.html .
 = content main
   .container
     article.row
