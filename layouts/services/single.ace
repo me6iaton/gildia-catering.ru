@@ -1,5 +1,3 @@
-= content head
-  = include partials/meta.html .
 = content main
   .container id="food"
     nav.nav-btns.nav-btns-top

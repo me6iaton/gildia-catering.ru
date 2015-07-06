@@ -13,8 +13,8 @@ article.cut
       {{.Title}}
       {{end}}
     .description
-      {{if  isset . "content" }}
-        {{.content | markdownify}}
+      {{if  isset . "description" }}
+        {{.description | markdownify}}
       {{else}}
         {{.Content}}
       {{end}}

@@ -1,6 +1,3 @@
-= content head
-  {{ $.Scratch.Add "nodeParams" .Site.Params.portfolio }}
-  = include partials/meta.html . 
 = content main
   .container
     = include partials/article-cut.html .Site.Params.portfolio

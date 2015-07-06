@@ -6,7 +6,7 @@
       .incut.col-md-15
         h2 {{.Site.Params.event_complex.title}}
         .description
-          {{.Site.Params.event_complex.content | markdownify}}
+          {{.Site.Params.event_complex.description | markdownify}}
     .row.row-flexbox.row-event
       {{ range where .Site.Pages "Section" "event-complex" }}
       .col-md-12
