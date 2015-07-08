@@ -35,12 +35,6 @@ Paginate = 9
   description = """
 
   """
-[params.event_complex]
-  title = "Ивент-Комплекс"
-  image = "https://lh3.googleusercontent.com/HQ9UMvy7ndai-4a2tSgWuO1p6HZZmXljdD5_OEf1gg"
-  description = """
-  Наша компания одна из немногих , кто сегодня имеет такую материальную базу , которая позволяет обслужить 5000 и более гостей. Многие солидные и уважаемые компании доверили организацию и проведение своего корпоративного праздника.
-  """
 [params.menu]
   title = "Меню"
   image = ""

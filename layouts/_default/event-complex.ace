@@ -1,12 +1,7 @@
 = content main
   .container
-    article.cut
-      .sub.col-md-13
-        img.img-responsive src="{{.Site.Params.places.image}}=w807-h454-c"
-      .incut.col-md-15
-        h2 {{.Site.Params.event_complex.title}}
-        .description
-          {{.Site.Params.event_complex.description | markdownify}}
+    article
+      {{.Content}}
     .row.row-flexbox.row-event
       {{ range where .Site.Pages "Section" "event-complex" }}
       .col-md-12
