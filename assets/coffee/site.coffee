@@ -130,6 +130,18 @@
 #endregion
 
 #region   lightbox form
+    $.fn.serializeObject = ->
+      o = {}
+      a = @serializeArray()
+      $.each a, ->
+        if o[@name] != undefined
+          if !o[@name].push
+            o[@name] = [ o[@name] ]
+          o[@name].push @value or ''
+        else
+          o[@name] = @value or ''
+        return
+      o
     magnificPopup = $.magnificPopup.instance
     $('.btn-popup').magnificPopup
       type: 'inline'
@@ -148,11 +160,31 @@
       else
         e.preventDefault()
         $target = $(e.target)
+        formDataArr = $target.serializeArray()
+        formMessage = '<table cellspacing="0" cellpadding="10" border="0" width="100%"><tbody>'
+        formDataArr.forEach (element) ->
+          formMessage = formMessage.concat "<tr>
+              <td align='right' valign='top' style='padding:5px 5px 5px 0;' width='200'> <strong> #{element.name}:</strong> </td>
+              <td align='left' valign='top' style='padding:5px 5px 5px 0;' width='*'> #{element.value}</td>
+            </tr> " if element.name != '_subject'
+        formMessage = formMessage.concat '</tbody></table>'
+        formData = $target.serializeObject()
+        formData['email'] ?= 'info@gildia-catering.ru'
         $.ajax
           type: 'POST'
-          url: $target.attr('action')
-          data: $target.serialize()
-          dataType: "json"
+          url: 'https://mandrillapp.com/api/1.0/messages/send.json'
+          data:
+            key: 'EKZL8t3uhKvqmT5Gx3rz_w'
+            message:
+              from_email: formData['email']
+              from_name: formData['Ваше имя']
+              headers:
+                'Reply-To': formData['email']
+              html: formMessage
+              subject: formData['_subject']
+              to: [
+                email: 'info@gildia-catering.ru'
+              ]
           success: (data) ->
             $('#popup-alert-success').magnificPopup(items:
               src: '#popup-alert-success'

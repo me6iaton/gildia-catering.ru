@@ -67,5 +67,4 @@
     .form-group
       .col-sm-offset-6.col-sm-18
         input type="hidden" name="_subject" value="Новая завка на gildia-catering.ru"
-        input type="text" name="_gotcha" style="display:none"
         button.btn.btn-default type="submit" value="Send"  Отправить
