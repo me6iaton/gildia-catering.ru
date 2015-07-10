@@ -27,8 +27,8 @@
     .form-group
       label.col-sm-6.control-label Тип мероприятия:
       .col-sm-18
-        select#inputType.form-control name=""
-          option.placeholder value="Тип мероприятия" default="" selected="" Выбрать
+        select#inputType.form-control name="Тип мероприятия"
+          option.placeholder value="" default="" selected="" Выбрать
           {{ range where .Site.Pages "Section" "services" }}
           option value="{{.Title}}" {{.Title}}
           {{ end }}
