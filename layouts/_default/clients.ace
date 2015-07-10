@@ -3,8 +3,8 @@
     = include partials/article-cut.html .
     .row.row-flexbox.row-img
       {{range $index, $element := .Site.Params.clients}}
-      .col-xs-12.col-sm-8.col-md-4
+      .col-xs-12.col-sm-8.col-md-6
         a href="{{.link}}" target="_blank"
-          img.img-responsive src="{{.image}}"
+          img.img-responsive src="{{.image}}=w400"
       {{ end }}
     = include partials/why-us.html .

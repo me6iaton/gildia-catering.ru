@@ -7,5 +7,5 @@
     {{range $index, $element := .Site.Params.clients}}
     .swiper-slide
       a href="{{.link}}" target="_blank"
-        img.img-responsive src="{{.image}}"
+        img.img-responsive src="{{.image}}=h300"
     {{ end }}

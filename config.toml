@@ -69,52 +69,16 @@ Paginate = 9
 
 ['']
   [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
+    image = "https://lh3.googleusercontent.com/w3D_8uHuua7yb46xpg0GSMDkxDdL-G9_TiD_58MVNw"
     link = "http://gildia-catering.ru"
   [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
+    image = "https://lh3.googleusercontent.com/dUae3JD7FTgxuVlPlzw8kDfaFaBT9feAbSd5d1Hz_g"
     link = "http://gildia-catering.ru"
   [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
+    image = "https://lh3.googleusercontent.com/FM1u9a7d_H95gZeWsOmD9GfkQdptgHdSussfo1VCTQ"
     link = "http://gildia-catering.ru"
   [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
-    link = "http://gildia-catering.ru"
-  [[params.clients]]
-    image = "http://lorempixel.com/300/200/food"
+    image = "https://lh3.googleusercontent.com/rCcAfG5ZSS2uqvZMO8EFMn1XJcRkKRzxtBsDemYWPw"
     link = "http://gildia-catering.ru"
 
 [menu]
