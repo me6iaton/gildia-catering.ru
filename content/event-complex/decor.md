@@ -3,7 +3,7 @@ title = "Декор"
 weight = 1
 description = ""
 icon = "/images/event-complex/декор2.svg"
-image = "https://lh3.googleusercontent.com/boED7qZIN6Mx1KbGxw8qxjyEGEyhONyztUAi5x1T-w"
+image = "https://lh3.googleusercontent.com/Z9sBlWYnAngkza7m6psyzgREigsx3ZDcpivAxRurkg"
 date = "2015-05-16"  
 +++
 
