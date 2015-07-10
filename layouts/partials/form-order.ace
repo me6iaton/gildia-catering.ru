@@ -29,7 +29,7 @@
       .col-sm-18
         select#inputType.form-control name=""
           option.placeholder value="Тип мероприятия" default="" selected="" Выбрать
-          {{ range where .Site.Pages "Section" "menu" }}
+          {{ range where .Site.Pages "Section" "services" }}
           option value="{{.Title}}" {{.Title}}
           {{ end }}
 
