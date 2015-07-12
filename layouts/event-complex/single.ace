@@ -1,15 +1,7 @@
 = content main
   .container
     article.row
-      .col-md-12
-        h2.head {{.Title}}
-        {{.Content}}
-      .col-md-12
-        {{ if .Params.image }}
-        img.img-responsive src="{{.Params.image}}=w555-h312-c"
-        {{else}}
-        img.img-responsive src="http://lorempixel.com/555/312/food"
-        {{end}}
+      {{.Content}}
     {{ if isset .Params "gallery" }}
     a#gallery title="anchor"
     .separator-btn.separator-btn-swiper#swiperGalleryBtn
