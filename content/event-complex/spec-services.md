@@ -7,7 +7,7 @@ image = "https://lh3.googleusercontent.com/eU0E776GyqbfCJh5zNvG-hXA__uOihtqNdfhV
 date = "2015-05-16"  
 +++
 
-{{% row title="КОМПЛЕКСНЫЕ УСЛУГИ" %}}
+{{% row title="СОПРОВОЖДЕНИЕ СОБЫТИЙ" %}}
 
 ### КОМПЛЕКСНОЕ СОПРОВОЖДЕНИЕ СОБЫТИЙ И СПЕЦИАЛЬНЫЕ УСЛУГИ
 
