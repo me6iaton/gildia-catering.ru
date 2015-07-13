@@ -184,7 +184,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
 {{% /row %}}
 
-{{% row image="https://lh3.googleusercontent.com/tJhvuiRAXBpumc2vDy5iRlMZ23rC5xXB7EL4G6BbBg" %}}
+{{% row image="https://lh3.googleusercontent.com/bIvUhTln-GFNBzulMhrptZOYDweX-_XXFVv4MksO-w" %}}
 
 Мы осуществляем оперативное решение и полный контроль всех смежных вопросов, связанных с организацией выездного фуршета: доставка посуды, необходимого оборудования, мебели, шатров, текстиля, варианты декора стола и оформления помещения, подбор музыкального сопровождения, ведущих, музыкантов и артистов.
 
