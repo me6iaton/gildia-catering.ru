@@ -9,7 +9,7 @@
           img.img-responsive src="{{.Params.icon}}"
         .description
           h2 {{.Title}}
-          p {{.Summary}}
+          p {{.Description}}
           a.more href="{{.RelPermalink}}" подробнее...
       {{end}}
     = include partials/nav-services.html .

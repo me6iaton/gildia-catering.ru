@@ -4,6 +4,7 @@ layout = "accordion"
 weight = 6
 description = ""
 icon = "/images/event-complex/артисты.svg"
+image = "https://lh3.googleusercontent.com/Apz3xIT6Y_XtSiiwFwBLRwmp2XI-c5MuZK4yOtePEQ"
 date = "2015-05-16"  
 
 [[accordion]]

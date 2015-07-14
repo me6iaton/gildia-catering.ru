@@ -1,6 +1,6 @@
 = content main
   .container
-    h2.page-header-siple {{.Title}}
+    = include partials/article-cut.html .
     #accordion.panel-group
       {{range $index, $element := .Params.accordion }}
       {{ $.Scratch.Add "panelIndex" $index}}
