@@ -36,7 +36,7 @@ date = "2015-05-16"
   name = "Аниматоры"
   [[accordion.item]]
     name = "Имя Фамилия"
-    image = "https://lh3.googleusercontent.com/H4ERtmt_MNTrEg4DyvMKK8fdqt1JST5OYqMg3CQLgw"
+    image = "https://lh3.googleusercontent.com/OzSiAZv8iX6uf12J05PiNO9HUkKhUBgMaX7M0A7WiQ"
     gallery = "https://plus.google.com/photos/100846766865122383780/albums/6160357006016940689"
     description = """
       Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я.
