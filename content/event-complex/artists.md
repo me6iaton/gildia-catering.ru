@@ -2,9 +2,11 @@
 title = "Артисты"
 layout = "accordion"
 weight = 6
-description = ""
+description = """
+   «Гильдия Кейтеринг» и ее партнеры обладают поистине неограниченным выбором высоко профессиональных ведущих, артистов и музыкантов всех жанров и направлений, ди-джеев и аниматоров, творческих коллективов для любого вашего события, будь то  корпоратив, тематическая вечеринка, презентация, тренинг или team-building, свадьба, день рождения, выпускной вечер или детский праздник. Подбор под жанр, задачи и бюджета события. +7 (499)411-19-62 или заказать обратный звонок.  
+"""
 icon = "/images/event-complex/артисты.svg"
-image = "https://lh3.googleusercontent.com/Apz3xIT6Y_XtSiiwFwBLRwmp2XI-c5MuZK4yOtePEQ"
+image = "https://lh3.googleusercontent.com/zFN6ZHAVpKd0VmtpaowIJ3ehf4qPRsXLWXsCUASrmQ"
 date = "2015-05-16"  
 
 [[accordion]]
@@ -34,7 +36,7 @@ date = "2015-05-16"
 
 
 [[accordion]]
-  name = "Аниматоры"
+  name = "Артисты"
   [[accordion.item]]
     name = "Имя Фамилия"
     image = "https://lh3.googleusercontent.com/OzSiAZv8iX6uf12J05PiNO9HUkKhUBgMaX7M0A7WiQ"
