@@ -29,7 +29,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
 [[food]]
   name = "Банкетное меню 'Эконом'"
-  image = "http://lorempixel.com/400/400/food"
+  image = "https://lh3.googleusercontent.com/A1X3DtHJkjlh9VXZ2KvpxpNtL99muvssFUh_1zslog"
   [[food.person]]
     name = "на 50 персон"
     pdf = "/pdf/menu-banket-econom-50persons.jpg"
@@ -42,37 +42,120 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
       output = 50
       person = "50,00"
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
-    [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
-    [[food.person.table]]
+    [[food.person.table]]  
       name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-      quantity = 50
+      quantity = 25
       output = 50
       person = "50,00"
     [[food.person.table]]
       name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
+      quantity = 25
       output = 50
       person = "50,00"
     [[food.person.table]]
-      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
+      quantity = 5
+      output = 400
+      person = "40,00"
+    [[food.person.table]]
+      name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
+      quantity = 6
+      output = 490
+      person = "58,80"
+    [[food.person.table]]
+      name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
+      quantity = 7
+      output = 300
+      person = "42,00"
     [[food.person.table]]
       name = "САЛАТЫ"
       th = true
     [[food.person.table]]
-      name = "Средиземноморский салат с курицей ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
+      name = "Средиземноморский салат с курицей: ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
       quantity = 30
       output = 100
-      person = 60.00
-    [[food.person.data]]
+      person = "60,00"
+    [[food.person.table]]
+      name = "Греческий: Помидоры, свежие огурчики, болгарский перец, лук, маслины, оливки, брынза, оливковое масло и соус Цитрус"
+      quantity = 30
+      output = 100
+      person = "60,00"
+    [[food.person.table]]
+      name = "Цезарь классический: листья салата, помидорки черри, пармезан, гренки, соус Цезарь."
+      quantity = 30
+      output = 100
+      person = "60,00"
+      [[food.person.table]]
+        name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
+        th = true
+      [[food.person.table]]
+        name = "Жульен из шампиньонов"
+        quantity = 50
+        output = 80
+        person = "80,00"
+      [[food.person.table]]
+        name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
+        th = true
+      [[food.person.table]]
+        name = "Филе Дорадо с рисом карри, молодым горошком и соусом беарнез"
+        quantity = 25
+        output = 300
+        person = "150,00"
+      [[food.person.table]]
+        name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
+        quantity = 25
+        output = 300
+        person = "150,00"
+      [[food.person.table]]
+        name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
+        th = true
+      [[food.person.table]]
+        name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
+        quantity = 10
+        output = 115
+        person = "23,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
+        th = true
+      [[food.person.table]]
+        name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
+        quantity = 3
+        output = 1500
+        person = "90,00"
+      [[food.person.table]]
+        name = "Шоколадный тортик"
+        quantity = 50
+        output = 80
+        person = "80,00"
+      [[food.person.table]]
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
+        th = true
+      [[food.person.table]]
+        name = "Морс ягодный домашний (собственного производства)"
+        quantity = 10
+        output = 1000
+        person = "200,00"
+      [[food.person.table]]
+        name = "Архыз, с газом и без (п/э)"
+        quantity = 7
+        output = 1500
+        person = "210,00"
+      [[food.person.table]]
+        name = "ЧАЙ / КОФЕ"
+        th = true
+      [[food.person.table]]
+        name = "Чай Greenfield в пакетиках"
+        quantity = 30
+        output = 200
+        person = "120,00"
+      [[food.person.table]]
+        name = "Кофе заварной - подается со сливками"
+        quantity = 30
+        output = 200
+        person = "120,00"
+      [[food.person.data]]
       name = "Общие данные"
       [food.person.data.table]
         "Количество персон" = "50"  
