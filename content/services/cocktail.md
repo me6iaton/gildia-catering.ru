@@ -30,7 +30,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food]]
     name = "Меню коктейль 'Стандарт'"
-    image = "https://lh3.googleusercontent.com/kCRugpmU6UjN6iVgWAXAZj1neZ9nIIlBVXCXNJFyYA"
+    image = "https://lh3.googleusercontent.com/Bqi_07k8OGrHGxq_e4gIFtg2TYtHbbpVsYQO_o2wmQ"
     [[food.person]]
       name = "на 50 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
@@ -607,7 +607,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food]]
     name = "Меню коктейль VIP"
-    image = "https://lh3.googleusercontent.com/bF0uKTaTlupn1M9Hv8DpcprrN9ImIgKxzyaEJ5E7BA"
+    image = "https://lh3.googleusercontent.com/5RwVCg1TJWrfx_vIcshIPgBDW31OCp1aDWSGjsUs4Q"
     [[food.person]]
       name = "на 50 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
