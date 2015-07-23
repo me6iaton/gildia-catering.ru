@@ -35,7 +35,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
 [[food]]
   name = "Меню барбекю 'Стандарт'"
-  image = "https://lh3.googleusercontent.com/kCRugpmU6UjN6iVgWAXAZj1neZ9nIIlBVXCXNJFyYA"
+  image = "https://lh3.googleusercontent.com/qmeluiKCy9r8cz-1tXSL-cUVW7c_MwPuuf8pQtjP2g"
   [[food.person]]
     name = "на 100 персон"
     pdf = "/pdf/menu-banket-econom-50persons.jpg"
@@ -182,7 +182,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
         [[food]]
           name = "Меню барбекю Премиум"
-          image = "https://lh3.googleusercontent.com/bF0uKTaTlupn1M9Hv8DpcprrN9ImIgKxzyaEJ5E7BA"
+          image = "https://lh3.googleusercontent.com/sL9y6yz23Sthzb0MPND9EUG-x-ULkUTNSlgmvo6aUA"
           [[food.person]]
             name = "на 100 персон"
             pdf = "/pdf/menu-banket-econom-50persons.jpg"
