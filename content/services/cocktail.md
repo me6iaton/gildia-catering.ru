@@ -38,130 +38,82 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
         th = true
       [[food.person.table]]
-        name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+        name = "Профитроли Фьюжен с лососем и стужкой из тунца"
         quantity = 50
-        output = 50
-        person = "50,00"
+        output = 15
+        person = "15,00"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "Тигровая креветка с цитрусовым желе и листиком мяты"
+        quantity = 50
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с Чоризо, стружкой Пармезана, помидором с соусом Херес"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Пикантное топенаде из Наполи с зеленью в хрустящей трубочке"
+        quantity = 50
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Сыр с голубой плесенью с клубникой"
+        quantity = 50
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе c физайлисом и дыней, с листиком мяты"
+        quantity = 50
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Мини бисквит с яблоком, соусом тар-тар и сыром чеддер"
+        quantity = 50
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе с козьим сыром и маринованной свеклой"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 25
-        output = 50
-        person = "50,00"
+        name = "Фруктовые шашлычки - шашлычки с киви, виноградом, ананасом, клубникой и физалисом"
+        quantity = 50
+        output = 35
+        person = "35,00"
       [[food.person.table]]
-        name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-        quantity = 25
-        output = 50
-        person = "50,00"
+        name = "Макарони - нежные таящие во рту пирожные с разнообразными вкусами: клубники, черники, ванили, шоколада и фисташки"
+        quantity = 50
+        output = 12
+        person = "12,00"
       [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 5
-        output = 400
-        person = "40,00"
-      [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 6
-        output = 490
-        person = "58,80"
-      [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 7
-        output = 300
-        person = "42,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Средиземноморский салат с курицей: ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
-        quantity = 30
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Греческий: Помидоры, свежие огурчики, болгарский перец, лук, маслины, оливки, брынза, оливковое масло и соус Цитрус"
-        quantity = 30
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Цезарь классический: листья салата, помидорки черри, пармезан, гренки, соус Цезарь."
-        quantity = 30
-        output = 100
-        person = "60,00"
         [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
-        [[food.person.table]]
-          name = "Жульен из шампиньонов"
-          quantity = 50
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Филе Дорадо с рисом карри, молодым горошком и соусом беарнез"
-          quantity = 25
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 25
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 10
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 3
-          output = 1500
-          person = "90,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 50
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 10
+          name = "Сок J7 (апельсин, ананас, яблоко)"
+          quantity = 20
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 7
+          quantity = 5
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 30
-          output = 200
-          person = "120,00"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 30
-          output = 200
-          person = "120,00"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
           "Количество персон" = "50"  
-          "Выход блюд в граммах на 1 персону" = "1 043,80"
-          "Выход безалкогольных напитков на 1 персону" = "650,00"
+          "Выход блюд в граммах на 1 персону" = "211,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
@@ -172,8 +124,8 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 465,40 руб."
-          "Итого за проект" = "123 270,00 руб."
+          "Стоимость на 1 персону" = "1 749,45 руб."
+          "Итого за проект" = "87 472,50 руб."
 
     [[food.person]]
       name = "на 150 персон"
@@ -182,428 +134,287 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
         th = true
       [[food.person.table]]
-        name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-        quantity = 100
-        output = 50
-        person = "50,00"
+        name = "Профитроли Фьюжен с лососем и стужкой из тунца"
+        quantity = 150
+        output = 15
+        person = "15,00"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "Тигровая креветка с цитрусовым желе и листиком мяты"
+        quantity = 150
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с Чоризо, стружкой Пармезана, помидором с соусом Херес"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Пикантное топенаде из Наполи с зеленью в хрустящей трубочке"
+        quantity = 150
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Сыр с голубой плесенью с клубникой"
+        quantity = 150
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе c физайлисом и дыней, с листиком мяты"
+        quantity = 150
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Мини бисквит с яблоком, соусом тар-тар и сыром чеддер"
+        quantity = 150
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе с козьим сыром и маринованной свеклой"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Рыбное плато стандарт (горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения)"
-        quantity = 8
-        output = 640
-        person = "51,20"
+        name = "Фруктовые шашлычки - шашлычки с киви, виноградом, ананасом, клубникой и физалисом"
+        quantity = 150
+        output = 35
+        person = "35,00"
       [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 12
-        output = 490
-        person = "58,80"
+        name = "Макарони - нежные таящие во рту пирожные с разнообразными вкусами: клубники, черники, ванили, шоколада и фисташки"
+        quantity = 150
+        output = 12
+        person = "12,00"
       [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "54,00"
-      [[food.person.table]]
-        name = "Восточные рулетики из баклажан 12 рулетиков"
-        quantity = 17
-        output = 240
-        person = "40,80"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
-        person = "60,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Мясной салат с соусом КАБУЛЬ - говядина, огурец, салат айсберг, яблоко."
-        quantity = 60
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Капрезе: легкая закуска родом из Италии. Нежная моцарелла, томаты, базилик, соус Песто."
-        quantity = 20
-        output = 250
-        person = "50,00"
-      [[food.person.table]]
-        name = "Греческий: помидоры, свежие огурчики, болгарский перец, лук, маслины, оливки, брынза, оливковое масло и соус Цитрус"
-        quantity = 60
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Микс-салат с авокадо, апельсином и запеченной говядиной"
-        quantity = 100
-        output = 70
-        person = "70,00"
         [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
-        [[food.person.table]]
-          name = "Жульен из шампиньонов"
-          quantity = 100
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Обжаренная на гриле семга с пикантным соусом из спелых томатов, подается с базиликом и печёным картофелем"
-          quantity = 50
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Филе-миньон из свиной вырезки под соусом из грибов"
-          quantity = 50
-          output = 150
-          person = "75,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 20
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 7
-          output = 1500
-          person = "105,00"
-        [[food.person.table]]
-          name = "Панна-котта с ванилью в шотах"
-          quantity = 100
-          output = 60
-          person = "60,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 20
+          name = "Сок J7 (апельсин, ананас, яблоко)"
+          quantity = 60
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 14
+          quantity = 15
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 60
-          output = 200
-          person = "120,00"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 60
-          output = 200
-          person = "120,00"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "100"  
-          "Выход блюд в граммах на 1 персону" = "1 047,80"
-          "Выход безалкогольных напитков на 1 персону" = "650,00"
+          "Количество персон" = "150"  
+          "Выход блюд в граммах на 1 персону" = "211,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 11
-          "Повар" = 4
+          "Официант" = 6
+          "Повар" = 2
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 352,60 руб."
-          "Итого за проект" = "235 260,00 руб."
+          "Стоимость на 1 персону" = "1 107,70 руб."
+          "Итого за проект" = "166 155,00 руб."
 
     [[food.person]]
       name = "на 300 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+        th = true
+      [[food.person.table]]
+        name = "Профитроли Фьюжен с лососем и стужкой из тунца"
+        quantity = 300
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Тигровая креветка с цитрусовым желе и листиком мяты"
+        quantity = 300
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с Чоризо, стружкой Пармезана, помидором с соусом Херес"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Пикантное топенаде из Наполи с зеленью в хрустящей трубочке"
+        quantity = 300
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Сыр с голубой плесенью с клубникой"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе c физайлисом и дыней, с листиком мяты"
+        quantity = 300
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Мини бисквит с яблоком, соусом тар-тар и сыром чеддер"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе с козьим сыром и маринованной свеклой"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 150
-        output = 50
-        person = "50,00"
+        name = "Фруктовые шашлычки - шашлычки с киви, виноградом, ананасом, клубникой и физалисом"
+        quantity = 300
+        output = 35
+        person = "35,00"
       [[food.person.table]]
-        name = "Рыбное плато стандарт: горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения"
-        quantity = 25
-        output = 100
-        person = "50,00"
+        name = "Макарони - нежные таящие во рту пирожные с разнообразными вкусами: клубники, черники, ванили, шоколада и фисташки"
+        quantity = 300
+        output = 12
+        person = "12,00"
       [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 10
-        output = 640
-        person = "42,67"
-      [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 18
-        output = 490
-        person = "58,80"
-      [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "36,00"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
-        person = "40,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Салат НИЦЦА с тунцом тунец, фасоль стручковая, картофель, яйцо, анчоусы"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Руккола с тигровыми креветками, авокадо, черри и пармезаном"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Вальдорф: телячий язык, шампиньоны, сельдерей и свежая зелень со сметано-майонезном соусе"
-        quantity = 90
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
         [[food.person.table]]
-          name = "Жульен из белых грибов"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Судак в цуккини с лимонным мармеладом, припущенными томатами и сладким перцем"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 30
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 12
-          output = 1500
-          person = "120,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 30
+          name = "Сок J7 (апельсин, ананас, яблоко)"
+          quantity = 60
           output = 1000
           person = "200,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 20
+          quantity = 15
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 80
-          output = 200
-          person = "106,67"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 80
-          output = 200
-          person = "106,67"
+          person = "75,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "150"  
-          "Выход блюд в граммах на 1 персону" = "1 051,13"
-          "Выход безалкогольных напитков на 1 персону" = "613,33"
+          "Количество персон" = "300"  
+          "Выход блюд в граммах на 1 персону" = "211,00"
+          "Выход безалкогольных напитков на 1 персону" = "275,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 16
-          "Повар" = 6
+          "Официант" = 20
+          "Повар" = 5
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 207,92 руб."
-          "Итого за проект" = "331 188,00 руб."
+          "Стоимость на 1 персону" = "999,30 руб."
+          "Итого за проект" = "299 790,00 руб."
+
     [[food.person]]
       name = "на 700 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+        th = true
+      [[food.person.table]]
+        name = "Профитроли Фьюжен с лососем и стужкой из тунца"
+        quantity = 700
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Тигровая креветка с цитрусовым желе и листиком мяты"
+        quantity = 700
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с Чоризо, стружкой Пармезана, помидором с соусом Херес"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Пикантное топенаде из Наполи с зеленью в хрустящей трубочке"
+        quantity = 700
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Сыр с голубой плесенью с клубникой"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе c физайлисом и дыней, с листиком мяты"
+        quantity = 700
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "Мини бисквит с яблоком, соусом тар-тар и сыром чеддер"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Канапе с козьим сыром и маринованной свеклой"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 150
-        output = 50
-        person = "50,00"
+        name = "Фруктовые шашлычки - шашлычки с киви, виноградом, ананасом, клубникой и физалисом"
+        quantity = 700
+        output = 35
+        person = "35,00"
       [[food.person.table]]
-        name = "Рыбное плато стандарт: горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения"
-        quantity = 25
-        output = 100
-        person = "50,00"
+        name = "Макарони - нежные таящие во рту пирожные с разнообразными вкусами: клубники, черники, ванили, шоколада и фисташки"
+        quantity = 700
+        output = 12
+        person = "12,00"
       [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 10
-        output = 640
-        person = "42,67"
-      [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 18
-        output = 490
-        person = "58,80"
-      [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "36,00"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
-        person = "40,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Салат НИЦЦА с тунцом тунец, фасоль стручковая, картофель, яйцо, анчоусы"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Руккола с тигровыми креветками, авокадо, черри и пармезаном"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Вальдорф: телячий язык, шампиньоны, сельдерей и свежая зелень со сметано-майонезном соусе"
-        quantity = 90
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
         [[food.person.table]]
-          name = "Жульен из белых грибов"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Судак в цуккини с лимонным мармеладом, припущенными томатами и сладким перцем"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 30
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 12
-          output = 1500
-          person = "120,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 30
+          name = "Сок J7 (апельсин, ананас, яблоко)"
+          quantity = 60
           output = 1000
-          person = "200,00"
+          person = "85,71"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 20
+          quantity = 15
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 80
-          output = 200
-          person = "106,67"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 80
-          output = 200
-          person = "106,67"
+          person = "32,14"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "150"  
-          "Выход блюд в граммах на 1 персону" = "1 051,13"
-          "Выход безалкогольных напитков на 1 персону" = "613,33"
+          "Количество персон" = "700"  
+          "Выход блюд в граммах на 1 персону" = "211,00"
+          "Выход безалкогольных напитков на 1 персону" = "117,86"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 16
+          "Официант" = 30
           "Повар" = 6
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 207,92 руб."
-          "Итого за проект" = "331 188,00 руб."
+          "Стоимость на 1 персону" = "775,57 руб."
+          "Итого за проект" = "542 900,00 руб."
+
 
   [[food]]
     name = "Меню коктейль VIP"
@@ -615,130 +426,82 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
         th = true
       [[food.person.table]]
-        name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+        name = "Канапе лосось с яблоком и икрой Тобико"
         quantity = 50
-        output = 50
-        person = "50,00"
+        output = 20
+        person = "20,00"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "Тигровая креветка Саганаки со свежим ананасом и маринованным имбирем"
+        quantity = 50
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Крабы с яблоками на мини фокачча с бальзамической икрой"
+        quantity = 50
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с хамоном, артишоком и сливочным сыром"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Итальянская сыровяленая ветчина Брезаола с вялеными томатами и оливкой"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Дыня в парео из Пармы"
+        quantity = 50
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 50
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Канапе с Дор Блю, грецким орехом и розмарином"
+        quantity = 50
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Печенье из пармезана с трюфельной пастой"
+        quantity = 50
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 25
-        output = 50
-        person = "50,00"
-      [[food.person.table]]
-        name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-        quantity = 25
-        output = 50
-        person = "50,00"
-      [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 5
-        output = 400
+        name = "Клубника в смокинге"
+        quantity = 50
+        output = 40
         person = "40,00"
       [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 6
-        output = 490
-        person = "58,80"
+        name = "Пти-фуры в ассортименте мини-десерт на 1 укус (амаретти, моэлье с белым шоколадом, шоколадный ганаш с коньяком, трюфель, пралине из грецкого ореха, фисташковое и марципановая ракушка с вишней)"
+        quantity = 50
+        output = 15
+        person = "15,00"
       [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 7
-        output = 300
-        person = "42,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Средиземноморский салат с курицей: ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
-        quantity = 30
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Греческий: Помидоры, свежие огурчики, болгарский перец, лук, маслины, оливки, брынза, оливковое масло и соус Цитрус"
-        quantity = 30
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Цезарь классический: листья салата, помидорки черри, пармезан, гренки, соус Цезарь."
-        quantity = 30
-        output = 100
-        person = "60,00"
         [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
-        [[food.person.table]]
-          name = "Жульен из шампиньонов"
-          quantity = 50
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Филе Дорадо с рисом карри, молодым горошком и соусом беарнез"
-          quantity = 25
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 25
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 10
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 3
-          output = 1500
-          person = "90,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 50
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 10
+          name = "Сок Rich (апельсин, яблоко, виноград)"
+          quantity = 20
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 7
+          quantity = 5
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 30
-          output = 200
-          person = "120,00"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 30
-          output = 200
-          person = "120,00"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
           "Количество персон" = "50"  
-          "Выход блюд в граммах на 1 персону" = "1 043,80"
-          "Выход безалкогольных напитков на 1 персону" = "650,00"
+          "Выход блюд в граммах на 1 персону" = "239,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
@@ -749,8 +512,8 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 465,40 руб."
-          "Итого за проект" = "123 270,00 руб."
+          "Стоимость на 1 персону" = "2 066,80 руб."
+          "Итого за проект" = "103 340,00 руб."
 
     [[food.person]]
       name = "на 150 персон"
@@ -759,429 +522,286 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
         th = true
       [[food.person.table]]
-        name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-        quantity = 100
-        output = 50
-        person = "50,00"
+        name = "Канапе лосось с яблоком и икрой Тобико"
+        quantity = 150
+        output = 20
+        person = "20,00"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "Тигровая креветка Саганаки со свежим ананасом и маринованным имбирем"
+        quantity = 150
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Крабы с яблоками на мини фокачча с бальзамической икрой"
+        quantity = 150
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с хамоном, артишоком и сливочным сыром"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Итальянская сыровяленая ветчина Брезаола с вялеными томатами и оливкой"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Дыня в парео из Пармы"
+        quantity = 150
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 150
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Канапе с Дор Блю, грецким орехом и розмарином"
+        quantity = 150
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Печенье из пармезана с трюфельной пастой"
+        quantity = 150
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Рыбное плато стандарт (горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения)"
-        quantity = 8
-        output = 640
-        person = "51,20"
+        name = "Клубника в смокинге"
+        quantity = 150
+        output = 40
+        person = "40,00"
       [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 12
-        output = 490
-        person = "58,80"
+        name = "Пти-фуры в ассортименте мини-десерт на 1 укус (амаретти, моэлье с белым шоколадом, шоколадный ганаш с коньяком, трюфель, пралине из грецкого ореха, фисташковое и марципановая ракушка с вишней)"
+        quantity = 150
+        output = 15
+        person = "15,00"
       [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "54,00"
-      [[food.person.table]]
-        name = "Восточные рулетики из баклажан 12 рулетиков"
-        quantity = 17
-        output = 240
-        person = "40,80"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
-        person = "60,00"
-      [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Мясной салат с соусом КАБУЛЬ - говядина, огурец, салат айсберг, яблоко."
-        quantity = 60
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Капрезе: легкая закуска родом из Италии. Нежная моцарелла, томаты, базилик, соус Песто."
-        quantity = 20
-        output = 250
-        person = "50,00"
-      [[food.person.table]]
-        name = "Греческий: помидоры, свежие огурчики, болгарский перец, лук, маслины, оливки, брынза, оливковое масло и соус Цитрус"
-        quantity = 60
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-        name = "Микс-салат с авокадо, апельсином и запеченной говядиной"
-        quantity = 100
-        output = 70
-        person = "70,00"
         [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
-        [[food.person.table]]
-          name = "Жульен из шампиньонов"
-          quantity = 100
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Обжаренная на гриле семга с пикантным соусом из спелых томатов, подается с базиликом и печёным картофелем"
-          quantity = 50
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Филе-миньон из свиной вырезки под соусом из грибов"
-          quantity = 50
-          output = 150
-          person = "75,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 20
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 7
-          output = 1500
-          person = "105,00"
-        [[food.person.table]]
-          name = "Панна-котта с ванилью в шотах"
-          quantity = 100
-          output = 60
-          person = "60,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 20
+          name = "Сок Rich (апельсин, яблоко, виноград)"
+          quantity = 60
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 14
+          quantity = 5
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 60
-          output = 200
-          person = "120,00"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 60
-          output = 200
-          person = "120,00"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "100"  
-          "Выход блюд в граммах на 1 персону" = "1 047,80"
-          "Выход безалкогольных напитков на 1 персону" = "650,00"
+          "Количество персон" = "150"  
+          "Выход блюд в граммах на 1 персону" = "239,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 11
-          "Повар" = 4
+          "Официант" = 12
+          "Повар" = 2
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 352,60 руб."
-          "Итого за проект" = "235 260,00 руб."
+          "Стоимость на 1 персону" = "1 416,80 руб."
+          "Итого за проект" = "212 520,00 руб."
 
     [[food.person]]
       name = "на 300 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+        th = true
+      [[food.person.table]]
+        name = "Канапе лосось с яблоком и икрой Тобико"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Тигровая креветка Саганаки со свежим ананасом и маринованным имбирем"
+        quantity = 300
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Крабы с яблоками на мини фокачча с бальзамической икрой"
+        quantity = 300
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с хамоном, артишоком и сливочным сыром"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Итальянская сыровяленая ветчина Брезаола с вялеными томатами и оливкой"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Дыня в парео из Пармы"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 300
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Канапе с Дор Блю, грецким орехом и розмарином"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Печенье из пармезана с трюфельной пастой"
+        quantity = 300
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 150
-        output = 50
-        person = "50,00"
-      [[food.person.table]]
-        name = "Рыбное плато стандарт: горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения"
-        quantity = 25
-        output = 100
-        person = "50,00"
-      [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 10
-        output = 640
-        person = "42,67"
-      [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 18
-        output = 490
-        person = "58,80"
-      [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "36,00"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
+        name = "Клубника в смокинге"
+        quantity = 300
+        output = 40
         person = "40,00"
       [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "Пти-фуры в ассортименте мини-десерт на 1 укус (амаретти, моэлье с белым шоколадом, шоколадный ганаш с коньяком, трюфель, пралине из грецкого ореха, фисташковое и марципановая ракушка с вишней)"
+        quantity = 300
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Салат НИЦЦА с тунцом тунец, фасоль стручковая, картофель, яйцо, анчоусы"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Руккола с тигровыми креветками, авокадо, черри и пармезаном"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Вальдорф: телячий язык, шампиньоны, сельдерей и свежая зелень со сметано-майонезном соусе"
-        quantity = 90
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
         [[food.person.table]]
-          name = "Жульен из белых грибов"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Судак в цуккини с лимонным мармеладом, припущенными томатами и сладким перцем"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 30
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 12
-          output = 1500
-          person = "120,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 30
+          name = "Сок Rich (апельсин, яблоко, виноград)"
+          quantity = 120
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 20
+          quantity = 30
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 80
-          output = 200
-          person = "106,67"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 80
-          output = 200
-          person = "106,67"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "150"  
-          "Выход блюд в граммах на 1 персону" = "1 051,13"
-          "Выход безалкогольных напитков на 1 персону" = "613,33"
+          "Количество персон" = "300"  
+          "Выход блюд в граммах на 1 персону" = "239,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 16
-          "Повар" = 6
+          "Официант" = 20
+          "Повар" = 5
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 207,92 руб."
-          "Итого за проект" = "331 188,00 руб."
+          "Стоимость на 1 персону" = "1 312,80 руб."
+          "Итого за проект" = "393 840,00 руб."
+
     [[food.person]]
       name = "на 700 персон"
       pdf = "/pdf/menu-banket-econom-50persons.jpg"
       [[food.person.table]]
-        name = "ХОЛОДНЫЕ ЗАКУСКИ"
+        name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+        th = true
+      [[food.person.table]]
+        name = "Канапе лосось с яблоком и икрой Тобико"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Тигровая креветка Саганаки со свежим ананасом и маринованным имбирем"
+        quantity = 700
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Крабы с яблоками на мини фокачча с бальзамической икрой"
+        quantity = 700
+        output = 25
+        person = "25,00"
+      [[food.person.table]]
+        name = "Канапе с хамоном, артишоком и сливочным сыром"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Итальянская сыровяленая ветчина Брезаола с вялеными томатами и оливкой"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Дыня в парео из Пармы"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Ломтик утиной грудки с карамельной грушей"
+        quantity = 700
+        output = 18
+        person = "18,00"
+      [[food.person.table]]
+        name = "Канапе с Дор Блю, грецким орехом и розмарином"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "Печенье из пармезана с трюфельной пастой"
+        quantity = 700
+        output = 20
+        person = "20,00"
+      [[food.person.table]]
+        name = "ФРУКТЫ, ДЕСЕРТЫ"
         th = true
       [[food.person.table]]  
-        name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-        quantity = 150
-        output = 50
-        person = "50,00"
-      [[food.person.table]]
-        name = "Рыбное плато стандарт: горбуша холодного копчения, макрель холодного копчения, палтус холодного копчения, треска холодного копчения"
-        quantity = 25
-        output = 100
-        person = "50,00"
-      [[food.person.table]]
-        name = "Витки по-чешски (рулетики из ветчины с сырной начинкой) 20 рулетиков"
-        quantity = 10
-        output = 640
-        person = "42,67"
-      [[food.person.table]]
-        name = "Ассорти из куриных рулетов (с фисташками, с корейской морковью, сладким болгарским перцем и паприкой)"
-        quantity = 18
-        output = 490
-        person = "58,80"
-      [[food.person.table]]
-        name = "Ассорти из сыров Грюйер, Козий, Бри и Эмменталь - подается с грецким орехом, медом свежим виноградом, клубникой"
-        quantity = 18
-        output = 300
-        person = "36,00"
-      [[food.person.table]]
-        name = "Рулеты из баклажанов с сыром скаморца, моцареллой буфалой, итальянской ветчиной в томатном соусе"
-        quantity = 40
-        output = 150
+        name = "Клубника в смокинге"
+        quantity = 700
+        output = 40
         person = "40,00"
       [[food.person.table]]
-        name = "САЛАТЫ"
+        name = "Пти-фуры в ассортименте мини-десерт на 1 укус (амаретти, моэлье с белым шоколадом, шоколадный ганаш с коньяком, трюфель, пралине из грецкого ореха, фисташковое и марципановая ракушка с вишней)"
+        quantity = 700
+        output = 15
+        person = "15,00"
+      [[food.person.table]]
+        name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
         th = true
-      [[food.person.table]]
-        name = "Салат НИЦЦА с тунцом тунец, фасоль стручковая, картофель, яйцо, анчоусы"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Руккола с тигровыми креветками, авокадо, черри и пармезаном"
-        quantity = 59
-        output = 150
-        person = "59,00"
-      [[food.person.table]]
-        name = "Вальдорф: телячий язык, шампиньоны, сельдерей и свежая зелень со сметано-майонезном соусе"
-        quantity = 90
-        output = 100
-        person = "60,00"
-      [[food.person.table]]
-          name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
-          th = true
         [[food.person.table]]
-          name = "Жульен из белых грибов"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "ГОРЯЧЕЕ.ОСНОВНОЕ БЛЮДО"
-          th = true
-        [[food.person.table]]
-          name = "Судак в цуккини с лимонным мармеладом, припущенными томатами и сладким перцем"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "Свинина на кости с горчицей, карамелизированным яблоком, салатом из манго, помидоров и кинзы"
-          quantity = 75
-          output = 300
-          person = "150,00"
-        [[food.person.table]]
-          name = "СВЕЖАЯ ВЫПЕЧКА, ПИРОЖКИ"
-          th = true
-        [[food.person.table]]
-          name = "Хлебный буфет ассорти из булочек собственного производства: французская, кунжутная, солод с кориандром, томат и базиликом"
-          quantity = 30
-          output = 115
-          person = "23,00"
-        [[food.person.table]]
-          name = "ФРУКТЫ, ДЕСЕРТЫ"
-          th = true
-        [[food.person.table]]
-          name = "Плато из свежих фруктов ананас, грозди винограда, яблоки, груши, киви, клубника и физалис"
-          quantity = 12
-          output = 1500
-          person = "120,00"
-        [[food.person.table]]
-          name = "Шоколадный тортик"
-          quantity = 150
-          output = 80
-          person = "80,00"
-        [[food.person.table]]
-          name = "БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ"
-          th = true
-        [[food.person.table]]
-          name = "Морс ягодный домашний (собственного производства)"
-          quantity = 30
+          name = "Сок Rich (апельсин, яблоко, виноград)"
+          quantity = 280
           output = 1000
-          person = "200,00"
+          person = "400,00"
         [[food.person.table]]
           name = "Архыз, с газом и без (п/э)"
-          quantity = 20
+          quantity = 70
           output = 1500
-          person = "210,00"
-        [[food.person.table]]
-          name = "ЧАЙ / КОФЕ"
-          th = true
-        [[food.person.table]]
-          name = "Чай Greenfield в пакетиках"
-          quantity = 80
-          output = 200
-          person = "106,67"
-        [[food.person.table]]
-          name = "Кофе заварной - подается со сливками"
-          quantity = 80
-          output = 200
-          person = "106,67"
+          person = "150,00"
         [[food.person.data]]
         name = "Общие данные"
         [food.person.data.table]
-          "Количество персон" = "150"  
-          "Выход блюд в граммах на 1 персону" = "1 051,13"
-          "Выход безалкогольных напитков на 1 персону" = "613,33"
+          "Количество персон" = "700"  
+          "Выход блюд в граммах на 1 персону" = "239,00"
+          "Выход безалкогольных напитков на 1 персону" = "550,00"
           "Выход алкогольных напитков на 1 персону" = "0,00"
       [[food.person.data]]
         name = "Обслуживание"
         [food.person.data.table]
           "Менеджер" = 1
-          "Официант" = 16
+          "Официант" = 30
           "Повар" = 6
       [[food.person.data]]
         name = "Общий расчёт стоимости мероприятия"
         [food.person.data.table]
-          "Стоимость на 1 персону" = "2 207,92 руб."
-          "Итого за проект" = "331 188,00 руб."
-
+          "Стоимость на 1 персону" = "1 065,80 руб."
+          "Итого за проект" = "746 060,00 руб."  
 
 +++
 
