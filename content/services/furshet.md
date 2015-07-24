@@ -31,7 +31,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/7L5kyTTh-JIoxMD3mhlctY8qAZQBzfHVxf1Y9KVNgQ"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-econom-50.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -209,7 +209,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-econom-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -387,7 +387,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 300 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-econom-300.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -565,7 +565,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 700 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-econom-700.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -747,7 +747,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/_CG9MUfiDqZ10vfiX_QlY40M45QMBLlEoL_1I-mFTw"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-standart-50.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -943,7 +943,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-standart-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1139,7 +1139,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 300 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-standart-300.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1335,7 +1335,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 700 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-standart-700.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1535,7 +1535,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/pvyg1Wa4qdFp25Nn1MyJcf6CLehEfeZp4UdRk8_BZg"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-vip-50.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1743,7 +1743,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-vip-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1951,7 +1951,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 300 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-vip-300.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -2159,7 +2159,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 700 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_furshet-vip-700.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true

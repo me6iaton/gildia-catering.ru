@@ -1050,7 +1050,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -1199,7 +1199,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
