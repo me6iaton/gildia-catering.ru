@@ -33,7 +33,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/iD5URj9iX4DhgOjaJjcFUg6BkJf4IS6-2mLn8x5Xtg"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-econom-50.pdf"
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -107,7 +107,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-econom-100.pdf"
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -181,7 +181,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-econom-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -271,7 +271,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/hEhlGgBFEsndBmYb2bn60RNj5Jt5y9ed0aOdSl152w"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-standart-50.pdf"
     [[food.person.table]]
       name = "ТАРТАЛЕТКИ"
       th = true
@@ -361,7 +361,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-standart-100.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -454,7 +454,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-standart-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -545,7 +545,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/fCAibj1xnqKpcJNFQr0LHzxLaPWEgx7pQTzk_YktZA"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-vip-50.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -650,7 +650,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-vip-100.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -750,7 +750,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_coffe_break-vip-150.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -848,7 +848,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         "Стоимость на 1 персону" = "1 117,95 руб."
         "Итого за проект" = "167 692,50 руб."  
 
-  
+
 +++
 
 {{% row title="ВЫЕЗДНОЙ КОФЕ-БРЕЙК" %}}
