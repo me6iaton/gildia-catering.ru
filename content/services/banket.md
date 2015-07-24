@@ -32,7 +32,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/LKfJRFIDAyR4UqnA5wlavdX5VWVikkFOnhM0zFhFCg"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "Menu_banket_econom-50.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
