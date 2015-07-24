@@ -28,7 +28,7 @@ description = """
 
 [[food]]
   name = "Меню свадебное 'Эконом'"
-  image = "https://lh3.googleusercontent.com/LKfJRFIDAyR4UqnA5wlavdX5VWVikkFOnhM0zFhFCg"
+  image = "https://lh3.googleusercontent.com/0iC3fQpng_eY4P5T-mqhkTyOWVB9QIPf9_eLwpj5HQ"
   [[food.person]]
     name = "на 50 персон"
     pdf = ""
@@ -465,7 +465,7 @@ description = """
 
 [[food]]
   name = "Меню свадебное 'Стандарт'"
-  image = "https://lh3.googleusercontent.com/kCRugpmU6UjN6iVgWAXAZj1neZ9nIIlBVXCXNJFyYA"
+  image = "https://lh3.googleusercontent.com/OmwuOpaXJBvOsN7bO3ZKFzOKZT2-Aaw7a_mrHSvCtg"
   [[food.person]]
     name = "на 50 персон"
     pdf = ""
@@ -917,7 +917,7 @@ description = """
 
 [[food]]
   name = "Меню свадебное VIP"
-  image = "https://lh3.googleusercontent.com/bF0uKTaTlupn1M9Hv8DpcprrN9ImIgKxzyaEJ5E7BA"
+  image = "https://lh3.googleusercontent.com/bNpJWwfC4c11q5DMNKp7jZEB9vC1HWMwBeKZFOEPOw"
   [[food.person]]
     name = "на 50 персон"
     pdf = ""
@@ -1301,7 +1301,7 @@ description = """
       name = "Вальдорф - Телячий язык, шампиньоны, сельдерей и свежая зелень со сметано-майонезном соусе"
       quantity = 90
       output = 100
-      person = "60,00"    
+      person = "60,00"
     [[food.person.table]]
       name = "Салат из кусочков говяжьей вырезки, обжаренные с шампиньонами, на листьях Рукколы с помидорами Черри и пикантными чипсами из сыра Пармезан с соусом Бальзамико"
       quantity = 90
