@@ -771,7 +771,7 @@ description = """
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
