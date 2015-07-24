@@ -176,12 +176,12 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_banket_econom-100.pdf"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      name = "Ролл на соевой бумаге с хамоном, салатом фризе и моцареллой Буффала"
       quantity = 100
       output = 50
       person = "50,00"
@@ -240,7 +240,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
         name = "ГОРЯЧИЕ ЗАКУСКИ (БАНКЕТ)"
         th = true
       [[food.person.table]]
-        name = "Жульен из шампиньонов"
+        name = "Жульен из курицы"
         quantity = 100
         output = 80
         person = "80,00"
@@ -325,7 +325,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = "/pdf/Menu_banket_econom-150.pdf"
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -469,7 +469,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/kCRugpmU6UjN6iVgWAXAZj1neZ9nIIlBVXCXNJFyYA"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -613,7 +613,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -762,7 +762,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -906,7 +906,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/615497629
   image = "https://lh3.googleusercontent.com/bF0uKTaTlupn1M9Hv8DpcprrN9ImIgKxzyaEJ5E7BA"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    pdf = ""
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
