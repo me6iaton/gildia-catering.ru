@@ -473,9 +473,14 @@ description = """
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
+      name = "Профитроли Фьюжен с лососем и стужкой из тунца"
       quantity = 50
-      output = 50
+      output = 15
+      person = "50,00"
+    [[food.person.table]]
+      name = "Тигровая креветка Саганаки со свежим ананасом и маринованным имбирем"
+      quantity = 50
+      output = 15
       person = "50,00"
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
