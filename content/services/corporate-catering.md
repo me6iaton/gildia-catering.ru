@@ -28,139 +28,749 @@ date = "2015-05-16"
 
 
 [[food]]
-  name = "Комплексный обед 'Эконом'"
-  image = "http://lorempixel.com/400/400/food"
+  name = "Комплексный обед 'Стандарт'"
+  image = "https://lh3.googleusercontent.com/9lnc4f3PLhLyOH7YSEnxdSv2c2hpLCvc7Q18WSZn3Q"
   [[food.person]]
-    name = "на 50 персон"
-    pdf = "/pdf/menu-banket-econom-50persons.jpg"
+    name = "понедельник"
+    pdf = ""
     [[food.person.table]]
-      name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ЗАКУСКИ, САЛАТЫ"
       th = true
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Салат Крымский из помидор с красным луком"
+      quantity = 1
+      output = 120
+      person = "120,00"
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
-    [[food.person.table]]
-      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ПЕРВОЕ БЛЮДО"
       th = true
     [[food.person.table]]
-      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Сливочный крем-суп из тыквы"
+      quantity = 1
+      output = 350
+      person = "350,00"  
     [[food.person.table]]
-      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
-      output = 50
-      person = "50,00"
-    [[food.person.table]]
-      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
-      output = 50
-      person = "50,00"
-    [[food.person.table]]
-      name = "САЛАТЫ"
+      name = "ГОРЯЧЕЕ"
       th = true
     [[food.person.table]]
-      name = "Средиземноморский салат с курицей ассорти сладкого перца, зеленый салат, красный сладкий лук, пряные оливки, миндаль и фета, с куриной грудкой и винным соусом"
-      quantity = 30
+      name = "Чахохбили из курицы по-грузински"
+      quantity = 1
       output = 100
-      person = 60.00
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Рис с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
     [[food.person.data]]
-      name = "Общие данные"
+      name = "Стоимость обеда"
       [food.person.data.table]
-        "Количество персон" = "50"  
-        "Выход блюд в граммах на 1 персону" = "1 043,80"
-        "Выход безалкогольных напитков на 1 персону" = "650,00"
-        "Выход алкогольных напитков на 1 персону" = "0,00"
-    [[food.person.data]]
-      name = "Обслуживание"
-      [food.person.data.table]
-        "Менеджер" = 1
-        "Официант" = 6
-        "Повар" = 2
-    [[food.person.data]]
-      name = "Общий расчёт стоимости мероприятия"
-      [food.person.data.table]
-        "Стоимость на 1 персону" = "2 465,40 руб."
-        "Итого за проект" = "123 270,00 руб."
+        "Итого" = "160,00 руб."
 
   [[food.person]]
-    name = "на 100 персон"
+    name = "вторник"
+    pdf = ""
     [[food.person.table]]
-      name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ЗАКУСКИ, САЛАТЫ"
       th = true
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Салат Греческий с брынзой и маслинами"
+      quantity = 1
+      output = 120
+      person = "120,00"
     [[food.person.table]]
-      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ПЕРВОЕ БЛЮДО"
       th = true
     [[food.person.table]]
-      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Борщ с мясом и молодой свеклой"
+      quantity = 1
+      output = 350
+      person = "350,00"  
     [[food.person.table]]
-      name = "test"
-      quantity = 20
-      output = 10
-      person = "test"
-    [[food.person.table]]
-      name = "Заголовок"
+      name = "ГОРЯЧЕЕ"
       th = true
     [[food.person.table]]
-      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Пудинг творожный с клубничным соусом"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "160,00 руб."
+
+  [[food.person]]
+    name = "среда"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Морковь по-корейски"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Суп куриный с вермишелью"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Говядина в сливочном соусе"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Макароны с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "160,00 руб."
+
+  [[food.person]]
+    name = "четверг"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Салат из капусты с яблоком"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Суп с фрикадельками"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Голубцы из молодой капусты с мясом и рисом"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "160,00 руб."
+
+  [[food.person]]
+    name = "пятница"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Салат Нежность слоеный с курицей и орехами (куриное филе, огурец, яйцо, чернослив, орехи, майонез)"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Суп куриный с вермишелью"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Куриная печень в сливочном соусе"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Гречка с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "160,00 руб."
+
 
 [[food]]
-  name = "Бизнес-ланч 'Стандарт'"
-  image = "http://lorempixel.com/400/400/food"
+  name = "Комплексный обед 'Экстра'"
+  image = "https://lh3.googleusercontent.com/AGIX_PryknXzao6KJ3ceYhU8IOvC0nm9K4bhLU5cxQ"
+  [[food.person]]
+    name = "понедельник"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Слоеный салат Снежный краб (крабовое мясо, яйцо, сыр, огурцы, майонез)"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Бульон куриный с домашними пельменями"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Свиная отбивная"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Гречка"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "190,00 руб."
 
   [[food.person]]
-    name = "на 50 персон"
+    name = "вторник"
+    pdf = ""
     [[food.person.table]]
-      name = "Стандрт КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ЗАКУСКИ, САЛАТЫ"
       th = true
     [[food.person.table]]
-      name = "Стандарт Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Оливье с мясом"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Суп-пюре грибной по-французски"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Венский шницель из курицы"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Рис"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "190,00 руб."
 
   [[food.person]]
-    name = "на 100 персон"
+    name = "среда"
+    pdf = ""
     [[food.person.table]]
-      name = "Стандрт КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ЗАКУСКИ, САЛАТЫ"
       th = true
     [[food.person.table]]
-      name = "Ролл на соевой бумаге с семгой, дыней и салатом Романо"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Cалат слоеный Нежность с курицей и орехами"
+      quantity = 1
+      output = 120
+      person = "120,00"
     [[food.person.table]]
-      name = "ХОЛОДНЫЕ ЗАКУСКИ"
+      name = "ПЕРВОЕ БЛЮДО"
       th = true
     [[food.person.table]]
-      name = "Мешочек из крепа с подкопченным лососем, огурцом и красной икрой"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "Щи из свежей капусты с мясом"
+      quantity = 1
+      output = 350
+      person = "350,00"  
     [[food.person.table]]
-      name = "Семга домашнего посола в имбирном маринаде с эстрагоном"
-      quantity = 50
-      output = 50
-      person = "50,00"
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Котлеты по-киевски"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Рис с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "190,00 руб."
+
+  [[food.person]]
+    name = "четверг"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Винегрет с сельдью"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Суп с фрикадельками"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Чахохбили из кур"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Макароны с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "190,00 руб."
+
+  [[food.person]]
+    name = "пятница"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Оливье с языком"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Польский гороховый суп с копченостями"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Котлета по-киевски"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Пюре картофельное с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "190,00 руб."
+
+
+[[food]]
+  name = "Бизнес-ланч 'Гурман'"
+  image = "https://lh3.googleusercontent.com/M-gUuddKHHhg7vOCWC6VaEZtzBPvjMFxT6vv5OuIPg"
+  [[food.person]]
+    name = "понедельник"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Рулетики из баклажан с сыром и орехами"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Бульон куриный с домашними пельменями"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Жульен из морепродуктов (семга, кальмар, креветки, сливки, сыр)"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "210,00 руб."
+
+  [[food.person]]
+    name = "вторник"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Салат из баклажан и сыра"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Щи из щавеля летние с яйцом и сметаной"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Свиная отбивная"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Картофель по-деревенски"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "210,00 руб."
+
+  [[food.person]]
+    name = "среда"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Греческий салат с брынзой и маслинами"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Щи из свежей капусты с мясом"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Лазанья по-итальянски"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "210,00 руб."
+
+  [[food.person]]
+    name = "четверг"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Рулетики из баклажан с овощами и сыром"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Бульон куриный с домашними пельменями"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Говядина в сливочно-грибном соусе"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Макароны с маслом"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "210,00 руб."
+
+  [[food.person]]
+    name = "пятница"
+    pdf = ""
+    [[food.person.table]]
+      name = "ЗАКУСКИ, САЛАТЫ"
+      th = true
+    [[food.person.table]]
+      name = "Помидоры фаршированные сыром"
+      quantity = 1
+      output = 120
+      person = "120,00"
+    [[food.person.table]]
+      name = "ПЕРВОЕ БЛЮДО"
+      th = true
+    [[food.person.table]]
+      name = "Окрошка летняя с мясом и ветчиной (на квасе)"
+      quantity = 1
+      output = 350
+      person = "350,00"  
+    [[food.person.table]]
+      name = "ГОРЯЧЕЕ"
+      th = true
+    [[food.person.table]]
+      name = "Бефстроганов из говядины с белыми грибами"
+      quantity = 1
+      output = 100
+      person = 100.00
+    [[food.person.table]]
+      name = "ГАРНИР"
+      th = true
+    [[food.person.table]]
+      name = "Картофельное пюре (картофель, молоко, масло)"
+      quantity = 1
+      output = 150
+      person = 150.00
+    [[food.person.table]]
+      name = "БЕСПЛАТНО ПРИЛАГАЕТСЯ"
+      th = true
+    [[food.person.table]]
+      name = "Свежий хлеб"
+    [[food.person.table]]
+      name = "Приправы (кетчуп, сметана, майонез, горчица)"
+    [[food.person.table]]
+      name = "Приборы (вилка, ложка,нож)"
+    [[food.person.table]]
+      name = "Салфетки"  
+    [[food.person.data]]
+      name = "Стоимость обеда"
+      [food.person.data.table]
+        "Итого" = "210,00 руб."
+
 
 +++
 
