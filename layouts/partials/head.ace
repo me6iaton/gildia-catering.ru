@@ -15,3 +15,5 @@
 link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Noto+Serif:400,700&subset=cyrillic,latin" rel="stylesheet" type="text/css"
 link href=/css/style.css rel="stylesheet"
 link href=http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css rel="stylesheet"
+
+= include partials/analytics.html .
