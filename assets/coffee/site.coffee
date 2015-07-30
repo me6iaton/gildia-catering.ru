@@ -284,10 +284,11 @@
         $swiper.addClass(@.containerClass)
         $link.replaceWith($swiper)
         btnCntrSelector = $link.data("buttonContainer")
-        new Swiper($swiper, jQuery.extend(@.swiper, {
+        swiper =  new Swiper($swiper, jQuery.extend(@.swiper, {
           nextButton: "#{btnCntrSelector} .swiper-button-next"
           prevButton: "#{btnCntrSelector} .swiper-button-prev"
         }))
+        swiper.slideTo(1, 0)
         lightboxImages(".#{@.containerClass}")
 
     $('a.swiper-link-gallery').gphoto(
@@ -296,6 +297,7 @@
       thumbSize: 'w300-h300-c'
       containerClass: 'swiper-gallery'
       swiper:
+        loop: true
         paginationClickable: true
         effect: 'coverflow'
         grabCursor: true

@@ -9,7 +9,7 @@
       {{ end }}
     .panel.panel-food
       {{.Content}}
-      .row.row-img  
+      .row.row-img
         .col-xs-24.col-sm-offset-12.col-sm-12.col-md-12
           = include partials/share.html .
     ul.nav-btns.nav-btns-menu id="menu"
@@ -76,7 +76,7 @@
         .swiper-button-prev.swiper-button-black
         a.btn.btn-outlined.btn-lg href="#"  ФОТОГАЛЕРЕЯ
         .swiper-button-next.swiper-button-black
-      a.swiper-link-gallery href="{{.Params.gallery}}" фотогаллерея
+      a.swiper-link-gallery href="{{.Params.gallery}}" data-button-container="#swiperGalleryBtn" фотогаллерея
       {{end}}
 
       = include partials/clients.html .
