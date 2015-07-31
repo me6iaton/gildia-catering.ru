@@ -1,6 +1,6 @@
 +++
-title = "Фуршеты"
-weight = 2
+title = "Свадьбы и праздники"
+weight = 6
 description = ""
 date = "2015-05-16"
 image = "https://lh3.googleusercontent.com/EVI3SQD8gIyNcRZ3OdGkSbyWcUpdthhWYRJEBnAI3w"
