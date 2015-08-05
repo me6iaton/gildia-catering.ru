@@ -7,7 +7,7 @@ description = ""
 date = "2015-05-16"
 icon = "/images/menu/фуршеты.svg"
 image = "https://lh3.googleusercontent.com/4nbg7_HjWvk8-LNQGsrssq5Gkzph1m72bkvVvIJIlg"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6177837935161348337"
 
 [slider]
   title = "ФУРШЕТЫ"

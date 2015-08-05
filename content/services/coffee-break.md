@@ -7,7 +7,7 @@ description = ""
 date = "2015-05-16"
 icon = "/images/menu/кофе-бр.svg"
 image = "https://lh3.googleusercontent.com/VhfIopq0n3oAPULsd7aOosGm3r1MFhu7i5skhQROyw"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6177843543303916497"
 
 [slider]
   title = "КОФЕ-БРЕЙКИ"

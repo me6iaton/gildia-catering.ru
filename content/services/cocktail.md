@@ -7,7 +7,7 @@ description = ""
 date = "2015-05-16"
 icon = "/images/menu/коктели.svg"
 image = "https://lh3.googleusercontent.com/Ksjx3io4rk5SWuFXdkkNCxf2yq7M9wonaOhkEghs0A"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6177849037889596721"
 
 
 [slider]

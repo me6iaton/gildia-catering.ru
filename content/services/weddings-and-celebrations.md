@@ -6,7 +6,7 @@ weight = 6
 description = ""
 icon = "/images/menu/свадьбы.svg"
 image = "https://lh3.googleusercontent.com/knFrpOVRUrcubOiQ4GShjXAUj30Qpm1noKs_C1drsw"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6177746134622438929"
 
 [slider]
 title = "СВАДЬБЫ И ПРАЗДНИКИ"

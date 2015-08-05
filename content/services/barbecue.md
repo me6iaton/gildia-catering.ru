@@ -7,7 +7,7 @@ description = ""
 date = "2015-05-16"
 icon = "/images/menu/барбекю.svg"
 image = "https://lh3.googleusercontent.com/mcnzk6Tf7n3xK7aqZN_6SdTkF70ZE0DSCw6P6NrV1g"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6177852032777822993"
 
 [slider]
   title = "БАРБЕКЮ"
