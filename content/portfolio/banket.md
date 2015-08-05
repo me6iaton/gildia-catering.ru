@@ -1,5 +1,5 @@
 +++
-title = "Банкеты"
+title = "Банкеты "
 weight = 1
 description = ""
 date = "2015-05-16"
