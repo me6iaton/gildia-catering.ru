@@ -6,7 +6,7 @@ weight = 7
 description = ""
 icon = "/images/menu/корп.пит.svg"
 image = "https://lh3.googleusercontent.com/djhqh_HkW3PmhFRPl7JX7iwdyzc9a2taG7a8vm0uXA"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6179239189381106625"
 
 [slider]
   title = "КОРПОРАТИВНОЕ ПИТАНИЕ"
