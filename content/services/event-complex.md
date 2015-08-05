@@ -6,7 +6,7 @@ description = ""
 icon = "/images/menu/эвент2.svg"
 url = "event-complex/"
 image = "https://lh3.googleusercontent.com/PSZFpFNr0h7uX7Qgb24Bj5nlBBTEKCyNlHO5FkXdfA"
-gallery = "https://plus.google.com/photos/100846766865122383780/albums/6154976297526793201"
+gallery = "https://plus.google.com/photos/100846766865122383780/albums/6179319239146385857"
 
 [slider]
   title = "ИВЕНТ-КОМПЛЕКС"
