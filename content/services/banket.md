@@ -32,7 +32,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/617781801
   image = "https://lh3.googleusercontent.com/LKfJRFIDAyR4UqnA5wlavdX5VWVikkFOnhM0zFhFCg"
   [[food.person]]
     name = "на 50 персон"
-    pdf = "/pdf/Menu_banket_econom-50.pdf"
+    pdf = "https://drive.google.com/file/d/0B4Oi_qHsaOANQ1dNcU03Z0lzTlE/view?usp=sharing"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -176,7 +176,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/617781801
 
   [[food.person]]
     name = "на 100 персон"
-    pdf = "/pdf/Menu_banket_econom-100.pdf"
+    pdf = "https://drive.google.com/file/d/0B4Oi_qHsaOANdEdKMXY4WU5hQ28/view?usp=sharing"
     [[food.person.table]]
       name = "КАНАПЕ И ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
@@ -325,7 +325,7 @@ gallery = "https://plus.google.com/photos/100846766865122383780/albums/617781801
 
   [[food.person]]
     name = "на 150 персон"
-    pdf = "/pdf/Menu_banket_econom-150.pdf"
+    pdf = "https://drive.google.com/file/d/0B4Oi_qHsaOANZnlObmNoMGdrYzQ/view?usp=sharing"
     [[food.person.table]]
       name = "ХОЛОДНЫЕ ЗАКУСКИ"
       th = true
