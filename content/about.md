@@ -6,7 +6,7 @@ date = "2015-05-16"
 gallery = "https://plus.google.com/photos/100846766865122383780/albums/6157011659390500849"
 +++
 
-test 3
+test test
 
 **Гильдия Кейтеринг**:
 
